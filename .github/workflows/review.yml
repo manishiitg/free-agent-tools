@@ -26,4 +26,5 @@ jobs:
         with:
           name: catalog-review-${{ github.run_number }}
           path: .maintenance/
+          include-hidden-files: true
           retention-days: 90
