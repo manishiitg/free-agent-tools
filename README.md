@@ -2,7 +2,7 @@
 
 A maintained catalog of APIs, free tiers and credits for AI agents. Search, scraping and browsers are only the start: the directory also covers models, speech, documents, compute, memory, integrations and specialized data.
 
-**[Browse the directory](https://manishiitg.github.io/free-agent-tools/)** · [JSON](https://manishiitg.github.io/free-agent-tools/catalog.json) · [CSV](https://manishiitg.github.io/free-agent-tools/catalog.csv) · [Maintenance reports](https://github.com/manishiitg/free-agent-tools/actions/workflows/review.yml)
+**[Browse the directory](https://agentworkshq.com/free-tools/)** · [JSON](https://agentworkshq.com/free-tools/catalog.json) · [CSV](https://agentworkshq.com/free-tools/catalog.csv) · [Maintenance reports](https://github.com/manishiitg/free-agent-tools/actions/workflows/review.yml)
 
 Each entry records the published allowance, offer type, eligibility, official evidence, review date and documented MCP support. The catalog is a starting point, not an exhaustive list or a guarantee that a particular account qualifies. It does not know your balance or provision accounts.
 
@@ -79,7 +79,7 @@ uv run python scripts/build.py --check
 python3 -m http.server 8080 --directory docs
 ```
 
-CI validates the schema, generated artifacts and real stdio MCP protocol before publishing GitHub Pages. The MCP smoke check starts a server, lists and calls the discovery tools, reads the resource, and checks the freshness boundary.
+CI validates the schema, generated artifacts, browser behavior and real stdio MCP protocol. The catalog is hosted only on AgentWorks HQ; GitHub holds its source data and MCP package. The MCP smoke check starts a server, lists and calls the discovery tools, reads the resource, and checks the freshness boundary.
 
 ## Catalog
 
@@ -153,7 +153,7 @@ CI validates the schema, generated artifacts and real stdio MCP protocol before 
 | [AssemblyAI](https://support.assemblyai.com/articles/5370767329-can-i-sign-up-for-free) | trial | $50 trial credits | Verified 2026-10-11 |
 | [Cartesia](https://www.cartesia.ai/pricing) | recurring | 20,000 model credits per month plus $1 monthly agent allowance | Verified 2026-10-11 |
 | [Deepgram](https://deepgram.com/pricing) | trial | $200 starting credit | Verified 2026-10-11 |
-| [ElevenLabs](https://help.elevenlabs.io/hc/en-us/articles/28184926326033-How-much-does-it-cost-to-use-the-API) | recurring | Free plan includes API access; endpoint allowance varies | Verified 2026-10-11 |
+| [ElevenLabs](https://elevenlabs.io/pricing/api) | recurring | Free plan includes API access; endpoint allowance varies | Verified 2026-10-11 |
 
 ### Realtime audio & video
 
@@ -262,7 +262,7 @@ CI validates the schema, generated artifacts and real stdio MCP protocol before 
 
 | Provider | Offer | Published allowance | Evidence / review |
 |---|---|---|---|
-| [OpenWeather](https://openweathermap.org/price) | recurring | One Call: first 1,000 calls per day free | Verified 2026-10-11 |
+| [OpenWeather](https://openweathermap.org/api/one-call-3) | recurring | One Call: first 1,000 calls per day free | Verified 2026-10-11 |
 
 ### Financial data
 

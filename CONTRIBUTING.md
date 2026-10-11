@@ -16,7 +16,7 @@ python scripts/build.py --check
 node --check docs/assets/app.js
 ```
 
-Commit the data, regenerated README and `docs/` outputs together. Pull requests run the same checks; Pages publishes only after they pass on main.
+Commit the data, regenerated README and `docs/` outputs together. Pull requests run the same checks. AgentWorks HQ serves the reviewed data from main; verification dates are preserved. The website build synchronizes the directory UI from this repository, with a committed copy for offline builds.
 
 ## Review reports
 
@@ -35,5 +35,13 @@ python scripts/check_sources.py --output .maintenance --accept-reviewed deepgram
 ```
 
 This records successful source hashes only for the named provider. Use the same process for every provider reviewed; do not approve changes solely from a source response. For first publication, `--initialize` creates a baseline for all successful responses without changing any verification dates. Blocked pages stay explicitly flagged; add a better official source when available.
+
+If a GitHub runner sees different regional content, download its report artifact and inspect the official offer before accepting the runner's observations:
+
+```sh
+python scripts/check_sources.py --output .maintenance --accept-reviewed apify --accept-observed path/to/downloaded/observed.json
+```
+
+The baseline separately records known blocked or browser-only sources. An unchanged known limitation is reported without repeatedly failing the workflow. New failures still flag review. These pages require manual checks; a successful fetch alone is never verification.
 
 No automated edits to offers or verification dates. GitHub Actions' native failure notifications and reports are the maintenance channel; no messages or accounts are created on other services.

@@ -1019,7 +1019,7 @@
       },
       "sources": [
         {
-          "url": "https://help.elevenlabs.io/hc/en-us/articles/28184926326033-How-much-does-it-cost-to-use-the-API",
+          "url": "https://elevenlabs.io/pricing/api",
           "type": "official",
           "purpose": "pricing and eligibility"
         }
@@ -1899,7 +1899,7 @@
       },
       "sources": [
         {
-          "url": "https://openweathermap.org/price",
+          "url": "https://openweathermap.org/api/one-call-3",
           "type": "official",
           "purpose": "pricing and eligibility"
         }

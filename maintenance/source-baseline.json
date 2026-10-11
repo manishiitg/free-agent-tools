@@ -9,7 +9,7 @@
       "baseline_recorded": "2026-10-11"
     },
     "https://apify.com/pricing": {
-      "sha256": "8c21e89230e06df31c0f381e4f040e8b2b914a9e6e9df2ea2969dd5a915f9e88",
+      "sha256": "9bd63097c67380b81a8a20eedec3f75d0dfdf682b634f976720eba4f0277ce07",
       "baseline_recorded": "2026-10-11"
     },
     "https://blaxel.ai/pricing": {
@@ -76,6 +76,10 @@
       "sha256": "224f94288411caf3d0dbb513878d7b47b4c05c0f7095e5fbc6f4f027f6bc3e14",
       "baseline_recorded": "2026-10-11"
     },
+    "https://elevenlabs.io/pricing/api": {
+      "sha256": "db59f0d09dff5245d47a27495990ab4bd9a77007d54b4c82ee75c47f67c0c67c",
+      "baseline_recorded": "2026-10-11"
+    },
     "https://exa.ai/docs/get-started/exa-mcp": {
       "sha256": "a845a4895fad2ef0aa661281ca7d6f7263aa727123aba7abc587fbf6b09d127f",
       "baseline_recorded": "2026-10-11"
@@ -86,10 +90,6 @@
     },
     "https://fal.ai/builder-grant": {
       "sha256": "ec6d15a146ebc7777c52f905184eb7dd51b0b5d4b064298446fc2be9947d3b2a",
-      "baseline_recorded": "2026-10-11"
-    },
-    "https://help.elevenlabs.io/hc/en-us/articles/28184926326033-How-much-does-it-cost-to-use-the-API": {
-      "sha256": "a413cb8d6219bf8df2abfe58bbf2a269a1fc36922ed00c0e0af52921add0421c",
       "baseline_recorded": "2026-10-11"
     },
     "https://help.hunter.io/en/articles/11131690-pricing-plans-and-feature-faqs": {
@@ -132,8 +132,8 @@
       "sha256": "96e6aef900268f3018c88fba2b6b12d680412590f56c87892ab6e8241fd26308",
       "baseline_recorded": "2026-10-11"
     },
-    "https://openweathermap.org/price": {
-      "sha256": "518e5a06123db56dc8b335960b2882b042d25ca9cbd9046d6d35a0ac863ff3b6",
+    "https://openweathermap.org/api/one-call-3": {
+      "sha256": "9128278b6e644eab2d87decf4b4e0727b164fac95d5d30bc3f6c75c0d3f93ee8",
       "baseline_recorded": "2026-10-11"
     },
     "https://parallel.ai/blog/free-tier-parallel": {
@@ -349,6 +349,10 @@
     "https://developers.oxylabs.io/scraping-solutions/web-scraper-api/usage-and-billing/rate-limits": {
       "status": "fetch_failed",
       "http_status": 404
+    },
+    "https://support.deepl.com/hc/en-us/articles/360021200939-DeepL-API-plans": {
+      "http_status": 403,
+      "status": "fetch_failed"
     },
     "https://www.hyperbrowser.ai/pricing": {
       "status": "insufficient_text",

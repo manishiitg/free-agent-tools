@@ -2,7 +2,7 @@
 
 Read-only agent API discovery.
 
-- Catalog JSON: https://manishiitg.github.io/free-agent-tools/catalog.json
+- Catalog JSON: https://agentworkshq.com/free-tools/catalog.json
 - Schema: https://github.com/manishiitg/free-agent-tools/blob/main/schema/catalog.schema.json
 - MCP setup: https://github.com/manishiitg/free-agent-tools#use-the-discovery-mcp
 

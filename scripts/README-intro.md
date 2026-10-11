@@ -2,7 +2,7 @@
 
 A maintained catalog of APIs, free tiers and credits for AI agents. Search, scraping and browsers are only the start: the directory also covers models, speech, documents, compute, memory, integrations and specialized data.
 
-**[Browse the directory](https://manishiitg.github.io/free-agent-tools/)** · [JSON](https://manishiitg.github.io/free-agent-tools/catalog.json) · [CSV](https://manishiitg.github.io/free-agent-tools/catalog.csv) · [Maintenance reports](https://github.com/manishiitg/free-agent-tools/actions/workflows/review.yml)
+**[Browse the directory](https://agentworkshq.com/free-tools/)** · [JSON](https://agentworkshq.com/free-tools/catalog.json) · [CSV](https://agentworkshq.com/free-tools/catalog.csv) · [Maintenance reports](https://github.com/manishiitg/free-agent-tools/actions/workflows/review.yml)
 
 Each entry records the published allowance, offer type, eligibility, official evidence, review date and documented MCP support. The catalog is a starting point, not an exhaustive list or a guarantee that a particular account qualifies. It does not know your balance or provision accounts.
 
@@ -79,4 +79,4 @@ uv run python scripts/build.py --check
 python3 -m http.server 8080 --directory docs
 ```
 
-CI validates the schema, generated artifacts and real stdio MCP protocol before publishing GitHub Pages. The MCP smoke check starts a server, lists and calls the discovery tools, reads the resource, and checks the freshness boundary.
+CI validates the schema, generated artifacts, browser behavior and real stdio MCP protocol. The catalog is hosted only on AgentWorks HQ; GitHub holds its source data and MCP package. The MCP smoke check starts a server, lists and calls the discovery tools, reads the resource, and checks the freshness boundary.

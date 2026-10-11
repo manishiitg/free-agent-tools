@@ -65,8 +65,10 @@ def main():
     parser.add_argument("--output", default=".maintenance")
     parser.add_argument("--initialize", action="store_true")
     parser.add_argument("--accept-reviewed", nargs="+", default=[])
+    parser.add_argument("--accept-observed", type=Path, help="Use a downloaded workflow observation file after reviewing named providers")
     args = parser.parse_args()
     assert not (args.initialize and args.accept_reviewed), "Choose one baseline update mode"
+    assert not args.accept_observed or args.accept_reviewed, "Downloaded observations require named reviewed providers"
     assert not (args.initialize and BASELINE.exists()), "Baseline exists; accept specific reviewed providers"
     doc = json.loads((ROOT / "src/free_agent_tools/catalog.json").read_text())
     baseline = json.loads(BASELINE.read_text()) if BASELINE.exists() else {"sources": {}}
@@ -75,9 +77,10 @@ def main():
     assert set(args.accept_reviewed) <= ids, "Unknown reviewed provider ID"
     urls_by_provider = {p["id"]: {s["url"] for s in p["sources"]} | ({p["mcp"]["setup_url"]} if p["mcp"]["setup_url"] else set()) for p in doc["providers"]}
     urls = sorted(set().union(*urls_by_provider.values()))
-    observed = {}
+    observed = json.loads(args.accept_observed.read_text()) if args.accept_observed else {}
+    observed = {url: value for url, value in observed.items() if url in urls}
     with ThreadPoolExecutor(max_workers=8) as executor:
-        futures = {executor.submit(observe, url): url for url in urls}
+        futures = {executor.submit(observe, url): url for url in urls if url not in observed}
         for future in as_completed(futures):
             observed[futures[future]] = future.result()
     today = date.today()
@@ -86,12 +89,14 @@ def main():
     approved_urls = set().union(*(urls_by_provider[i] for i in approved_ids)) if approved_ids else set()
     for url in approved_urls:
         if observed[url]["status"] == "ok":
+            assert re.fullmatch(r"[a-f0-9]{64}", observed[url]["sha256"]), "Invalid observed content hash"
             baseline["sources"][url] = {"sha256": observed[url]["sha256"], "baseline_recorded": str(today)}
             baseline["known_limitations"].pop(url, None)
         else:
             baseline["known_limitations"][url] = observed[url]
     if approved_ids:
         baseline["sources"] = {url: value for url, value in sorted(baseline["sources"].items()) if url in urls}
+        baseline["known_limitations"] = {url: value for url, value in sorted(baseline["known_limitations"].items()) if url in urls}
         BASELINE.parent.mkdir(parents=True, exist_ok=True)
         BASELINE.write_text(json.dumps(baseline, indent=2) + "\n")
     flags = []
