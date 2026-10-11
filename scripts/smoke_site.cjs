@@ -4,7 +4,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const assert = require('node:assert/strict');
 const { chromium } = require('playwright');
-const root = path.resolve(__dirname, '../docs');
+const root = path.resolve(process.env.FREE_TOOLS_SITE_ROOT || path.join(__dirname, '../docs'));
 const data = JSON.parse(fs.readFileSync(path.join(root, 'catalog.json')));
 const server = http.createServer((req, res) => {
   const pathname = decodeURIComponent(new URL(req.url, 'http://localhost').pathname);
