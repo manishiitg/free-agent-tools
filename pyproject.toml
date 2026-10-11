@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "free-agent-tools"
+version = "0.1.0"
+description = "A sourced catalog of agent APIs and a read-only discovery MCP"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = ["mcp>=1.30,<2"]
+
+[project.optional-dependencies]
+dev = ["jsonschema>=4.23,<5"]
+
+[project.scripts]
+free-agent-tools-mcp = "free_agent_tools.server:main"
+free-agent-tools = "free_agent_tools.catalog:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/free_agent_tools"]
+

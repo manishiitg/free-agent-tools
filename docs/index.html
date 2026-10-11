@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A maintained directory of free API tiers and credits for AI agents. Compare search, browser, speech, inference, compute and more, with official sources and review dates.">
+  <meta name="theme-color" content="#172b26">
+  <title>Free Agent Tools — APIs, credits &amp; MCPs</title>
+  <link rel="canonical" href="https://manishiitg.github.io/free-agent-tools/">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#directory">Skip to directory</a>
+  <header class="topbar">
+    <a class="brand" href="./"><span class="mark" aria-hidden="true">f.</span> Free Agent Tools</a>
+    <nav aria-label="Main navigation">
+      <a href="https://agentworkshq.com/">AgentWorks ↗</a>
+      <a href="https://github.com/manishiitg/free-agent-tools#use-the-discovery-mcp">Use with MCP</a>
+      <a href="https://github.com/manishiitg/free-agent-tools">GitHub ↗</a>
+    </nav>
+  </header>
+  <main>
+    <section class="intro">
+      <div>
+        <p class="eyebrow">THE AGENT TOOLBOX · OPEN CATALOG</p>
+        <h1>Build more.<br><span>Start with what’s free.</span></h1>
+        <p class="lede">Discover APIs and credits for your next agent. Find the allowance, the conditions and the official source in one place.</p>
+      </div>
+      <aside class="snapshot" aria-label="Catalog summary">
+        <div><strong id="provider-count">—</strong><span>providers</span></div>
+        <div><strong id="category-count">—</strong><span>categories</span></div>
+        <p>Reviewed <span id="snapshot-date">—</span><br>Source checks every week</p>
+        <a href="https://github.com/manishiitg/free-agent-tools/blob/main/CONTRIBUTING.md">Help keep it current ↗</a>
+      </aside>
+    </section>
+    <div class="notice"><span aria-hidden="true">↳</span><p>Free tiers, one-time trials and conditional grants are labeled separately. Offers can change; review the source and eligibility before signing up.</p></div>
+    <section class="directory" id="directory" aria-label="Provider directory">
+      <aside class="filters">
+        <h2>Explore by capability</h2>
+        <div id="categories" class="categories" role="group" aria-label="Category filters"></div>
+        <label for="category-mobile" class="mobile-label">Capability</label>
+        <select id="category-mobile" class="mobile-category"><option value="">All capabilities</option></select>
+        <div class="filter-group">
+          <label for="offer">Offer type</label>
+          <select id="offer">
+            <option value="">All offers</option><option value="recurring">Recurring free tier</option>
+            <option value="trial">One-time trial / credits</option><option value="grant">Conditional grant</option>
+            <option value="open_source">Open source</option><option value="unconfirmed">Needs confirmation</option><option value="paid">Paid API</option>
+          </select>
+          <label class="check"><input id="free-only" type="checkbox"> Free offers only</label>
+          <label class="check"><input id="mcp-only" type="checkbox"> Documented MCP</label>
+          <label class="check"><input id="verified-only" type="checkbox"> Recently verified</label>
+          <button class="reset" id="reset" type="button">Reset filters</button>
+        </div>
+        <p class="filter-note">“Free offers” includes trials and grants. Unknown allowances are excluded.</p>
+        <div class="downloads"><a href="catalog.json">Download JSON ↗</a><a href="catalog.csv">Download CSV ↗</a></div>
+      </aside>
+      <div class="results">
+        <label class="sr-only" for="search">Search tools or capabilities</label>
+        <div class="searchbox"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search tools or capabilities…" autocomplete="off"><kbd aria-hidden="true">/</kbd></div>
+        <div class="results-heading"><h2 id="result-title">All capabilities</h2><p id="result-count" role="status" aria-live="polite">Loading catalog…</p></div>
+        <div id="providers" class="providers"></div>
+        <div class="pagination" id="pagination"><button type="button" id="previous">← Previous</button><span id="page-number"></span><button type="button" id="next">Next →</button></div>
+        <noscript><p>This directory needs JavaScript for filtering. The <a href="https://github.com/manishiitg/free-agent-tools#catalog">GitHub catalog</a> lists every provider without JavaScript.</p></noscript>
+      </div>
+    </section>
+    <section class="mcp-callout"><div><p class="eyebrow">FOR YOUR LOCAL AGENTS</p><h2>Let your agent discover the options.</h2><p>Search this catalog through a read-only MCP. Get allowances, conditions and setup links alongside the provider’s review date.</p></div><a class="button" href="https://github.com/manishiitg/free-agent-tools#use-the-discovery-mcp">MCP setup guide ↗</a></section>
+  </main>
+  <footer><p>Maintained by <a href="https://agentworkshq.com/">AgentWorks</a> · MIT licensed</p><p><a href="https://github.com/manishiitg/free-agent-tools/blob/main/CONTRIBUTING.md">Suggest a correction</a> · <a href="https://github.com/manishiitg/free-agent-tools/actions/workflows/review.yml">Maintenance reports</a></p></footer>
+</body>
+</html>

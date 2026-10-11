@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Free Agent Tools catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "version", "updated_at", "repository", "freshness_days", "categories", "providers"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "version": {"type": "string", "pattern": "^[0-9]{4}\\.[0-9]{2}\\.[0-9]{2}([.-][0-9]+)?$"},
+    "updated_at": {"type": "string", "format": "date"},
+    "repository": {"type": "string", "format": "uri", "pattern": "^https://github.com/"},
+    "freshness_days": {"const": 30},
+    "categories": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "additionalProperties": false, "required": ["id", "name"],
+      "properties": {"id": {"$ref": "#/$defs/id"}, "name": {"type": "string", "minLength": 1}}
+    }},
+    "providers": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/provider"}}
+  },
+  "$defs": {
+    "id": {"type": "string", "pattern": "^[a-z][a-z0-9-]*$"},
+    "strings": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "url": {"type": "string", "format": "uri", "pattern": "^https://"},
+    "dateOrNull": {"anyOf": [{"type": "string", "format": "date"}, {"type": "null"}]},
+    "provider": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "name", "categories", "description", "capabilities", "api_access", "offer", "sources", "last_verified", "last_reviewed", "status", "mcp"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "name": {"type": "string", "minLength": 1},
+        "categories": {"$ref": "#/$defs/strings"}, "description": {"type": "string", "minLength": 1},
+        "capabilities": {"$ref": "#/$defs/strings"}, "api_access": {"const": true},
+        "offer": {
+          "type": "object", "additionalProperties": false, "required": ["kind", "summary", "conditions"],
+          "properties": {
+            "kind": {"enum": ["recurring", "trial", "grant", "open_source", "paid", "unconfirmed"]},
+            "summary": {"type": "string", "minLength": 1}, "conditions": {"$ref": "#/$defs/strings"}
+          }
+        },
+        "sources": {"type": "array", "minItems": 1, "items": {
+          "type": "object", "additionalProperties": false, "required": ["url", "type", "purpose"],
+          "properties": {"url": {"$ref": "#/$defs/url"}, "type": {"const": "official"}, "purpose": {"type": "string", "minLength": 1}}
+        }},
+        "last_verified": {"$ref": "#/$defs/dateOrNull"},
+        "last_reviewed": {"type": "string", "format": "date"},
+        "status": {"enum": ["verified", "needs_review"]},
+        "mcp": {
+          "type": "object", "additionalProperties": false, "required": ["support", "setup_url", "agentworks_connector"],
+          "properties": {
+            "support": {"enum": ["official", "community", "unknown", "none"]},
+            "setup_url": {"anyOf": [{"$ref": "#/$defs/url"}, {"type": "null"}]},
+            "agentworks_connector": {"type": ["string", "null"]}
+          }
+        }
+      }
+    }
+  }
+}

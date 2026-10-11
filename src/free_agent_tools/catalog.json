@@ -1,0 +1,3188 @@
+{
+  "schema_version": 1,
+  "version": "2026.10.11",
+  "updated_at": "2026-10-11",
+  "repository": "https://github.com/manishiitg/free-agent-tools",
+  "freshness_days": 30,
+  "categories": [
+    {
+      "id": "search",
+      "name": "Search & research"
+    },
+    {
+      "id": "scraping",
+      "name": "Scraping & extraction"
+    },
+    {
+      "id": "browser",
+      "name": "Browser automation"
+    },
+    {
+      "id": "inference",
+      "name": "Model inference"
+    },
+    {
+      "id": "speech",
+      "name": "Speech & voice"
+    },
+    {
+      "id": "realtime",
+      "name": "Realtime audio & video"
+    },
+    {
+      "id": "media",
+      "name": "Image & video generation"
+    },
+    {
+      "id": "documents",
+      "name": "Document parsing & OCR"
+    },
+    {
+      "id": "rendering",
+      "name": "Screenshots, PDFs & rendering"
+    },
+    {
+      "id": "compute",
+      "name": "Sandboxes & compute"
+    },
+    {
+      "id": "memory",
+      "name": "Agent memory"
+    },
+    {
+      "id": "vector",
+      "name": "Embeddings & vector databases"
+    },
+    {
+      "id": "integrations",
+      "name": "App integrations & auth"
+    },
+    {
+      "id": "email",
+      "name": "Email"
+    },
+    {
+      "id": "enrichment",
+      "name": "Data enrichment"
+    },
+    {
+      "id": "observability",
+      "name": "Tracing & evaluation"
+    },
+    {
+      "id": "translation",
+      "name": "Translation"
+    },
+    {
+      "id": "maps",
+      "name": "Maps & geocoding"
+    },
+    {
+      "id": "weather",
+      "name": "Weather"
+    },
+    {
+      "id": "finance",
+      "name": "Financial data"
+    }
+  ],
+  "providers": [
+    {
+      "id": "agentql",
+      "name": "AgentQL",
+      "categories": [
+        "browser"
+      ],
+      "description": "AgentQL: browser extraction.",
+      "capabilities": [
+        "browser",
+        "extraction"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "50 API calls per month; separate 300-call trial",
+        "conditions": [
+          "Remote-browser hours are a separate allowance."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.agentql.com/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "airtop",
+      "name": "Airtop",
+      "categories": [
+        "browser"
+      ],
+      "description": "Airtop: browser automation agents.",
+      "capabilities": [
+        "browser",
+        "automation",
+        "agents"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "unconfirmed",
+        "summary": "Free plan advertises 1,000 credits and a 10,000-credit trial bonus",
+        "conditions": [
+          "Trial lasts 7 days or until credits are consumed; recurring allowance conditions need review."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.airtop.ai/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": null,
+      "last_reviewed": "2026-10-11",
+      "status": "needs_review",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "alpha-vantage",
+      "name": "Alpha Vantage",
+      "categories": [
+        "finance"
+      ],
+      "description": "Alpha Vantage: financial data market.",
+      "capabilities": [
+        "financial",
+        "data",
+        "market"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "25 requests per day for most datasets",
+        "conditions": [
+          "Premium data and commercial licensing vary by endpoint."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.alphavantage.co/support/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "anchor-browser",
+      "name": "Anchor Browser",
+      "categories": [
+        "browser"
+      ],
+      "description": "Anchor Browser: browser automation agents.",
+      "capabilities": [
+        "browser",
+        "automation",
+        "agents"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "5 credits per month",
+        "conditions": [
+          "Task and session limits differ; check detailed operation pricing."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://anchorbrowser.io/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "apify",
+      "name": "Apify",
+      "categories": [
+        "scraping"
+      ],
+      "description": "Apify: scrape automation datasets.",
+      "capabilities": [
+        "scrape",
+        "automation",
+        "datasets"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "$5 platform usage per month",
+        "conditions": [
+          "Actor-specific fees and compute consumption can both apply."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://apify.com/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": "Apify"
+      }
+    },
+    {
+      "id": "arcade",
+      "name": "Arcade",
+      "categories": [
+        "integrations"
+      ],
+      "description": "Arcade: app integrations auth tools.",
+      "capabilities": [
+        "app",
+        "integrations",
+        "auth",
+        "tools"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "2,000 auth events and 2,000 tool calls per month",
+        "conditions": [
+          "No card required; underlying service costs and permissions are separate."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.arcade.dev/pricing/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "assemblyai",
+      "name": "AssemblyAI",
+      "categories": [
+        "speech"
+      ],
+      "description": "AssemblyAI: transcription speech streaming audio speech-to-text.",
+      "capabilities": [
+        "transcription",
+        "speech",
+        "streaming",
+        "audio",
+        "speech-to-text"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "$50 trial credits",
+        "conditions": [
+          "Upgrade after trial credits are consumed; verify streaming eligibility."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://support.assemblyai.com/articles/5370767329-can-i-sign-up-for-free",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "bannerbear",
+      "name": "Bannerbear",
+      "categories": [
+        "rendering"
+      ],
+      "description": "Bannerbear: image rendering video.",
+      "capabilities": [
+        "image",
+        "rendering",
+        "video"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "30 trial API credits",
+        "conditions": [
+          "No card required; AI credits differ from API credits."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.bannerbear.com/pricing/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "blaxel",
+      "name": "Blaxel",
+      "categories": [
+        "compute"
+      ],
+      "description": "Blaxel: sandbox code execution compute.",
+      "capabilities": [
+        "sandbox",
+        "code",
+        "execution",
+        "compute"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "Up to $200 starting credits",
+        "conditions": [
+          "Full amount depends on signup/payment-method/top-up bonuses; not an unconditional $200 grant."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://blaxel.ai/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "braintrust",
+      "name": "Braintrust",
+      "categories": [
+        "observability"
+      ],
+      "description": "Braintrust: tracing evaluation.",
+      "capabilities": [
+        "tracing",
+        "evaluation"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "Free included trace/evaluation usage",
+        "conditions": [
+          "Model credits, processed data and scores have separate allowances."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.braintrust.dev/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "brave-search",
+      "name": "Brave Search",
+      "categories": [
+        "search"
+      ],
+      "description": "Brave Search: search answers.",
+      "capabilities": [
+        "search",
+        "answers"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "$5 free credits per month",
+        "conditions": [
+          "Pricing and token charges differ between Search and Answers."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://brave.com/search/api/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "brevo",
+      "name": "Brevo",
+      "categories": [
+        "email"
+      ],
+      "description": "Brevo: transactional email.",
+      "capabilities": [
+        "transactional",
+        "email"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "300 emails per day through API/SMTP",
+        "conditions": [
+          "Domain verification and sending policies apply; not a bulk-mail entitlement."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.brevo.com/products/transactional-email/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "bright-data",
+      "name": "Bright Data",
+      "categories": [
+        "scraping"
+      ],
+      "description": "Bright Data: scrape extraction.",
+      "capabilities": [
+        "scrape",
+        "extraction"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "5,000 Web Scraper API records per month",
+        "conditions": [
+          "No card required. Other products have separate allowances."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://brightdata.com/pricing/web-scraper",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "browser-use-cloud",
+      "name": "Browser Use Cloud",
+      "categories": [
+        "browser"
+      ],
+      "description": "Browser Use Cloud: browser automation agents.",
+      "capabilities": [
+        "browser",
+        "automation",
+        "agents"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "$1 one-time credit for eligible signups",
+        "conditions": [
+          "Eligible Google, GitHub or Microsoft signups; one allowance per person; no card required."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://browser-use.com/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "browserbase",
+      "name": "Browserbase",
+      "categories": [
+        "browser"
+      ],
+      "description": "Browserbase: browser automation search fetch.",
+      "capabilities": [
+        "browser",
+        "automation",
+        "search",
+        "fetch"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "unconfirmed",
+        "summary": "Free plan includes 1 browser hour, 3 agent runs, 1,000 search calls and 1,000 fetch calls",
+        "conditions": [
+          "Free plan confirmed; reset period needs verification; 15-minute session limit."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.browserbase.com/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": null,
+      "last_reviewed": "2026-10-11",
+      "status": "needs_review",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": "Browserbase"
+      }
+    },
+    {
+      "id": "browserless",
+      "name": "Browserless",
+      "categories": [
+        "browser"
+      ],
+      "description": "Browserless: browser automation rendering.",
+      "capabilities": [
+        "browser",
+        "automation",
+        "rendering"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "1,000 units per month",
+        "conditions": [
+          "No card required; 2 concurrent browsers and 2-minute maximum sessions."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.browserless.io/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "cartesia",
+      "name": "Cartesia",
+      "categories": [
+        "speech"
+      ],
+      "description": "Cartesia: speech synthesis transcription voice audio speech-to-text.",
+      "capabilities": [
+        "speech",
+        "synthesis",
+        "transcription",
+        "voice",
+        "audio",
+        "speech-to-text"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "20,000 model credits per month plus $1 monthly agent allowance",
+        "conditions": [
+          "Commercial-use license is listed on paid plans; telephony costs are separate."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.cartesia.ai/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "cloudflare-workers-ai",
+      "name": "Cloudflare Workers AI",
+      "categories": [
+        "inference"
+      ],
+      "description": "Cloudflare Workers AI: text generation vision embeddings.",
+      "capabilities": [
+        "text",
+        "generation",
+        "vision",
+        "embeddings"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "10,000 neurons per day",
+        "conditions": [
+          "Some models require a paid billing method; free allocation resets at 00:00 UTC."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "cohere",
+      "name": "Cohere",
+      "categories": [
+        "inference"
+      ],
+      "description": "Cohere: text generation embeddings rerank.",
+      "capabilities": [
+        "text",
+        "generation",
+        "embeddings",
+        "rerank"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "Free evaluation API keys with usage limits",
+        "conditions": [
+          "Evaluation access is distinct from paid production keys."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://docs.cohere.com/docs/rate-limits",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "composio",
+      "name": "Composio",
+      "categories": [
+        "integrations"
+      ],
+      "description": "Composio: app integrations auth tools.",
+      "capabilities": [
+        "app",
+        "integrations",
+        "auth",
+        "tools"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "100,000 tool calls and 50,000 triggers per month",
+        "conditions": [
+          "Own app/API-key/MCP credentials and managed-provider usage have different pricing."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://composio.dev/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "daily",
+      "name": "Daily",
+      "categories": [
+        "realtime"
+      ],
+      "description": "Daily: audio video realtime.",
+      "capabilities": [
+        "audio",
+        "video",
+        "realtime"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "First 10,000 participant minutes per month free",
+        "conditions": [
+          "Participant minutes differ from wall-clock minutes; other services have separate pricing."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.daily.co/pricing/video-sdk/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "daytona",
+      "name": "Daytona",
+      "categories": [
+        "compute"
+      ],
+      "description": "Daytona: code execution sandbox.",
+      "capabilities": [
+        "code",
+        "execution",
+        "sandbox"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "$200 starting compute credit",
+        "conditions": [
+          "Free credits cannot be spent on GPU sandboxes; check expiry in wallet."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.daytona.io/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "deepgram",
+      "name": "Deepgram",
+      "categories": [
+        "speech"
+      ],
+      "description": "Deepgram: transcription speech synthesis voice audio speech-to-text.",
+      "capabilities": [
+        "transcription",
+        "speech",
+        "synthesis",
+        "voice",
+        "audio",
+        "speech-to-text"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "$200 starting credit",
+        "conditions": [
+          "No card required. Startup grants are separate and conditional."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://deepgram.com/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "deepl",
+      "name": "DeepL",
+      "categories": [
+        "translation"
+      ],
+      "description": "DeepL: translation.",
+      "capabilities": [
+        "translation"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "500,000 characters per month",
+        "conditions": [
+          "API Free excludes DeepL Write and speech translation."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://support.deepl.com/hc/en-us/articles/360021200939-DeepL-API-plans",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "e2b",
+      "name": "E2B",
+      "categories": [
+        "compute"
+      ],
+      "description": "E2B: code execution sandbox.",
+      "capabilities": [
+        "code",
+        "execution",
+        "sandbox"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "$100 one-time usage credit",
+        "conditions": [
+          "No card required; free platform tier has separately metered compute."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://e2b.dev/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "categories": [
+        "speech"
+      ],
+      "description": "ElevenLabs: speech synthesis transcription voice audio speech-to-text.",
+      "capabilities": [
+        "speech",
+        "synthesis",
+        "transcription",
+        "voice",
+        "audio",
+        "speech-to-text"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "Free plan includes API access; endpoint allowance varies",
+        "conditions": [
+          "Generation consumes plan credits. Commercial rights and features depend on plan."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://help.elevenlabs.io/hc/en-us/articles/28184926326033-How-much-does-it-cost-to-use-the-API",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "exa",
+      "name": "Exa",
+      "categories": [
+        "search"
+      ],
+      "description": "Exa: search extraction research.",
+      "capabilities": [
+        "search",
+        "extraction",
+        "research"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "$10 monthly credits plus $10 onboarding bonus",
+        "conditions": [
+          "No payment method required. API allowance differs from keyless MCP limits."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://exa.ai/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        },
+        {
+          "url": "https://exa.ai/docs/get-started/exa-mcp",
+          "type": "official",
+          "purpose": "MCP setup"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "official",
+        "setup_url": "https://exa.ai/docs/get-started/exa-mcp",
+        "agentworks_connector": "Exa"
+      }
+    },
+    {
+      "id": "fal",
+      "name": "fal",
+      "categories": [
+        "media"
+      ],
+      "description": "fal: image generation video audio.",
+      "capabilities": [
+        "image",
+        "generation",
+        "video",
+        "audio"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "grant",
+        "summary": "Builder grants by application; no universal signup credit confirmed",
+        "conditions": [
+          "Grant eligibility and usage thresholds apply. Free web tools do not imply free API access."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://fal.ai/builder-grant",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "firecrawl",
+      "name": "Firecrawl",
+      "categories": [
+        "scraping"
+      ],
+      "description": "Firecrawl: search scrape crawl extraction browser.",
+      "capabilities": [
+        "search",
+        "scrape",
+        "crawl",
+        "extraction",
+        "browser"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "1,000 credits per month",
+        "conditions": [
+          "No card required. Search and advanced extraction consume multiple credits."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.firecrawl.dev/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        },
+        {
+          "url": "https://docs.firecrawl.dev/mcp-server",
+          "type": "official",
+          "purpose": "MCP setup"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "official",
+        "setup_url": "https://docs.firecrawl.dev/mcp-server",
+        "agentworks_connector": "Firecrawl"
+      }
+    },
+    {
+      "id": "gemini-api",
+      "name": "Gemini API",
+      "categories": [
+        "inference"
+      ],
+      "description": "Gemini API: text generation vision reasoning.",
+      "capabilities": [
+        "text",
+        "generation",
+        "vision",
+        "reasoning"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "Free tier for selected models with usage limits",
+        "conditions": [
+          "Not every model or endpoint is free. Data-use and region conditions differ by tier."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://ai.google.dev/gemini-api/docs/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "geoapify",
+      "name": "Geoapify",
+      "categories": [
+        "maps"
+      ],
+      "description": "Geoapify: geocoding routing maps.",
+      "capabilities": [
+        "geocoding",
+        "routing",
+        "maps"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "3,000 credits per day",
+        "conditions": [
+          "No card required; 5 requests per second; operation costs vary."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.geoapify.com/pricing/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "groq",
+      "name": "Groq",
+      "categories": [
+        "inference"
+      ],
+      "description": "Groq: text generation reasoning transcription audio speech-to-text.",
+      "capabilities": [
+        "text",
+        "generation",
+        "reasoning",
+        "transcription",
+        "audio",
+        "speech-to-text"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "Free API plan with model-specific rate limits",
+        "conditions": [
+          "Check current model limits in Groq console before routing production traffic."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://community.groq.com/t/do-i-get-charged-for-anything-on-the-groq-free-plan/832",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "helicone",
+      "name": "Helicone",
+      "categories": [
+        "observability"
+      ],
+      "description": "Helicone: tracing gateway observability.",
+      "capabilities": [
+        "tracing",
+        "gateway",
+        "observability"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "10,000 monitored requests per month on Hobby",
+        "conditions": [
+          "Monitoring allowance does not pay for underlying model inference."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.helicone.ai/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "hugging-face-inference-providers",
+      "name": "Hugging Face Inference Providers",
+      "categories": [
+        "inference"
+      ],
+      "description": "Hugging Face Inference Providers: text generation vision model routing.",
+      "capabilities": [
+        "text",
+        "generation",
+        "vision",
+        "model",
+        "routing"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "$0.10 monthly credit for free users",
+        "conditions": [
+          "Amount is subject to change; PRO subscriptions have a separate allocation."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://huggingface.co/docs/inference-providers/main/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "hunter",
+      "name": "Hunter",
+      "categories": [
+        "enrichment"
+      ],
+      "description": "Hunter: email enrichment verification.",
+      "capabilities": [
+        "email",
+        "enrichment",
+        "verification"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "50 credits per month",
+        "conditions": [
+          "API access and credit cost depend on operation."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://help.hunter.io/en/articles/11131690-pricing-plans-and-feature-faqs",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "hyperbrowser",
+      "name": "Hyperbrowser",
+      "categories": [
+        "browser"
+      ],
+      "description": "Hyperbrowser: browser automation.",
+      "capabilities": [
+        "browser",
+        "automation"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "unconfirmed",
+        "summary": "Free plan advertises 5,000 credits; reset unclear",
+        "conditions": [
+          "One concurrent browser; confirm reset period."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.hyperbrowser.ai/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": null,
+      "last_reviewed": "2026-10-11",
+      "status": "needs_review",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "jina-reader",
+      "name": "Jina Reader",
+      "categories": [
+        "scraping"
+      ],
+      "description": "Jina Reader: extraction markdown.",
+      "capabilities": [
+        "extraction",
+        "markdown"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "Free rate-limited access; 10 million starting tokens with a new key",
+        "conditions": [
+          "Keyless Reader access has separate rate limits; token allowance is not documented as recurring."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://jina.ai/reader/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "keenable",
+      "name": "Keenable",
+      "categories": [
+        "search"
+      ],
+      "description": "Keenable: search extraction.",
+      "capabilities": [
+        "search",
+        "extraction"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "unconfirmed",
+        "summary": "100,000 free requests advertised; reset and expiry unclear",
+        "conditions": [
+          "Confirm allowance conditions in the account dashboard."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://keenable.ai/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": null,
+      "last_reviewed": "2026-10-11",
+      "status": "needs_review",
+      "mcp": {
+        "support": "official",
+        "setup_url": "https://keenable.ai/",
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "landingai",
+      "name": "LandingAI",
+      "categories": [
+        "documents"
+      ],
+      "description": "LandingAI: document extraction ocr.",
+      "capabilities": [
+        "document",
+        "extraction",
+        "ocr"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "1,000 starting credits advertised",
+        "conditions": [
+          "Credit costs depend on model and service tier."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://landing.ai/pricing-agentic-apis",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "langfuse",
+      "name": "Langfuse",
+      "categories": [
+        "observability"
+      ],
+      "description": "Langfuse: tracing evaluation prompts.",
+      "capabilities": [
+        "tracing",
+        "evaluation",
+        "prompts"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "50,000 units per month",
+        "conditions": [
+          "30-day data access and two users on Hobby; model inference costs are separate."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://langfuse.com/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "langsmith",
+      "name": "LangSmith",
+      "categories": [
+        "observability"
+      ],
+      "description": "LangSmith: tracing evaluation.",
+      "capabilities": [
+        "tracing",
+        "evaluation"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "5,000 base traces per month and one seat",
+        "conditions": [
+          "Inference and agent deployment have separate charges."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.langchain.com/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "linkup",
+      "name": "Linkup",
+      "categories": [
+        "search"
+      ],
+      "description": "Linkup: search answers.",
+      "capabilities": [
+        "search",
+        "answers"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "unconfirmed",
+        "summary": "4,000 free queries advertised; reset unclear",
+        "conditions": [
+          "Startup credits require a separate application."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.linkup.so/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": null,
+      "last_reviewed": "2026-10-11",
+      "status": "needs_review",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "llamaparse",
+      "name": "LlamaParse",
+      "categories": [
+        "documents"
+      ],
+      "description": "LlamaParse: pdf parsing document extraction ocr.",
+      "capabilities": [
+        "pdf",
+        "parsing",
+        "document",
+        "extraction",
+        "ocr"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "Free document-processing tier; mode-dependent credits",
+        "conditions": [
+          "Page cost differs by parsing mode; consult pricing before estimating page capacity."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.llamaindex.ai/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "mem0",
+      "name": "Mem0",
+      "categories": [
+        "memory"
+      ],
+      "description": "Mem0: memory retrieval.",
+      "capabilities": [
+        "memory",
+        "retrieval"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "10,000 add requests and 1,000 retrieval requests per month",
+        "conditions": [
+          "One project on Hobby. Persistent data needs migration before switching providers."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://mem0.ai/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "modal",
+      "name": "Modal",
+      "categories": [
+        "compute"
+      ],
+      "description": "Modal: compute gpu code execution.",
+      "capabilities": [
+        "compute",
+        "gpu",
+        "code",
+        "execution"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "$30 compute credit per month",
+        "conditions": [
+          "Usage-based compute charges; startup and research grants are separate."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://modal.com/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "nango",
+      "name": "Nango",
+      "categories": [
+        "integrations"
+      ],
+      "description": "Nango: app integrations auth sync.",
+      "capabilities": [
+        "app",
+        "integrations",
+        "auth",
+        "sync"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "Free plan with hard-capped monthly limits",
+        "conditions": [
+          "Connections and operation limits differ; OAuth grants remain account-specific."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://nango.dev/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "notte",
+      "name": "Notte",
+      "categories": [
+        "browser"
+      ],
+      "description": "Notte: browser agents automation.",
+      "capabilities": [
+        "browser",
+        "agents",
+        "automation"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "$10 one-time credits with no expiry",
+        "conditions": [
+          "Credits cover proxies, models and functions; no card required."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.notte.cc/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "olostep",
+      "name": "Olostep",
+      "categories": [
+        "scraping"
+      ],
+      "description": "Olostep: scrape extraction.",
+      "capabilities": [
+        "scrape",
+        "extraction"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "500 successful trial requests",
+        "conditions": [
+          "No card required; trial rate limits apply."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.olostep.com/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "openrouter",
+      "name": "OpenRouter",
+      "categories": [
+        "inference"
+      ],
+      "description": "OpenRouter: text generation model routing.",
+      "capabilities": [
+        "text",
+        "generation",
+        "model",
+        "routing"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "Free model variants with low rate limits",
+        "conditions": [
+          "Free-model availability and limits vary; paid models require credits."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://openrouter.ai/support",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "openweather",
+      "name": "OpenWeather",
+      "categories": [
+        "weather"
+      ],
+      "description": "OpenWeather: weather forecast.",
+      "capabilities": [
+        "weather",
+        "forecast"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "One Call: first 1,000 calls per day free",
+        "conditions": [
+          "One Call allowance differs from other weather products; overage is paid."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://openweathermap.org/price",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "oxylabs",
+      "name": "Oxylabs",
+      "categories": [
+        "scraping"
+      ],
+      "description": "Oxylabs: scrape search rendering.",
+      "capabilities": [
+        "scrape",
+        "search",
+        "rendering"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "unconfirmed",
+        "summary": "Trial available; documentation lists 2,000 results",
+        "conditions": [
+          "Marketing pages show differing trial amounts; confirm exact allowance before use."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://developers.oxylabs.io/scraping-solutions/web-scraper-api/usage-and-billing/rate-limits",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": null,
+      "last_reviewed": "2026-10-11",
+      "status": "needs_review",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "parallel",
+      "name": "Parallel",
+      "categories": [
+        "search"
+      ],
+      "description": "Parallel: search extraction research monitoring.",
+      "capabilities": [
+        "search",
+        "extraction",
+        "research",
+        "monitoring"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "$5 monthly credits for eligible organizations",
+        "conditions": [
+          "Payment card required; one organization per card; marketplace and postpaid organizations excluded."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://parallel.ai/blog/free-tier-parallel",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": "ParallelSearch"
+      }
+    },
+    {
+      "id": "pdfshift",
+      "name": "PDFShift",
+      "categories": [
+        "rendering"
+      ],
+      "description": "PDFShift: html pdf rendering.",
+      "capabilities": [
+        "html",
+        "pdf",
+        "rendering"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "50 conversion credits per month",
+        "conditions": [
+          "Credits account for output size; a large document can use multiple credits."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://pdfshift.io/pricing/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "people-data-labs",
+      "name": "People Data Labs",
+      "categories": [
+        "enrichment"
+      ],
+      "description": "People Data Labs: person enrichment.",
+      "capabilities": [
+        "person",
+        "enrichment"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "Up to 100 person records per month",
+        "conditions": [
+          "Free-plan email, phone and address fields are obfuscated."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.peopledatalabs.com/pricing/person",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "perplexity-api",
+      "name": "Perplexity API",
+      "categories": [
+        "search"
+      ],
+      "description": "Perplexity API: search answers research.",
+      "capabilities": [
+        "search",
+        "answers",
+        "research"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "paid",
+        "summary": "Paid API; universal free allowance not confirmed",
+        "conditions": [
+          "Consumer subscription benefits are not assumed to cover API usage."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://docs.perplexity.ai/docs/getting-started/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "pinecone",
+      "name": "Pinecone",
+      "categories": [
+        "vector"
+      ],
+      "description": "Pinecone: vector database retrieval embeddings.",
+      "capabilities": [
+        "vector",
+        "database",
+        "retrieval",
+        "embeddings"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "Free Starter plan with included usage",
+        "conditions": [
+          "Storage and query limits differ; persistent indexes require migration."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.pinecone.io/pricing/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "pipedream",
+      "name": "Pipedream",
+      "categories": [
+        "integrations"
+      ],
+      "description": "Pipedream: app integrations automation.",
+      "capabilities": [
+        "app",
+        "integrations",
+        "automation"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "Free development access; production is paid",
+        "conditions": [
+          "Development access is not a free production allowance."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://pipedream.com/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "qdrant",
+      "name": "Qdrant",
+      "categories": [
+        "vector"
+      ],
+      "description": "Qdrant: vector database retrieval.",
+      "capabilities": [
+        "vector",
+        "database",
+        "retrieval"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "Free single-node cluster: 1 GB RAM and 4 GB disk",
+        "conditions": [
+          "0.5 vCPU; persistent clusters are not interchangeable per request."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://qdrant.tech/cloud/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "reducto",
+      "name": "Reducto",
+      "categories": [
+        "documents"
+      ],
+      "description": "Reducto: document parsing extraction ocr.",
+      "capabilities": [
+        "document",
+        "parsing",
+        "extraction",
+        "ocr"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "$150 free starting usage on Standard",
+        "conditions": [
+          "Product rates and eligibility differ; startup grants are separate."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://reducto.ai/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "replicate",
+      "name": "Replicate",
+      "categories": [
+        "media"
+      ],
+      "description": "Replicate: image generation video model inference.",
+      "capabilities": [
+        "image",
+        "generation",
+        "video",
+        "model",
+        "inference"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "paid",
+        "summary": "Usage-based API; universal free credit not confirmed",
+        "conditions": [
+          "Selected trials and promotions are not assumed to apply to every model."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://replicate.com/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "resend",
+      "name": "Resend",
+      "categories": [
+        "email"
+      ],
+      "description": "Resend: transactional email.",
+      "capabilities": [
+        "transactional",
+        "email"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "3,000 emails per month with 100-per-day limit",
+        "conditions": [
+          "Domain verification and sending policies apply."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://resend.com/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": "Resend"
+      }
+    },
+    {
+      "id": "runware",
+      "name": "Runware",
+      "categories": [
+        "media"
+      ],
+      "description": "Runware: image generation video.",
+      "capabilities": [
+        "image",
+        "generation",
+        "video"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "$2 starting credits for business-email signups",
+        "conditions": [
+          "Business-email eligibility; model-specific prices apply."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://runware.ai/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "runway-api",
+      "name": "Runway API",
+      "categories": [
+        "media"
+      ],
+      "description": "Runway API: video generation image.",
+      "capabilities": [
+        "video",
+        "generation",
+        "image"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "paid",
+        "summary": "Paid API; $10 minimum starting payment",
+        "conditions": [
+          "Consumer web-app credits are separate from API credits."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://docs.dev.runwayml.com/guides/setup/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "scrape-do",
+      "name": "Scrape.do",
+      "categories": [
+        "scraping"
+      ],
+      "description": "Scrape.do: scrape rendering browser.",
+      "capabilities": [
+        "scrape",
+        "rendering",
+        "browser"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "1,000 successful API calls per month",
+        "conditions": [
+          "No card required; request features can affect credit consumption."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://scrape.do/pricing/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "scrapegraphai",
+      "name": "ScrapeGraphAI",
+      "categories": [
+        "scraping"
+      ],
+      "description": "ScrapeGraphAI: extraction crawl monitoring.",
+      "capabilities": [
+        "extraction",
+        "crawl",
+        "monitoring"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "500 one-time credits",
+        "conditions": [
+          "10 requests per minute on the free plan."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://scrapegraphai.com/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "scraperapi",
+      "name": "ScraperAPI",
+      "categories": [
+        "scraping"
+      ],
+      "description": "ScraperAPI: scrape proxies extraction.",
+      "capabilities": [
+        "scrape",
+        "proxies",
+        "extraction"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "unconfirmed",
+        "summary": "1,000 free credits; reset unclear on pricing page",
+        "conditions": [
+          "Domain and rendering multipliers apply. Confirm reset in dashboard."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.scraperapi.com/pricing/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": null,
+      "last_reviewed": "2026-10-11",
+      "status": "needs_review",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "scrapingant",
+      "name": "ScrapingAnt",
+      "categories": [
+        "scraping"
+      ],
+      "description": "ScrapingAnt: scrape rendering extraction.",
+      "capabilities": [
+        "scrape",
+        "rendering",
+        "extraction"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "unconfirmed",
+        "summary": "10,000 starting credits advertised; reset unclear",
+        "conditions": [
+          "Confirm recurring versus one-time allowance and request multipliers."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://scrapingant.com/price-scraping-api",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": null,
+      "last_reviewed": "2026-10-11",
+      "status": "needs_review",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "scrapingbee",
+      "name": "ScrapingBee",
+      "categories": [
+        "scraping"
+      ],
+      "description": "ScrapingBee: scrape rendering extraction search.",
+      "capabilities": [
+        "scrape",
+        "rendering",
+        "extraction",
+        "search"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "1,000 trial credits",
+        "conditions": [
+          "No card required; rendering and proxy choices affect consumption."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.scrapingbee.com/pricing/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "scrapingdog",
+      "name": "Scrapingdog",
+      "categories": [
+        "scraping"
+      ],
+      "description": "Scrapingdog: scrape search serp.",
+      "capabilities": [
+        "scrape",
+        "search",
+        "serp"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "100 trial credits",
+        "conditions": [
+          "No card required."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.scrapingdog.com/pricing/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "screenshotone",
+      "name": "ScreenshotOne",
+      "categories": [
+        "rendering"
+      ],
+      "description": "ScreenshotOne: screenshots pdf rendering.",
+      "capabilities": [
+        "screenshots",
+        "pdf",
+        "rendering"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "100 screenshots per month",
+        "conditions": [
+          "No card required; features and proxy usage may have additional costs."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://screenshotone.com/ai-information/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "searchapi",
+      "name": "SearchApi",
+      "categories": [
+        "search"
+      ],
+      "description": "SearchApi: search serp.",
+      "capabilities": [
+        "search",
+        "serp"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "100 starting requests",
+        "conditions": [
+          "No card required."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.searchapi.io/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "serpapi",
+      "name": "SerpApi",
+      "categories": [
+        "search"
+      ],
+      "description": "SerpApi: search serp.",
+      "capabilities": [
+        "search",
+        "serp"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "250 searches per month",
+        "conditions": [
+          "Free throughput is limited to 50 searches per hour."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://serpapi.com/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "serper",
+      "name": "Serper",
+      "categories": [
+        "search"
+      ],
+      "description": "Serper: search serp news maps.",
+      "capabilities": [
+        "search",
+        "serp",
+        "news",
+        "maps"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "2,500 starting queries",
+        "conditions": [
+          "No card required. Do not treat signup allowance as recurring."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://serper.dev/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "shotstack",
+      "name": "Shotstack",
+      "categories": [
+        "rendering"
+      ],
+      "description": "Shotstack: video editing rendering.",
+      "capabilities": [
+        "video",
+        "editing",
+        "rendering"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "10 starting credits valid for 30 days",
+        "conditions": [
+          "No card required; staging and production environments are separate."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://shotstack.io/docs/guide/getting-started/request-api-keys/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "steel",
+      "name": "Steel",
+      "categories": [
+        "browser"
+      ],
+      "description": "Steel: browser scrape.",
+      "capabilities": [
+        "browser",
+        "scrape"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "$30 one-time credits",
+        "conditions": [
+          "Browser time, proxy traffic, and CAPTCHA solves are billed separately."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://steel.dev/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "supermemory",
+      "name": "Supermemory",
+      "categories": [
+        "memory"
+      ],
+      "description": "Supermemory: memory retrieval search.",
+      "capabilities": [
+        "memory",
+        "retrieval",
+        "search"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "$5 credits per month",
+        "conditions": [
+          "Metered search and memory operations; pay-as-you-go beyond allowance."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://supermemory.ai/pricing/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "tavily",
+      "name": "Tavily",
+      "categories": [
+        "search"
+      ],
+      "description": "Tavily: search extraction crawl research.",
+      "capabilities": [
+        "search",
+        "extraction",
+        "crawl",
+        "research"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "1,000 API credits per month",
+        "conditions": [
+          "No card required. Credit cost depends on operation."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.tavily.com/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        },
+        {
+          "url": "https://docs.tavily.com/documentation/mcp",
+          "type": "official",
+          "purpose": "MCP setup"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "official",
+        "setup_url": "https://docs.tavily.com/documentation/mcp",
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "unstructured",
+      "name": "Unstructured",
+      "categories": [
+        "documents"
+      ],
+      "description": "Unstructured: document parsing extraction ingestion.",
+      "capabilities": [
+        "document",
+        "parsing",
+        "extraction",
+        "ingestion"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "10,000 free starting pages",
+        "conditions": [
+          "No card required; usage-based billing after initial allowance."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://unstructured.io/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": "Unstructured"
+      }
+    },
+    {
+      "id": "valyu",
+      "name": "Valyu",
+      "categories": [
+        "search"
+      ],
+      "description": "Valyu: search extraction answers research.",
+      "capabilities": [
+        "search",
+        "extraction",
+        "answers",
+        "research"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "$10 signup credits",
+        "conditions": [
+          "No card required; specialist data access depends on plan."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.valyu.ai/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "voyage-ai",
+      "name": "Voyage AI",
+      "categories": [
+        "vector"
+      ],
+      "description": "Voyage AI: embeddings rerank reranking.",
+      "capabilities": [
+        "embeddings",
+        "rerank",
+        "reranking"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "200 million free tokens for selected current models; other models differ",
+        "conditions": [
+          "Model-specific initial token allowances; batch tokens do not draw from free balance."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://docs.voyageai.com/docs/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "weaviate",
+      "name": "Weaviate",
+      "categories": [
+        "vector"
+      ],
+      "description": "Weaviate: vector database retrieval embeddings.",
+      "capabilities": [
+        "vector",
+        "database",
+        "retrieval",
+        "embeddings"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "Always-free shared tier with 100,000 objects and one collection",
+        "conditions": [
+          "Query Agent and embedding allowances are separate; persistent data requires migration."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://weaviate.io/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "you-com",
+      "name": "You.com",
+      "categories": [
+        "search"
+      ],
+      "description": "You.com: search extraction answers research.",
+      "capabilities": [
+        "search",
+        "extraction",
+        "answers",
+        "research"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "100 free search queries per day plus advertised $100 starting credit",
+        "conditions": [
+          "Daily search allowance and starting balance are different offers; verify endpoint eligibility."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://you.com/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "zenrows",
+      "name": "ZenRows",
+      "categories": [
+        "scraping"
+      ],
+      "description": "ZenRows: scrape extraction.",
+      "capabilities": [
+        "scrape",
+        "extraction"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "Trial advertises 1,000 basic URLs and 40 protected URLs",
+        "conditions": [
+          "No card required; protected and basic URL allowances differ."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.zenrows.com/blog/zenrows-mcp",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "official",
+        "setup_url": "https://www.zenrows.com/blog/zenrows-mcp",
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "zep",
+      "name": "Zep",
+      "categories": [
+        "memory"
+      ],
+      "description": "Zep: memory knowledge graph.",
+      "capabilities": [
+        "memory",
+        "knowledge",
+        "graph"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "unconfirmed",
+        "summary": "Free memory tier; limits require confirmation",
+        "conditions": [
+          "Confirm current credit allowance and retention; persistent data is provider-specific."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.getzep.com/pricing/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": null,
+      "last_reviewed": "2026-10-11",
+      "status": "needs_review",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "zyte",
+      "name": "Zyte",
+      "categories": [
+        "scraping"
+      ],
+      "description": "Zyte: scrape rendering extraction.",
+      "capabilities": [
+        "scrape",
+        "rendering",
+        "extraction"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "trial",
+        "summary": "$5 initial credit, for first billing month",
+        "conditions": [
+          "Shared across standard plans; expires after first billing month."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://docs.zyte.com/zyte-api/pricing.html",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    }
+  ]
+}

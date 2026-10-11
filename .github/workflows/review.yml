@@ -1,0 +1,29 @@
+name: Review official sources
+on:
+  schedule:
+    - cron: '17 4 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/check_sources.py --output .maintenance
+      - name: Write review summary
+        if: always()
+        run: |
+          if [ -f .maintenance/report.md ]; then
+            cat .maintenance/report.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: catalog-review-${{ github.run_number }}
+          path: .maintenance/
+          retention-days: 90
