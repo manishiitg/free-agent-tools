@@ -1,16 +1,16 @@
 {
   "sources": {
     "https://ai.google.dev/gemini-api/docs/pricing": {
-      "sha256": "08da543f40dbb9a9b213b5f25076f4f591b7dfb1a94510cb508dae05b54671b3",
-      "baseline_recorded": "2026-10-11"
+      "sha256": "d33b9f1724e7f8febc81bacb823de9a651d1b86fdd4c4f5bcbe0ed20618b55de",
+      "baseline_recorded": "2026-10-14"
     },
     "https://anchorbrowser.io/": {
       "sha256": "0ceb295dab75fe357721043d5009767766684848d36b550484ef6935169e2548",
       "baseline_recorded": "2026-10-11"
     },
     "https://apify.com/pricing": {
-      "sha256": "9bd63097c67380b81a8a20eedec3f75d0dfdf682b634f976720eba4f0277ce07",
-      "baseline_recorded": "2026-10-11"
+      "sha256": "a00a01508a2f95a4edcabec0591c1db9955f93ae373ee4feb9511ddcab812bbd",
+      "baseline_recorded": "2026-10-14"
     },
     "https://blaxel.ai/pricing": {
       "sha256": "3724bc2e6565753a344ca701333018f8c82f81de090213b4c9c76872e62bed9c",
@@ -69,8 +69,8 @@
       "baseline_recorded": "2026-10-11"
     },
     "https://docs.firecrawl.dev/mcp-server": {
-      "sha256": "32cfd42c7b84a5a732facf433615a682163309049aeb88a3a854b1d5ba704bd9",
-      "baseline_recorded": "2026-10-11"
+      "sha256": "28fb6bf2d137613ed833206d72454526da32e88970752a44ce9190ca7672f364",
+      "baseline_recorded": "2026-10-14"
     },
     "https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api": {
       "sha256": "723430c0e0f6795944cc9b82472b1ab5b27753392aaa4a06eb7ea2d6813fd795",
@@ -105,12 +105,12 @@
       "baseline_recorded": "2026-10-11"
     },
     "https://exa.ai/docs/get-started/exa-mcp": {
-      "sha256": "a845a4895fad2ef0aa661281ca7d6f7263aa727123aba7abc587fbf6b09d127f",
-      "baseline_recorded": "2026-10-11"
+      "sha256": "40121894692df509028f3696420f90907296943538672e2a40f0b38e24ad0980",
+      "baseline_recorded": "2026-10-14"
     },
     "https://exa.ai/pricing": {
       "sha256": "d4a927450fd4fd6c9427f04082bcc6ede00160dd76d5c9dfc99ddc229ae54c1b",
-      "baseline_recorded": "2026-10-11"
+      "baseline_recorded": "2026-10-14"
     },
     "https://fal.ai/builder-grant": {
       "sha256": "ec6d15a146ebc7777c52f905184eb7dd51b0b5d4b064298446fc2be9947d3b2a",
@@ -150,7 +150,7 @@
     },
     "https://modal.com/pricing": {
       "sha256": "8629e6d2dfadf252dcedc6d619c6721fd45572a3e9d17b2aec450e429c96bf2d",
-      "baseline_recorded": "2026-10-11"
+      "baseline_recorded": "2026-10-14"
     },
     "https://nango.dev/pricing": {
       "sha256": "9c724b745117725d3239df2cbfe40835fb3d9c7eb4bec2d188f7fffeddeaa4e1",
@@ -177,8 +177,8 @@
       "baseline_recorded": "2026-10-14"
     },
     "https://parallel.ai/blog/free-tier-parallel": {
-      "sha256": "baf53b0a12e32bc66b9defe5d33ec51fa81b829101f112fd944286632c5e115c",
-      "baseline_recorded": "2026-10-11"
+      "sha256": "6d23549a4dd6d4aed492455b800c353f0338026dafed662f42f74deabfd79b7f",
+      "baseline_recorded": "2026-10-14"
     },
     "https://pdfshift.io/pricing/": {
       "sha256": "b2fc5096d105d56e1b9a45ec00cb9ce424202b5fe92b3de851a91cb67f682fa6",
@@ -201,12 +201,12 @@
       "baseline_recorded": "2026-10-11"
     },
     "https://resend.com/pricing": {
-      "sha256": "418bc0fac22d1fc205ac4353dc940ac8690a35d354693cd7025a72ec544f0270",
-      "baseline_recorded": "2026-10-11"
+      "sha256": "ee69b3cb8ebbea8d9f984278c8b530ae4d968f22820cf385313629bf99edacb0",
+      "baseline_recorded": "2026-10-14"
     },
     "https://runware.ai/pricing": {
-      "sha256": "23558c53e78b5c42c28caee3daded5a45e44040b803e4755bef770010547bbcb",
-      "baseline_recorded": "2026-10-11"
+      "sha256": "9e518baa4d9fa69d982929d7377aa667e5c209c1f84f271202900485524d44b4",
+      "baseline_recorded": "2026-10-14"
     },
     "https://scrape.do/pricing/": {
       "sha256": "cf8be154192c9e6d7b368d59d8ff79a7a314e2e0e80b3efc0f258e6eddbb16c8",
@@ -257,8 +257,8 @@
       "baseline_recorded": "2026-10-11"
     },
     "https://unstructured.io/pricing": {
-      "sha256": "86011e66ab33b75387f976f45898974efd22ce1ba1c5053a4177266964a3d9d6",
-      "baseline_recorded": "2026-10-11"
+      "sha256": "6a8e5bf4f3f99d749c7913190754ed17fd4559f0fe41abe4abec8444ba6dee40",
+      "baseline_recorded": "2026-10-14"
     },
     "https://upstash.com/docs/agent-resources/overview": {
       "sha256": "81f8f938d1bd827d2dfad3adb2157cb56ed4ae241211d2e9335444d62fe3081a",
@@ -329,8 +329,8 @@
       "baseline_recorded": "2026-10-11"
     },
     "https://www.firecrawl.dev/pricing": {
-      "sha256": "1966797366d190859052468ad09cad681ec700736c06812ce97a7e97e2857ab4",
-      "baseline_recorded": "2026-10-11"
+      "sha256": "cbbc020a4b4c90e5e5c9cd68e2206aaf9b6e6c74b3f5ca7d0663ee45566b5d39",
+      "baseline_recorded": "2026-10-14"
     },
     "https://www.geoapify.com/pricing/": {
       "sha256": "d210dcb9b9134b41138a8def766bf63726b2096750bc2c659a0ac3be2c36bc60",

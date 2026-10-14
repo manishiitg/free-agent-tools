@@ -316,8 +316,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-14",
+      "last_reviewed": "2026-10-14",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1221,8 +1221,8 @@
           "purpose": "MCP setup"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-14",
+      "last_reviewed": "2026-10-14",
       "status": "verified",
       "mcp": {
         "support": "official",
@@ -1301,8 +1301,8 @@
           "purpose": "MCP setup"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-14",
+      "last_reviewed": "2026-10-14",
       "status": "verified",
       "mcp": {
         "support": "official",
@@ -1314,21 +1314,29 @@
       "id": "gemini-api",
       "name": "Gemini API",
       "categories": [
-        "inference"
+        "inference",
+        "speech",
+        "vector"
       ],
       "description": "Gemini API: text generation vision reasoning.",
       "capabilities": [
         "text",
         "generation",
         "vision",
-        "reasoning"
+        "reasoning",
+        "speech",
+        "text-to-speech",
+        "tts",
+        "embeddings"
       ],
       "api_access": true,
       "offer": {
         "kind": "recurring",
         "summary": "Free tier for selected models with usage limits",
         "conditions": [
-          "Not every model or endpoint is free. Data-use and region conditions differ by tier."
+          "Not every model or endpoint is free. Data-use and region conditions differ by tier.",
+          "Selected text-to-speech and embedding models have free Standard API usage. Free quotas and model availability vary; this does not include image or video generation.",
+          "Free-tier inputs and outputs may be used for product improvement; paid-tier data handling differs."
         ]
       },
       "sources": [
@@ -1338,8 +1346,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-14",
+      "last_reviewed": "2026-10-14",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1404,6 +1412,7 @@
         "kind": "recurring",
         "summary": "5,000 REST requests per hour for ordinary authenticated user access; 60 per hour for unauthenticated public access",
         "conditions": [
+          "This is a replenishing API rate limit, not monetary credit; it is listed as recurring because the request window resets hourly.",
           "Authentication and repository permissions apply. Unauthenticated requests share the originating IP limit.",
           "Secondary, search, GraphQL, Git LFS and app-installation limits differ. The REST request allowance does not include paid Copilot, Actions compute or other paid features."
         ]
@@ -1931,7 +1940,9 @@
         "kind": "recurring",
         "summary": "$30 compute credit per month",
         "conditions": [
-          "Usage-based compute charges; startup and research grants are separate."
+          "Usage-based compute charges; startup and research grants are separate.",
+          "The $30 Starter allowance covers GPU, CPU and memory compute, not Shared Endpoint inference tokens. Shared Endpoints are billed from the first request, even when included compute credit remains.",
+          "Usage beyond the compute allowance and other separately metered services can be billed; included network egress has its own allowance."
         ]
       },
       "sources": [
@@ -1941,8 +1952,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-14",
+      "last_reviewed": "2026-10-14",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2235,7 +2246,8 @@
         "kind": "recurring",
         "summary": "$5 monthly credits for eligible organizations",
         "conditions": [
-          "Payment card required; one organization per card; marketplace and postpaid organizations excluded."
+          "Payment card required; one organization per card; marketplace and postpaid organizations excluded.",
+          "Unused monthly credit expires at month end; usage above $5 is billed at standard rates."
         ]
       },
       "sources": [
@@ -2245,8 +2257,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-14",
+      "last_reviewed": "2026-10-14",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2571,8 +2583,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-14",
+      "last_reviewed": "2026-10-14",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2607,8 +2619,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-14",
+      "last_reviewed": "2026-10-14",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3231,8 +3243,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-14",
+      "last_reviewed": "2026-10-14",
       "status": "verified",
       "mcp": {
         "support": "unknown",
