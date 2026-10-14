@@ -40,9 +40,25 @@
       "sha256": "7e0749edab7d0e7f16eaa7d60c21ba039a03b8e372c6a9b0f8f085e74a2d7471",
       "baseline_recorded": "2026-10-11"
     },
+    "https://developers.cloudflare.com/r2/get-started/": {
+      "sha256": "91738007e90e239c0ac86ef3e398913a52dad6d94c6a5d322db938c71fae5bc4",
+      "baseline_recorded": "2026-10-14"
+    },
+    "https://developers.cloudflare.com/r2/pricing/": {
+      "sha256": "694313bd6a938055985dfe2e9e067da2f5766a8184501e263d5dba0bb2340186",
+      "baseline_recorded": "2026-10-14"
+    },
     "https://developers.cloudflare.com/workers-ai/platform/pricing/": {
       "sha256": "caa8e2b53c6fa3307bc4095d95723648e5b0620e312dc8b5bda664877e85e82f",
       "baseline_recorded": "2026-10-11"
+    },
+    "https://developers.oxylabs.io/dashboard/credit-based-billing": {
+      "sha256": "59976d3ef51293a167f3880d0c20ca9dd1ae4608ecc52ae633b9346ef6e4fefa",
+      "baseline_recorded": "2026-10-14"
+    },
+    "https://docs.browserbase.com/integrations/mcp/introduction": {
+      "sha256": "9f0408fd779728043fa7b6225d0abd246180100e8795200353e3bee8901085bd",
+      "baseline_recorded": "2026-10-14"
     },
     "https://docs.cohere.com/docs/rate-limits": {
       "sha256": "639b5533d5f53e5c16b29f6391df1305cb7b2cb5dae1bab36e1a9d90a8c254b6",
@@ -55,6 +71,14 @@
     "https://docs.firecrawl.dev/mcp-server": {
       "sha256": "32cfd42c7b84a5a732facf433615a682163309049aeb88a3a854b1d5ba704bd9",
       "baseline_recorded": "2026-10-11"
+    },
+    "https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api": {
+      "sha256": "723430c0e0f6795944cc9b82472b1ab5b27753392aaa4a06eb7ea2d6813fd795",
+      "baseline_recorded": "2026-10-14"
+    },
+    "https://docs.linkup.so/pages/documentation/get-started/quickstart": {
+      "sha256": "17c572913c6b9e2a8ac19b9869f0a14f607da172f937d5c522bd0e92e64bc81e",
+      "baseline_recorded": "2026-10-14"
     },
     "https://docs.perplexity.ai/docs/getting-started/pricing": {
       "sha256": "7a962717bea3c760e82f01960e748f35dbc5da0045b11ad3499d459f329eb119",
@@ -92,6 +116,10 @@
       "sha256": "ec6d15a146ebc7777c52f905184eb7dd51b0b5d4b064298446fc2be9947d3b2a",
       "baseline_recorded": "2026-10-11"
     },
+    "https://github.com/github/github-mcp-server": {
+      "sha256": "dc97ef2fff0ff211d2510b8df9c8e9b500100261148700113fd5edb435f06ff6",
+      "baseline_recorded": "2026-10-14"
+    },
     "https://help.hunter.io/en/articles/11131690-pricing-plans-and-feature-faqs": {
       "sha256": "45b08a0c9f3ae81b4542ec28206f5b77b205fff4088615ff3997e6c9dffd36f5",
       "baseline_recorded": "2026-10-11"
@@ -106,7 +134,7 @@
     },
     "https://keenable.ai/": {
       "sha256": "96ed02757f1720e956d67bf96220ecca1ba93850cd44c39cd9c04607c99b2b00",
-      "baseline_recorded": "2026-10-11"
+      "baseline_recorded": "2026-10-14"
     },
     "https://landing.ai/pricing-agentic-apis": {
       "sha256": "8733bd84fbd16ce96ef8cf2b83c8912037c54d0c2330ddc57623b3598d17f390",
@@ -128,6 +156,14 @@
       "sha256": "9c724b745117725d3239df2cbfe40835fb3d9c7eb4bec2d188f7fffeddeaa4e1",
       "baseline_recorded": "2026-10-11"
     },
+    "https://neon.com/docs/ai/neon-mcp-server": {
+      "sha256": "c5353ce3e918705cc86ac1819ba11efb458509569dcba350d96930061f250e1d",
+      "baseline_recorded": "2026-10-14"
+    },
+    "https://neon.com/pricing": {
+      "sha256": "616ad84ae8c749d1d08c83fa843bcac7ddc2e61d1274c4890dc98911d41ba734",
+      "baseline_recorded": "2026-10-14"
+    },
     "https://openrouter.ai/support": {
       "sha256": "96e6aef900268f3018c88fba2b6b12d680412590f56c87892ab6e8241fd26308",
       "baseline_recorded": "2026-10-11"
@@ -135,6 +171,10 @@
     "https://openweathermap.org/api/one-call-3": {
       "sha256": "9128278b6e644eab2d87decf4b4e0727b164fac95d5d30bc3f6c75c0d3f93ee8",
       "baseline_recorded": "2026-10-11"
+    },
+    "https://oxylabs.io/products/web-api/scrape/web": {
+      "sha256": "9ab2905b2bb9342f057f0699f8470d10a8106cea6915773d4ae7b9924d4115b0",
+      "baseline_recorded": "2026-10-14"
     },
     "https://parallel.ai/blog/free-tier-parallel": {
       "sha256": "baf53b0a12e32bc66b9defe5d33ec51fa81b829101f112fd944286632c5e115c",
@@ -177,8 +217,8 @@
       "baseline_recorded": "2026-10-11"
     },
     "https://scrapingant.com/price-scraping-api": {
-      "sha256": "82106014365e67ef9cba319b1a8c3378262ead66edfaa6e3beae8cef6c4d3c36",
-      "baseline_recorded": "2026-10-11"
+      "sha256": "db02ee38664932ad31f41d0af8824fdca2aa947874ddae395c5da613dc8df0a1",
+      "baseline_recorded": "2026-10-14"
     },
     "https://screenshotone.com/ai-information/": {
       "sha256": "b1ef9db5c5ea465e652214118116d3f1264a53a97e796fcf6d1817d5b3303849",
@@ -204,6 +244,10 @@
       "sha256": "54bb7b57163c06aef3de82b3046ae209526997c523ee8e348d00f135a4e7a29c",
       "baseline_recorded": "2026-10-11"
     },
+    "https://support.airtable.com/articles/7735693959-managing-api-call-limits-in-airtable": {
+      "sha256": "bc82d5114b413c8327968d1f945ded30bc2612dcadcc6d72303600acfe81161c",
+      "baseline_recorded": "2026-10-14"
+    },
     "https://support.assemblyai.com/articles/5370767329-can-i-sign-up-for-free": {
       "sha256": "485e85939bb4949321508e06f04382384381a839ce95a45de4e9007278592d1e",
       "baseline_recorded": "2026-10-11"
@@ -216,6 +260,14 @@
       "sha256": "86011e66ab33b75387f976f45898974efd22ce1ba1c5053a4177266964a3d9d6",
       "baseline_recorded": "2026-10-11"
     },
+    "https://upstash.com/docs/agent-resources/overview": {
+      "sha256": "81f8f938d1bd827d2dfad3adb2157cb56ed4ae241211d2e9335444d62fe3081a",
+      "baseline_recorded": "2026-10-14"
+    },
+    "https://upstash.com/pricing/redis": {
+      "sha256": "e35cba5c3928f431c150a0edbf30bbab23fede13a2639ee2556c3a0bc22c4a09",
+      "baseline_recorded": "2026-10-14"
+    },
     "https://weaviate.io/pricing": {
       "sha256": "1951b99b232f502fb57a0bca0044e5920692c3316db20c48ef34f7aab81754f3",
       "baseline_recorded": "2026-10-11"
@@ -226,7 +278,7 @@
     },
     "https://www.airtop.ai/pricing": {
       "sha256": "8b6b5189fcbaa3de0a0ef3824dc63b8417f6a9b4b39f0943076bc039c39dc9e7",
-      "baseline_recorded": "2026-10-11"
+      "baseline_recorded": "2026-10-14"
     },
     "https://www.alphavantage.co/support/": {
       "sha256": "d53fcf87b1ff7492621e96c94798f70e90b64223bba7fa6da18353a24ad7ffca",
@@ -248,9 +300,13 @@
       "sha256": "c2d6f771af7594ae56e91dca6f3a097ed4c2827ce9ce531ff4daf5b43600c3c5",
       "baseline_recorded": "2026-10-11"
     },
+    "https://www.browserbase.com/blog/free-plan": {
+      "sha256": "0e20e8ac17a8e00a8212bd68bd469bbe52142197291ae43732d395cf201b2fe1",
+      "baseline_recorded": "2026-10-14"
+    },
     "https://www.browserbase.com/pricing": {
       "sha256": "2b6f6a6629dce793783a504df81a3d60b7d5a4978fff339bf571d53395688078",
-      "baseline_recorded": "2026-10-11"
+      "baseline_recorded": "2026-10-14"
     },
     "https://www.browserless.io/pricing": {
       "sha256": "eaf1f23a1805bf1ae9ae671c8a41cf6c5124437fe2913a2f035593dc31d6e326",
@@ -259,6 +315,10 @@
     "https://www.cartesia.ai/pricing": {
       "sha256": "37c70c58e99050ece3d74c1f8ec7a8d8ccce1173080f71aa10ad3200869d652b",
       "baseline_recorded": "2026-10-11"
+    },
+    "https://www.cerebras.ai/pricing": {
+      "sha256": "0281cd0cf89d0bcbc85c2508aaf7d3d2d7330ab755dceae0f198817208d33511",
+      "baseline_recorded": "2026-10-14"
     },
     "https://www.daily.co/pricing/video-sdk/": {
       "sha256": "e9ee76e370008965452b974ae416d26e0a2b57f6ff20522a8e6a47a57287c690",
@@ -278,11 +338,15 @@
     },
     "https://www.getzep.com/pricing/": {
       "sha256": "fde145163bca98cc027804b7d1fd8d26f7f485e959d3b97620d4cba066902df9",
-      "baseline_recorded": "2026-10-11"
+      "baseline_recorded": "2026-10-14"
     },
     "https://www.helicone.ai/pricing": {
       "sha256": "ada8fb2ea35ef9b6ee3d74091152e2252a2f6d283489434e7674d6941b071b0c",
       "baseline_recorded": "2026-10-11"
+    },
+    "https://www.hyperbrowser.ai/pricing": {
+      "sha256": "7bb974e35fe0e478957b2efd04ed1f177f771b93bd0e83706c0cbb4525ac15de",
+      "baseline_recorded": "2026-10-14"
     },
     "https://www.langchain.com/pricing": {
       "sha256": "a548dcca64cb39f8aa06dba41d85f4f0c5d9aa6701d5632e3799b7b11aa016e9",
@@ -290,7 +354,7 @@
     },
     "https://www.linkup.so/pricing": {
       "sha256": "7d9436948d4496edb8b4f81c442f4e2d1d3a21c00fdd9dbcbf0228ce864547b6",
-      "baseline_recorded": "2026-10-11"
+      "baseline_recorded": "2026-10-14"
     },
     "https://www.llamaindex.ai/pricing": {
       "sha256": "c2d9d04e268b29595941f66d549279d82d43594de2d70429c5a0147913d5a5ec",
@@ -313,8 +377,8 @@
       "baseline_recorded": "2026-10-11"
     },
     "https://www.scraperapi.com/pricing/": {
-      "sha256": "f57f1e60a59fc8cb45d631e3de72d99dd39771eb6960b13a7eaa812a30fafc46",
-      "baseline_recorded": "2026-10-11"
+      "sha256": "27ee363bb760125834f5a8d799799beb304bfc89818da9a99df10853caf2b457",
+      "baseline_recorded": "2026-10-14"
     },
     "https://www.scrapingbee.com/pricing/": {
       "sha256": "800bb79eadddbc7cfc365f7bfabe11bc5993a77d93bd35313af72c17c1b9523e",
@@ -327,6 +391,10 @@
     "https://www.searchapi.io/": {
       "sha256": "0f63ea31b22b30cc54ee937fb52c9b1b45cb299cf49848e7c8e1a5e5aab1cef2",
       "baseline_recorded": "2026-10-11"
+    },
+    "https://www.speechmatics.com/pricing": {
+      "sha256": "1c8012f36b89bd65695f921dcddb65a886b358437a82a4cbd1932253d2c1037f",
+      "baseline_recorded": "2026-10-14"
     },
     "https://www.tavily.com/pricing": {
       "sha256": "3c9d6217bc5d17d958762e42ace8c59efabf7d76beba228c87b2f97bb9669f83",
@@ -346,17 +414,9 @@
     }
   },
   "known_limitations": {
-    "https://developers.oxylabs.io/scraping-solutions/web-scraper-api/usage-and-billing/rate-limits": {
-      "status": "fetch_failed",
-      "http_status": 404
-    },
     "https://support.deepl.com/hc/en-us/articles/360021200939-DeepL-API-plans": {
       "http_status": 403,
       "status": "fetch_failed"
-    },
-    "https://www.hyperbrowser.ai/pricing": {
-      "status": "insufficient_text",
-      "http_status": 200
     }
   }
 }

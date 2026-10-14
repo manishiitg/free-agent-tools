@@ -83,7 +83,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 
 ## Catalog
 
-85 providers across 20 categories. Snapshot: 2026-10-11. 76 offers reviewed against official evidence; 9 need further confirmation. Review dates below do not update themselves.
+92 providers across 24 categories. Snapshot: 2026-10-14. 88 offers reviewed against official evidence; 4 need further confirmation. Review dates below do not update themselves.
 
 ### Search & research
 
@@ -91,8 +91,9 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 |---|---|---|---|
 | [Brave Search](https://brave.com/search/api/) | recurring | $5 free credits per month | Verified 2026-10-11 |
 | [Exa](https://exa.ai/pricing) | recurring | $10 monthly credits plus $10 onboarding bonus | Verified 2026-10-11 |
+| [Hyperbrowser](https://www.hyperbrowser.ai/pricing) | unconfirmed | 5,000 credits included with a free account; free-plan renewal period unclear | Needs review |
 | [Keenable](https://keenable.ai/) | unconfirmed | 100,000 free requests advertised; reset and expiry unclear | Needs review |
-| [Linkup](https://www.linkup.so/pricing) | unconfirmed | 4,000 free queries advertised; reset unclear | Needs review |
+| [Linkup](https://www.linkup.so/pricing) | unconfirmed | 4,000 free queries advertised; reset and expiry unclear | Needs review |
 | [Parallel](https://parallel.ai/blog/free-tier-parallel) | recurring | $5 monthly credits for eligible organizations | Verified 2026-10-11 |
 | [Perplexity API](https://docs.perplexity.ai/docs/getting-started/pricing) | paid | Paid API; universal free allowance not confirmed | Verified 2026-10-11 |
 | [SearchApi](https://www.searchapi.io/) | trial | 100 starting requests | Verified 2026-10-11 |
@@ -109,13 +110,14 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [Apify](https://apify.com/pricing) | recurring | $5 platform usage per month | Verified 2026-10-11 |
 | [Bright Data](https://brightdata.com/pricing/web-scraper) | recurring | 5,000 Web Scraper API records per month | Verified 2026-10-11 |
 | [Firecrawl](https://www.firecrawl.dev/pricing) | recurring | 1,000 credits per month | Verified 2026-10-11 |
+| [Hyperbrowser](https://www.hyperbrowser.ai/pricing) | unconfirmed | 5,000 credits included with a free account; free-plan renewal period unclear | Needs review |
 | [Jina Reader](https://jina.ai/reader/) | trial | Free rate-limited access; 10 million starting tokens with a new key | Verified 2026-10-11 |
 | [Olostep](https://www.olostep.com/pricing) | trial | 500 successful trial requests | Verified 2026-10-11 |
-| [Oxylabs](https://developers.oxylabs.io/scraping-solutions/web-scraper-api/usage-and-billing/rate-limits) | unconfirmed | Trial available; documentation lists 2,000 results | Needs review |
+| [Oxylabs](https://oxylabs.io/products/web-api/scrape/web) | trial | $5 one-time welcome credit per new team | Verified 2026-10-14 |
 | [Scrape.do](https://scrape.do/pricing/) | recurring | 1,000 successful API calls per month | Verified 2026-10-11 |
 | [ScrapeGraphAI](https://scrapegraphai.com/pricing) | trial | 500 one-time credits | Verified 2026-10-11 |
-| [ScraperAPI](https://www.scraperapi.com/pricing/) | unconfirmed | 1,000 free credits; reset unclear on pricing page | Needs review |
-| [ScrapingAnt](https://scrapingant.com/price-scraping-api) | unconfirmed | 10,000 starting credits advertised; reset unclear | Needs review |
+| [ScraperAPI](https://www.scraperapi.com/pricing/) | trial | 5,000 API credits for a 7-day trial | Verified 2026-10-14 |
+| [ScrapingAnt](https://scrapingant.com/price-scraping-api) | recurring | 10,000 free API credits per month | Verified 2026-10-14 |
 | [ScrapingBee](https://www.scrapingbee.com/pricing/) | trial | 1,000 trial credits | Verified 2026-10-11 |
 | [Scrapingdog](https://www.scrapingdog.com/pricing/) | trial | 100 trial credits | Verified 2026-10-11 |
 | [ZenRows](https://www.zenrows.com/blog/zenrows-mcp) | trial | Trial advertises 1,000 basic URLs and 40 protected URLs | Verified 2026-10-11 |
@@ -126,12 +128,12 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | Provider | Offer | Published allowance | Evidence / review |
 |---|---|---|---|
 | [AgentQL](https://www.agentql.com/pricing) | recurring | 50 API calls per month; separate 300-call trial | Verified 2026-10-11 |
-| [Airtop](https://www.airtop.ai/pricing) | unconfirmed | Free plan advertises 1,000 credits and a 10,000-credit trial bonus | Needs review |
+| [Airtop](https://www.airtop.ai/pricing) | unconfirmed | Free plan lists 1,000 credits plus a 10,000-credit one-time bonus | Needs review |
 | [Anchor Browser](https://anchorbrowser.io/) | recurring | 5 credits per month | Verified 2026-10-11 |
 | [Browser Use Cloud](https://browser-use.com/pricing) | trial | $1 one-time credit for eligible signups | Verified 2026-10-11 |
-| [Browserbase](https://www.browserbase.com/pricing) | unconfirmed | Free plan includes 1 browser hour, 3 agent runs, 1,000 search calls and 1,000 fetch calls | Needs review |
+| [Browserbase](https://www.browserbase.com/pricing) | recurring | 1 browser hour per month; Free plan also lists 3 agent runs, 1,000 search calls and 1,000 fetch calls | Verified 2026-10-14 |
 | [Browserless](https://www.browserless.io/pricing) | recurring | 1,000 units per month | Verified 2026-10-11 |
-| [Hyperbrowser](https://www.hyperbrowser.ai/pricing) | unconfirmed | Free plan advertises 5,000 credits; reset unclear | Needs review |
+| [Hyperbrowser](https://www.hyperbrowser.ai/pricing) | unconfirmed | 5,000 credits included with a free account; free-plan renewal period unclear | Needs review |
 | [Notte](https://www.notte.cc/pricing) | trial | $10 one-time credits with no expiry | Verified 2026-10-11 |
 | [Steel](https://steel.dev/pricing) | trial | $30 one-time credits | Verified 2026-10-11 |
 
@@ -139,6 +141,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 
 | Provider | Offer | Published allowance | Evidence / review |
 |---|---|---|---|
+| [Cerebras Inference](https://www.cerebras.ai/pricing) | trial | $5 one-time promotional credit, valid for 30 days | Verified 2026-10-14 |
 | [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/platform/pricing/) | recurring | 10,000 neurons per day | Verified 2026-10-11 |
 | [Cohere](https://docs.cohere.com/docs/rate-limits) | trial | Free evaluation API keys with usage limits | Verified 2026-10-11 |
 | [Gemini API](https://ai.google.dev/gemini-api/docs/pricing) | recurring | Free tier for selected models with usage limits | Verified 2026-10-11 |
@@ -154,6 +157,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [Cartesia](https://www.cartesia.ai/pricing) | recurring | 20,000 model credits per month plus $1 monthly agent allowance | Verified 2026-10-11 |
 | [Deepgram](https://deepgram.com/pricing) | trial | $200 starting credit | Verified 2026-10-11 |
 | [ElevenLabs](https://elevenlabs.io/pricing/api) | recurring | Free plan includes API access; endpoint allowance varies | Verified 2026-10-11 |
+| [Speechmatics](https://www.speechmatics.com/pricing) | trial | $100 starting transcription credits | Verified 2026-10-14 |
 
 ### Realtime audio & video
 
@@ -195,6 +199,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [Blaxel](https://blaxel.ai/pricing) | trial | Up to $200 starting credits | Verified 2026-10-11 |
 | [Daytona](https://www.daytona.io/pricing) | trial | $200 starting compute credit | Verified 2026-10-11 |
 | [E2B](https://e2b.dev/pricing) | trial | $100 one-time usage credit | Verified 2026-10-11 |
+| [Hyperbrowser](https://www.hyperbrowser.ai/pricing) | unconfirmed | 5,000 credits included with a free account; free-plan renewal period unclear | Needs review |
 | [Modal](https://modal.com/pricing) | recurring | $30 compute credit per month | Verified 2026-10-11 |
 
 ### Agent memory
@@ -203,7 +208,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 |---|---|---|---|
 | [Mem0](https://mem0.ai/pricing) | recurring | 10,000 add requests and 1,000 retrieval requests per month | Verified 2026-10-11 |
 | [Supermemory](https://supermemory.ai/pricing/) | recurring | $5 credits per month | Verified 2026-10-11 |
-| [Zep](https://www.getzep.com/pricing/) | unconfirmed | Free memory tier; limits require confirmation | Needs review |
+| [Zep](https://www.getzep.com/pricing/) | recurring | 10,000 credits per month | Verified 2026-10-14 |
 
 ### Embeddings & vector databases
 
@@ -269,4 +274,30 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | Provider | Offer | Published allowance | Evidence / review |
 |---|---|---|---|
 | [Alpha Vantage](https://www.alphavantage.co/support/) | recurring | 25 requests per day for most datasets | Verified 2026-10-11 |
+
+### Object storage
+
+| Provider | Offer | Published allowance | Evidence / review |
+|---|---|---|---|
+| [Cloudflare R2](https://developers.cloudflare.com/r2/pricing/) | recurring | 10 GB-month storage, 1 million Class A operations and 10 million Class B operations per month | Verified 2026-10-14 |
+
+### Databases & cache
+
+| Provider | Offer | Published allowance | Evidence / review |
+|---|---|---|---|
+| [Airtable](https://support.airtable.com/articles/7735693959-managing-api-call-limits-in-airtable) | recurring | 1,000 API calls per workspace per calendar month on Free | Verified 2026-10-14 |
+| [Neon](https://neon.com/pricing) | recurring | 100 CU-hours per project per month and 1 GB database storage per project; up to 100 projects | Verified 2026-10-14 |
+| [Upstash Redis](https://upstash.com/pricing/redis) | recurring | 250 MB database storage, 500,000 commands and 10 GB bandwidth per month | Verified 2026-10-14 |
+
+### Developer tools
+
+| Provider | Offer | Published allowance | Evidence / review |
+|---|---|---|---|
+| [GitHub API](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api) | recurring | 5,000 REST requests per hour for ordinary authenticated user access; 60 per hour for unauthenticated public access | Verified 2026-10-14 |
+
+### Business APIs
+
+| Provider | Offer | Published allowance | Evidence / review |
+|---|---|---|---|
+| [Airtable](https://support.airtable.com/articles/7735693959-managing-api-call-limits-in-airtable) | recurring | 1,000 API calls per workspace per calendar month on Free | Verified 2026-10-14 |
 
