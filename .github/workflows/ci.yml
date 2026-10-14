@@ -28,3 +28,8 @@ jobs:
       - run: npm install --no-save playwright@1.62.1
       - run: npx playwright install --with-deps chromium
       - run: node scripts/smoke_site.cjs
+      - name: Verify the native HQ catalog integration
+        run: |
+          git clone --depth 1 https://github.com/manishiitg/multi-builder-public-website.git "$RUNNER_TEMP/agentworks-hq"
+          python "$RUNNER_TEMP/agentworks-hq/scripts/sync-free-tools.py" --source "$GITHUB_WORKSPACE/docs"
+          FREE_TOOLS_SITE_ROOT="$RUNNER_TEMP/agentworks-hq" FREE_TOOLS_SITE_PATH=/free-tools/ node scripts/smoke_site.cjs

@@ -5,10 +5,11 @@ const path = require('node:path');
 const assert = require('node:assert/strict');
 const { chromium } = require('playwright');
 const root = path.resolve(process.env.FREE_TOOLS_SITE_ROOT || path.join(__dirname, '../docs'));
-const data = JSON.parse(fs.readFileSync(path.join(root, 'catalog.json')));
+const sitePath = process.env.FREE_TOOLS_SITE_PATH || '/';
+const data = JSON.parse(fs.readFileSync(path.join(root, sitePath, 'catalog.json')));
 const server = http.createServer((req, res) => {
   const pathname = decodeURIComponent(new URL(req.url, 'http://localhost').pathname);
-  const file = path.resolve(root, '.' + (pathname === '/' ? '/index.html' : pathname));
+  const file = path.resolve(root, '.' + (pathname.endsWith('/') ? pathname + 'index.html' : pathname));
   if (!file.startsWith(root + path.sep) || !fs.existsSync(file) || !fs.statSync(file).isFile()) { res.writeHead(404); res.end(); return; }
   const mime = {'.html':'text/html', '.css':'text/css', '.js':'text/javascript', '.json':'application/json', '.svg':'image/svg+xml'};
   res.setHeader('Content-Type', mime[path.extname(file)] || 'text/plain'); res.end(fs.readFileSync(file));
@@ -20,7 +21,7 @@ const server = http.createServer((req, res) => {
     browser = await chromium.launch({headless: true, ...(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE ? {executablePath: process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE} : {})});
     const page = await browser.newPage({viewport: {width: 1440, height: 1100}});
     const errors = []; page.on('pageerror', e => errors.push(e.message));
-    await page.goto(`http://127.0.0.1:${server.address().port}/`, {waitUntil:'networkidle'});
+    await page.goto(`http://127.0.0.1:${server.address().port}${sitePath}`, {waitUntil:'networkidle'});
     assert.equal(await page.locator('#provider-count').innerText(), String(data.providers.length));
     assert.equal(await page.locator('.provider').count(), 20);
     await page.locator('#next').click(); assert.match(await page.locator('#page-number').innerText(), /Page 2/);
