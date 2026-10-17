@@ -1234,7 +1234,7 @@
       "api_access": true,
       "offer": {
         "kind": "trial",
-        "summary": "1,000,000 starting translation characters on the API Developer plan",
+        "summary": "1,000,000 one-time translation characters; does not reset",
         "conditions": [
           "The Developer allowance is a one-time total and does not reset; upgrade to API Growth after it is exhausted.",
           "The legacy API Free plan offered 500,000 characters per month but is no longer available to new customers. Its allowance must not be presented as the current signup offer.",
@@ -3137,10 +3137,10 @@
       ],
       "api_access": true,
       "offer": {
-        "kind": "recurring",
-        "summary": "100 API credits per month on Free",
+        "kind": "unconfirmed",
+        "summary": "100 free credits; provider calls this a trial and monthly renewal is unclear",
         "conditions": [
-          "The plan comparison explicitly lists 100 monthly credits in its Free column; the signup FAQ also describes the initial 100 credits as a free trial.",
+          "The pricing comparison labels Free as 100 monthly credits, but the signup FAQ calls the initial allowance a trial. Renewal and expiry are unconfirmed; no recurring monthly allowance is assumed.",
           "No credit card required; one concurrent request. Failed requests are not charged. API features consume different credits, so the allowance is not 100 requests for every endpoint."
         ]
       },
@@ -3151,9 +3151,9 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-17",
+      "last_verified": "2026-10-11",
       "last_reviewed": "2026-10-17",
-      "status": "verified",
+      "status": "needs_review",
       "mcp": {
         "support": "unknown",
         "setup_url": null,

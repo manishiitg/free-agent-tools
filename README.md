@@ -83,7 +83,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 
 ## Catalog
 
-98 providers across 25 categories. Snapshot: 2026-10-17. 95 offers reviewed against official evidence; 3 need further confirmation. Review dates below do not update themselves.
+98 providers across 25 categories. Snapshot: 2026-10-17. 94 offers reviewed against official evidence; 4 need further confirmation. Review dates below do not update themselves.
 
 ### Search & research
 
@@ -119,7 +119,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [ScraperAPI](https://www.scraperapi.com/pricing/) | trial | 5,000 API credits for a 7-day trial | Verified 2026-10-14 |
 | [ScrapingAnt](https://scrapingant.com/price-scraping-api) | recurring | 10,000 free API credits per month | Verified 2026-10-14 |
 | [ScrapingBee](https://www.scrapingbee.com/pricing/) | trial | 1,000 trial credits | Verified 2026-10-17 |
-| [Scrapingdog](https://www.scrapingdog.com/pricing/) | recurring | 100 API credits per month on Free | Verified 2026-10-17 |
+| [Scrapingdog](https://www.scrapingdog.com/pricing/) | unconfirmed | 100 free credits; provider calls this a trial and monthly renewal is unclear | Needs review |
 | [ZenRows](https://www.zenrows.com/blog/zenrows-mcp) | trial | Trial advertises 1,000 basic URLs and 40 protected URLs | Verified 2026-10-11 |
 | [Zyte](https://docs.zyte.com/zyte-api/pricing.html) | trial | $5 initial credit, for first billing month | Verified 2026-10-11 |
 
@@ -260,7 +260,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 
 | Provider | Offer | Published allowance | Evidence / review |
 |---|---|---|---|
-| [DeepL](https://support.deepl.com/hc/en-us/articles/360021200939-DeepL-API-plans) | trial | 1,000,000 starting translation characters on the API Developer plan | Verified 2026-10-17 |
+| [DeepL](https://support.deepl.com/hc/en-us/articles/360021200939-DeepL-API-plans) | trial | 1,000,000 one-time translation characters; does not reset | Verified 2026-10-17 |
 
 ### Maps & geocoding
 
