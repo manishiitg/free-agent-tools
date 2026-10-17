@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "version": "2026.10.14",
-  "updated_at": "2026-10-14",
+  "version": "2026.10.17",
+  "updated_at": "2026-10-17",
   "repository": "https://github.com/manishiitg/free-agent-tools",
   "freshness_days": 30,
   "categories": [
@@ -100,6 +100,10 @@
     {
       "id": "business",
       "name": "Business APIs"
+    },
+    {
+      "id": "media-processing",
+      "name": "Image & video processing"
     }
   ],
   "providers": [
@@ -209,7 +213,7 @@
         }
       ],
       "last_verified": null,
-      "last_reviewed": "2026-10-14",
+      "last_reviewed": "2026-10-17",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
@@ -754,7 +758,8 @@
         "kind": "recurring",
         "summary": "20,000 model credits per month plus $1 monthly agent allowance",
         "conditions": [
-          "Commercial-use license is listed on paid plans; telephony costs are separate."
+          "The 20,000 monthly model credits are shared across text-to-speech and speech-to-text at their respective rates; the $1 monthly Managed Agents allowance is a separate pool.",
+          "The commercial-use license begins on Pro. Telephony and managed phone-number costs are separate; the free-plan card requirement is not stated."
         ]
       },
       "sources": [
@@ -764,8 +769,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -806,6 +811,46 @@
       ],
       "last_verified": "2026-10-14",
       "last_reviewed": "2026-10-14",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "cloudflare-d1",
+      "name": "Cloudflare D1",
+      "categories": [
+        "databases"
+      ],
+      "description": "Serverless SQL databases with Workers bindings and a REST API.",
+      "capabilities": [
+        "sql",
+        "database",
+        "sqlite",
+        "query",
+        "storage"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "5M rows read and 100,000 rows written per day; 5 GB total storage",
+        "conditions": [
+          "Included on Workers Free. Read/write allowances reset at 00:00 UTC; storage is the total across databases, not a new 5 GB allowance every day.",
+          "Usage counts scanned and written rows, including index work, not HTTP requests. Read/write operations fail at the Free limits until reset; other per-database and account limits apply.",
+          "No data egress charge. Card requirements are not stated on this pricing page; paid-plan included limits and billing differ."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://developers.cloudflare.com/d1/platform/pricing/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -859,6 +904,48 @@
       }
     },
     {
+      "id": "cloudflare-workers",
+      "name": "Cloudflare Workers",
+      "categories": [
+        "compute",
+        "developer"
+      ],
+      "description": "Serverless execution for HTTP APIs and lightweight application logic.",
+      "capabilities": [
+        "serverless",
+        "compute",
+        "javascript",
+        "http",
+        "api",
+        "webhooks"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "100,000 requests per day with 10 ms CPU time per invocation",
+        "conditions": [
+          "This is the Workers Free request allowance, separate from Workers AI neurons and D1 row limits.",
+          "The 10 ms limit measures CPU time, not network wait time or a general-purpose sandbox duration. Other memory, subrequest and platform limits apply.",
+          "The reviewed pricing page does not state a card requirement for Workers Free. Paid usage has a separate subscription and rates."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://developers.cloudflare.com/workers/platform/pricing/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
       "id": "cloudflare-workers-ai",
       "name": "Cloudflare Workers AI",
       "categories": [
@@ -892,6 +979,59 @@
       "mcp": {
         "support": "unknown",
         "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "cloudinary",
+      "name": "Cloudinary",
+      "categories": [
+        "media-processing",
+        "storage"
+      ],
+      "description": "Image and video upload, transformation, optimization and delivery APIs.",
+      "capabilities": [
+        "image",
+        "video",
+        "transformation",
+        "optimization",
+        "upload",
+        "storage",
+        "cdn"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "25 shared credits with rolling 30-day usage accounting",
+        "conditions": [
+          "Free forever with no card required; three users and one account. Credits are shared across transformations, storage and bandwidth, not 25 credits for each resource.",
+          "Transformations and bandwidth use a rolling 30-day window and do not reset on the first day of the month. Storage is the current total stored amount.",
+          "The standard Free offer is distinct from temporary Claimable Cloud provisioning. MCP access is documented; operations and add-ons retain their own metering and eligibility."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://cloudinary.com/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        },
+        {
+          "url": "https://cloudinary.com/documentation/developer_onboarding_faq_credits",
+          "type": "official",
+          "purpose": "credit accounting and rolling window"
+        },
+        {
+          "url": "https://cloudinary.com/documentation/cloudinary_llm_mcp",
+          "type": "official",
+          "purpose": "official MCP setup"
+        }
+      ],
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
+      "status": "verified",
+      "mcp": {
+        "support": "official",
+        "setup_url": "https://cloudinary.com/documentation/cloudinary_llm_mcp",
         "agentworks_connector": null
       }
     },
@@ -950,7 +1090,8 @@
         "kind": "recurring",
         "summary": "100,000 tool calls and 50,000 triggers per month",
         "conditions": [
-          "Own app/API-key/MCP credentials and managed-provider usage have different pricing."
+          "Hobby includes three team members and unlimited connected accounts, with no credit card required.",
+          "Tool execution and delivered triggers are separate allowances. Composio-managed app limits can be lower, and third-party provider or app usage is not universally included in these tool-call counts."
         ]
       },
       "sources": [
@@ -960,8 +1101,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1092,10 +1233,12 @@
       ],
       "api_access": true,
       "offer": {
-        "kind": "recurring",
-        "summary": "500,000 characters per month",
+        "kind": "trial",
+        "summary": "1,000,000 starting translation characters on the API Developer plan",
         "conditions": [
-          "API Free excludes DeepL Write and speech translation."
+          "The Developer allowance is a one-time total and does not reset; upgrade to API Growth after it is exhausted.",
+          "The legacy API Free plan offered 500,000 characters per month but is no longer available to new customers. Its allowance must not be presented as the current signup offer.",
+          "Speech-to-text translation is excluded from Developer. Credit-card requirements and expiry of the initial character allowance are not stated in this source."
         ]
       },
       "sources": [
@@ -1105,8 +1248,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1170,7 +1313,9 @@
         "kind": "recurring",
         "summary": "Free plan includes API access; endpoint allowance varies",
         "conditions": [
-          "Generation consumes plan credits. Commercial rights and features depend on plan."
+          "Free API access has model- and endpoint-specific monthly allowances. API pricing uses characters, minutes or generations; a single advertised credit number is not a universal request allowance.",
+          "Free-plan generated content is for non-commercial use and requires attribution when published. Paid commercial rights do not apply retroactively to content created on Free.",
+          "Billing documentation assigns new accounts to Free. A free-plan credit-card requirement is not stated in the reviewed pages."
         ]
       },
       "sources": [
@@ -1178,10 +1323,20 @@
           "url": "https://elevenlabs.io/pricing/api",
           "type": "official",
           "purpose": "pricing and eligibility"
+        },
+        {
+          "url": "https://elevenlabs.io/docs/overview/administration/billing",
+          "type": "official",
+          "purpose": "monthly allowances and free-plan commercial restrictions"
+        },
+        {
+          "url": "https://help.elevenlabs.io/hc/en-us/articles/13313564601361-Can-I-publish-the-content-I-generate-on-the-platform",
+          "type": "official",
+          "purpose": "commercial rights and attribution"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1246,20 +1401,22 @@
       "api_access": true,
       "offer": {
         "kind": "grant",
-        "summary": "Builder grants by application; no universal signup credit confirmed",
+        "summary": "$1,000 startup grant on approval, with conditional growth to $5,000",
         "conditions": [
-          "Grant eligibility and usage thresholds apply. Free web tools do not imply free API access."
+          "Application-based program for teams in Europe and Asia with meaningful traction, revenue or institutional venture backing; an introductory call is usually required.",
+          "The $2,500 pack requires $1,000 monthly fal spend; the $5,000 pack requires $2,500 monthly fal spend. Extra credits are added on request after meeting those thresholds, not granted monthly to every account.",
+          "One application per company every three months; credits cannot be resold or transferred. Public grant expiry and payment-method requirements are not specified."
         ]
       },
       "sources": [
         {
-          "url": "https://fal.ai/builder-grant",
+          "url": "https://fal.ai/startup-program",
           "type": "official",
-          "purpose": "pricing and eligibility"
+          "purpose": "grant amounts, regional eligibility and spending thresholds"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1435,6 +1592,48 @@
       "mcp": {
         "support": "official",
         "setup_url": "https://github.com/github/github-mcp-server",
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "google-sheets-api",
+      "name": "Google Sheets API",
+      "categories": [
+        "business",
+        "documents"
+      ],
+      "description": "Read and update spreadsheet cells, formulas and structure through the Sheets API.",
+      "capabilities": [
+        "spreadsheet",
+        "sheets",
+        "cells",
+        "formulas",
+        "business",
+        "documents"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "Standard API use at no extra cost; 300 reads and 300 writes per minute per project",
+        "conditions": [
+          "Each read/write pool also has a 60-per-minute limit per user per project. These are resetting rate limits, not monetary credits; projects can have different quotas.",
+          "The public documentation warns that exceeding quota limits is planned to incur Google Cloud billing charges later in 2026. Standard allowance is not a promise of unlimited free over-quota usage.",
+          "Google account, project/API setup and authorization to the target spreadsheet are required. Workspace subscription and file/storage limits are separate; the reviewed page does not state a card requirement."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://developers.google.com/workspace/sheets/api/limits",
+          "type": "official",
+          "purpose": "standard API cost, rate limits and announced over-quota billing"
+        }
+      ],
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
         "agentworks_connector": null
       }
     },
@@ -1623,11 +1822,64 @@
         }
       ],
       "last_verified": null,
-      "last_reviewed": "2026-10-14",
+      "last_reviewed": "2026-10-17",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
         "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "imagekit",
+      "name": "ImageKit",
+      "categories": [
+        "media-processing",
+        "storage"
+      ],
+      "description": "Media upload, image transformation, video processing and delivery APIs.",
+      "capabilities": [
+        "image",
+        "video",
+        "transformation",
+        "optimization",
+        "upload",
+        "storage",
+        "cdn"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "20 GB bandwidth, 500 video units and 650 extension units per month; 3 GB storage",
+        "conditions": [
+          "Forever Free has two user seats. Media storage is a fixed 3 GB capacity, not an additional monthly allocation; monthly metered resources have separate limits.",
+          "A video unit measures processing, not a complete video; generation and AI operations have their own extension costs and limits.",
+          "The official Free landing page states no credit card is needed. Hosted DAM/Admin MCP servers require account sign-in; the separate documentation DevTools MCP needs no account."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://imagekit.io/plans/",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        },
+        {
+          "url": "https://imagekit.io/lp/imagekit-forever-free-plan",
+          "type": "official",
+          "purpose": "free-plan card requirement"
+        },
+        {
+          "url": "https://imagekit.io/docs/build-with-ai",
+          "type": "official",
+          "purpose": "official MCP setup and authentication"
+        }
+      ],
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
+      "status": "verified",
+      "mcp": {
+        "support": "official",
+        "setup_url": "https://imagekit.io/docs/build-with-ai",
         "agentworks_connector": null
       }
     },
@@ -1679,22 +1931,28 @@
       ],
       "api_access": true,
       "offer": {
-        "kind": "unconfirmed",
-        "summary": "100,000 free requests advertised; reset and expiry unclear",
+        "kind": "recurring",
+        "summary": "100,000 free search requests per month",
         "conditions": [
-          "The public page advertises 100K free requests but does not specify reset, expiry or payment-card requirements."
+          "The dedicated pricing page explicitly states a monthly allowance; the home page only says 100,000 free requests.",
+          "Cloud API access is advertised for agent builders. The free allowance rollover, exact reset day and credit-card requirements are not stated; paid per-request prices are separate."
         ]
       },
       "sources": [
         {
-          "url": "https://keenable.ai/",
+          "url": "https://keenable.ai/pricing",
           "type": "official",
           "purpose": "pricing and eligibility"
+        },
+        {
+          "url": "https://keenable.ai/",
+          "type": "official",
+          "purpose": "API and official MCP access"
         }
       ],
-      "last_verified": null,
-      "last_reviewed": "2026-10-14",
-      "status": "needs_review",
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
+      "status": "verified",
       "mcp": {
         "support": "official",
         "setup_url": "https://keenable.ai/",
@@ -1754,7 +2012,8 @@
         "kind": "recurring",
         "summary": "50,000 units per month",
         "conditions": [
-          "30-day data access and two users on Hobby; model inference costs are separate."
+          "Hobby requires no credit card and includes two users and 30 days of data access. The allowance is metered in units, not guaranteed requests or complete traces.",
+          "Public APIs have separate rate limits; model inference and evaluation model costs are separate."
         ]
       },
       "sources": [
@@ -1764,8 +2023,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1841,7 +2100,7 @@
         }
       ],
       "last_verified": null,
-      "last_reviewed": "2026-10-14",
+      "last_reviewed": "2026-10-17",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
@@ -2059,7 +2318,8 @@
         "kind": "trial",
         "summary": "$10 one-time credits with no expiry",
         "conditions": [
-          "Credits cover proxies, models and functions; no card required."
+          "No card required. The $10 balance is granted once, does not expire and covers sessions, proxies, LLMs and functions at their own rates.",
+          "Free has five concurrent browser sessions and a 15-minute session limit; paid subscription credits renew monthly and have different expiry rules."
         ]
       },
       "sources": [
@@ -2069,8 +2329,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2094,7 +2354,8 @@
         "kind": "trial",
         "summary": "500 successful trial requests",
         "conditions": [
-          "No card required; trial rate limits apply."
+          "No card required; 500 successful trial requests. This is separate from paid monthly plans, and no recurring free renewal is stated.",
+          "Trial requests include JavaScript rendering and residential IPs. Trial credit expiry is not specified on the pricing page."
         ]
       },
       "sources": [
@@ -2104,8 +2365,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2389,9 +2650,11 @@
       "api_access": true,
       "offer": {
         "kind": "recurring",
-        "summary": "Free Starter plan with included usage",
+        "summary": "Free Starter: 2 GB database storage, 1M read units and 2M write units per month",
         "conditions": [
-          "Storage and query limits differ; persistent indexes require migration."
+          "Database read/write units are not the same as API calls. Starter is limited to AWS us-east-1 and up to five indexes.",
+          "Inference and Assistant have separate included usage and restrictions; the separate $300, three-week Standard trial is not the recurring Starter allowance.",
+          "The pricing page does not state a card requirement for Starter; storage is a capacity limit, not a monthly allocation."
         ]
       },
       "sources": [
@@ -2401,8 +2664,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2679,9 +2942,10 @@
       "api_access": true,
       "offer": {
         "kind": "recurring",
-        "summary": "1,000 successful API calls per month",
+        "summary": "1,000 successful API credits per month",
         "conditions": [
-          "No card required; request features can affect credit consumption."
+          "No card required; five concurrent requests on Free. Features can affect credit consumption, so credits are not a uniform count of rendered requests.",
+          "Failed requests are not charged. Requests stop when monthly credits are exhausted until an upgrade or additional credits."
         ]
       },
       "sources": [
@@ -2691,8 +2955,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2704,20 +2968,26 @@
       "id": "scrapegraphai",
       "name": "ScrapeGraphAI",
       "categories": [
-        "scraping"
+        "scraping",
+        "documents"
       ],
       "description": "ScrapeGraphAI: extraction crawl monitoring.",
       "capabilities": [
         "extraction",
         "crawl",
-        "monitoring"
+        "monitoring",
+        "search",
+        "pdf",
+        "parsing"
       ],
       "api_access": true,
       "offer": {
         "kind": "trial",
         "summary": "500 one-time credits",
         "conditions": [
-          "10 requests per minute on the free plan."
+          "The 500 API credits are explicitly one-time. Free includes 10 requests per minute, one monitor and one concurrent crawl.",
+          "PDF processing costs one credit per processed page; extraction, search, crawling and stealth use different credit formulas.",
+          "Free-credit expiry and card requirements are not stated. The non-expiring policy for purchased top-ups does not establish free-credit expiry."
         ]
       },
       "sources": [
@@ -2727,8 +2997,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2828,7 +3098,8 @@
         "kind": "trial",
         "summary": "1,000 trial credits",
         "conditions": [
-          "No card required; rendering and proxy choices affect consumption."
+          "No card required; the pricing page offers 1,000 starting API credits without promising monthly renewal or publishing their expiry.",
+          "Proxy and feature choices affect credit consumption. The official MCP requires an API key and consumes the same metered service credits."
         ]
       },
       "sources": [
@@ -2836,14 +3107,19 @@
           "url": "https://www.scrapingbee.com/pricing/",
           "type": "official",
           "purpose": "pricing and eligibility"
+        },
+        {
+          "url": "https://mcp.scrapingbee.com/",
+          "type": "official",
+          "purpose": "official MCP setup and credit consumption"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
       "status": "verified",
       "mcp": {
-        "support": "unknown",
-        "setup_url": null,
+        "support": "official",
+        "setup_url": "https://mcp.scrapingbee.com/",
         "agentworks_connector": null
       }
     },
@@ -2861,10 +3137,11 @@
       ],
       "api_access": true,
       "offer": {
-        "kind": "trial",
-        "summary": "100 trial credits",
+        "kind": "recurring",
+        "summary": "100 API credits per month on Free",
         "conditions": [
-          "No card required."
+          "The plan comparison explicitly lists 100 monthly credits in its Free column; the signup FAQ also describes the initial 100 credits as a free trial.",
+          "No credit card required; one concurrent request. Failed requests are not charged. API features consume different credits, so the allowance is not 100 requests for every endpoint."
         ]
       },
       "sources": [
@@ -2874,8 +3151,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2935,7 +3212,7 @@
         "kind": "trial",
         "summary": "100 starting requests",
         "conditions": [
-          "No card required."
+          "No card required; 100 requests are offered at signup, with no recurring renewal or expiry stated on the reviewed page. Only successful searches are charged."
         ]
       },
       "sources": [
@@ -2945,8 +3222,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2970,7 +3247,7 @@
         "kind": "recurring",
         "summary": "250 searches per month",
         "conditions": [
-          "Free throughput is limited to 50 searches per hour."
+          "Free includes 250 searches per month, limited to 50 searches per hour. The reviewed pricing page does not specify a free-plan card requirement."
         ]
       },
       "sources": [
@@ -2980,8 +3257,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3118,7 +3395,8 @@
         "kind": "trial",
         "summary": "$30 one-time credits",
         "conditions": [
-          "Browser time, proxy traffic, and CAPTCHA solves are billed separately."
+          "Launch includes $30 once, with no credit card needed; the $0 monthly platform price does not make the credits renewable.",
+          "Browser time, proxy bandwidth, CAPTCHA solves and scraping tools are metered separately. Launch allows 10 concurrent sessions of up to 15 minutes; trial credit expiry is not published on this page."
         ]
       },
       "sources": [
@@ -3128,8 +3406,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3191,7 +3469,8 @@
         "kind": "recurring",
         "summary": "1,000 API credits per month",
         "conditions": [
-          "No card required. Credit cost depends on operation."
+          "No card required. Credits reset on the first day of each calendar month; requests stop after exhaustion until reset or upgrade.",
+          "Search, extract, crawl and research have different credit costs. The separate 100,000-credit startup program requires eligibility and is not the standard monthly allowance."
         ]
       },
       "sources": [
@@ -3206,12 +3485,51 @@
           "purpose": "MCP setup"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
       "status": "verified",
       "mcp": {
         "support": "official",
         "setup_url": "https://docs.tavily.com/documentation/mcp",
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "turso",
+      "name": "Turso",
+      "categories": [
+        "databases"
+      ],
+      "description": "Hosted SQL databases with SQLite-compatible clients, embedded replicas and a management API.",
+      "capabilities": [
+        "sql",
+        "sqlite",
+        "database",
+        "replication",
+        "storage"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "500M rows read and 10M rows written per month; 5 GB storage and 100 databases",
+        "conditions": [
+          "Free requires no credit card. The plan also lists 3 GB monthly syncs; storage and database count are fixed capacity limits, not monthly refills.",
+          "Reads, writes and replica syncs are different metered resources. Paid overage prices and higher-tier retention or team features must not be assumed to apply to Free."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://turso.tech/pricing",
+          "type": "official",
+          "purpose": "pricing and eligibility"
+        }
+      ],
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
         "agentworks_connector": null
       }
     },
@@ -3352,7 +3670,9 @@
         "kind": "trial",
         "summary": "200 million free tokens for selected current models; other models differ",
         "conditions": [
-          "Model-specific initial token allowances; batch tokens do not draw from free balance."
+          "Initial free balances are per account and model-specific, not monthly. The current tables offer 200M tokens on selected embedding/reranking models; others have 50M or no free allowance.",
+          "Selected multimodal models separately list 200M text tokens and 150B pixels. Batch API tokens do not draw from free balances and are billed separately.",
+          "Card requirements and initial free-balance expiry are not stated. Model lists in the introductory text and detailed tables differ, so confirm the selected model against its current pricing row."
         ]
       },
       "sources": [
@@ -3362,8 +3682,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3424,24 +3744,31 @@
       "api_access": true,
       "offer": {
         "kind": "recurring",
-        "summary": "100 free search queries per day plus advertised $100 starting credit",
+        "summary": "100 keyless MCP search queries per day; separate $100 signup credit",
         "conditions": [
-          "Daily search allowance and starting balance are different offers; verify endpoint eligibility."
+          "The daily allowance applies to the MCP free profile, which exposes search and tool discovery without an account, API key or credit card. It does not include the Contents, Research or Finance tools.",
+          "New API accounts separately receive $100 starting credit with no card required. This is not a daily or monthly renewable credit balance; its expiry is not stated in the reviewed sources.",
+          "Authenticated API and MCP requests use account credits. The free MCP allowance must not be applied to every REST API endpoint."
         ]
       },
       "sources": [
         {
-          "url": "https://you.com/pricing",
+          "url": "https://you.com/product/web-search-api",
           "type": "official",
-          "purpose": "pricing and eligibility"
+          "purpose": "free daily MCP access and signup-credit eligibility"
+        },
+        {
+          "url": "https://you.com/docs/agents/mcp-server",
+          "type": "official",
+          "purpose": "MCP free profile, tools and setup"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-17",
+      "last_reviewed": "2026-10-17",
       "status": "verified",
       "mcp": {
-        "support": "unknown",
-        "setup_url": null,
+        "support": "official",
+        "setup_url": "https://you.com/docs/agents/mcp-server",
         "agentworks_connector": null
       }
     },
