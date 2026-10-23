@@ -36,8 +36,14 @@ const server = http.createServer((req, res) => {
     assert.equal(await page.locator('#result-count').innerText(), `${freeCount} providers`);
     await page.locator('#reset').click(); await page.locator('#mcp-only').check();
     const mcpCount = data.providers.filter(p => ['official','community'].includes(p.mcp.support)).length;
-    assert.equal(await page.locator('.provider').count(), mcpCount);
-    assert.equal(await page.locator('a').filter({hasText:'MCP setup ↗'}).count(), mcpCount);
+    assert.equal(await page.locator('#result-count').innerText(), `${mcpCount} providers`);
+    // Filtered results can span pages as documented MCP support grows.
+    for (let remaining = mcpCount; remaining > 0; remaining -= 20) {
+      const visible = Math.min(20, remaining);
+      assert.equal(await page.locator('.provider').count(), visible);
+      assert.equal(await page.locator('a').filter({hasText:'MCP setup ↗'}).count(), visible);
+      if (remaining > 20) await page.locator('#next').click();
+    }
     await page.reload({waitUntil:'networkidle'}); assert.equal(await page.locator('#mcp-only').isChecked(), true);
     await page.locator('#reset').click();
     if (process.argv[2]) await page.screenshot({path:process.argv[2], fullPage:true});
