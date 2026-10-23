@@ -21,32 +21,32 @@
       "baseline_recorded": "2026-10-20"
     },
     "https://brightdata.com/pricing/web-scraper": {
-      "sha256": "f18adcdbf1f10392bc4670ae59355101f5316d3291b4864b3dc2bd6bff02a7ee",
-      "baseline_recorded": "2026-10-11"
+      "sha256": "335c542642c1124be47ab610d631c58f800b354fc05b96c9f47c7096652ae0c4",
+      "baseline_recorded": "2026-10-23"
     },
     "https://browser-use.com/pricing": {
       "sha256": "a8a7aeb8207d9df50e22729c288a6259e6d9eeda5ac761a7527fca93200efebd",
       "baseline_recorded": "2026-10-20"
     },
     "https://cloudinary.com/documentation/cloudinary_llm_mcp": {
-      "sha256": "041a560364ad51d67576a17081fb126ee919e3c1a60d929c9c85a5710554caf7",
-      "baseline_recorded": "2026-10-17"
+      "sha256": "2a22cc81061b4de179399f0a1f3128a0b49b3708100c2f3b74be17f29da90bee",
+      "baseline_recorded": "2026-10-23"
     },
     "https://cloudinary.com/documentation/developer_onboarding_faq_credits": {
-      "sha256": "8b244cfc334e4e4fc5f91a7170c5dcd9dbc166adad6f6dc92f9f0e2732019a75",
-      "baseline_recorded": "2026-10-17"
+      "sha256": "7df8066b7a520b8d52e161a3df0e38304f6f4270c31d44125b21853834b36acc",
+      "baseline_recorded": "2026-10-23"
     },
     "https://cloudinary.com/pricing": {
       "sha256": "3585003b7f532ee911b83073f60d5c56b6be398b23689f1a65fd2011bfe528a5",
-      "baseline_recorded": "2026-10-17"
+      "baseline_recorded": "2026-10-23"
     },
     "https://community.groq.com/t/do-i-get-charged-for-anything-on-the-groq-free-plan/832": {
       "sha256": "112299ef6cc671993c5804b69d2447147485d70033754c25457724d0bf1d19dd",
       "baseline_recorded": "2026-10-11"
     },
     "https://composio.dev/pricing": {
-      "sha256": "e2a84158c6b2e814c0bf5d21658c67799340b2442cec3e69545d7c1ee5f53bdb",
-      "baseline_recorded": "2026-10-17"
+      "sha256": "75969874191ea40928451a47eb0cb8f3b05b2197a4d9b11e47e1ebbf72359206",
+      "baseline_recorded": "2026-10-23"
     },
     "https://deepgram.com/pricing": {
       "sha256": "dba925c6f883bff19591efcf1fdc4cd38441d350dc2222b59c7e46505c0a8707",
@@ -106,23 +106,27 @@
     },
     "https://docs.linkup.so/pages/documentation/get-started/quickstart": {
       "sha256": "17c572913c6b9e2a8ac19b9869f0a14f607da172f937d5c522bd0e92e64bc81e",
-      "baseline_recorded": "2026-10-20"
+      "baseline_recorded": "2026-10-23"
+    },
+    "https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key": {
+      "sha256": "bd3962bb289212583d13929aa99abb43c03f626f119fa6fe244a2fbaf4249bab",
+      "baseline_recorded": "2026-10-23"
     },
     "https://docs.perplexity.ai/docs/getting-started/pricing": {
       "sha256": "5139be7645eea5dcd88af8789f7ef37c3fcf86c1e55c9849f89c0049b379d785",
       "baseline_recorded": "2026-10-20"
     },
     "https://docs.tavily.com/documentation/mcp": {
-      "sha256": "4f090a4ea1ca52976e72e100b7d06fb4232ed21fa3978a781064c46d0cf1c715",
-      "baseline_recorded": "2026-10-17"
+      "sha256": "a0e699db0c3522a4baf4ca379ba4fdd9d436c24027417542a0568c124f64b515",
+      "baseline_recorded": "2026-10-23"
     },
     "https://docs.valyu.ai/integrations/mcp-server": {
       "sha256": "2a275da98821c16a9050a0807f1e34ab28bbf15b995acf30d4a9e532e6d2893c",
       "baseline_recorded": "2026-10-20"
     },
     "https://docs.voyageai.com/docs/pricing": {
-      "sha256": "97bffbd1938f2a00f66e6b06caeb8ee0f365f431f0e32765e4c5dc5b84936f10",
-      "baseline_recorded": "2026-10-17"
+      "sha256": "a29a519c272c23d38339084b9c6b63d27ba95ca1acc7fa3491a673bcae0bd9aa",
+      "baseline_recorded": "2026-10-23"
     },
     "https://docs.zyte.com/zyte-api/pricing.html": {
       "sha256": "11f4edb7767854d7cdb16d614cd9dc67c333caaacf46e7846330a6829bc50a38",
@@ -134,11 +138,11 @@
     },
     "https://elevenlabs.io/docs/overview/administration/billing": {
       "sha256": "0977eaae418cbb551b9202eb2c986ad7ba14ae0c4b66d586cb00bf23214013cf",
-      "baseline_recorded": "2026-10-17"
+      "baseline_recorded": "2026-10-23"
     },
     "https://elevenlabs.io/pricing/api": {
-      "sha256": "48a9c1abcdeb4c774e653240a59046cb85258a136a603b5d2d49085cd008fe94",
-      "baseline_recorded": "2026-10-17"
+      "sha256": "f0781edc117391c1f98155482051a1ef86db913305dccfef45e4bc11b36b80a5",
+      "baseline_recorded": "2026-10-23"
     },
     "https://exa.ai/docs/get-started/exa-mcp": {
       "sha256": "58988b8385bd7ee9c99e575169912cd9c43296e3c01d70d8c181f7db612a0c1f",
@@ -149,8 +153,8 @@
       "baseline_recorded": "2026-10-20"
     },
     "https://fal.ai/startup-program": {
-      "sha256": "5f1489a5f586818b1563341459f9e80c2c34e6e1789c6f8496aebe48e93830e8",
-      "baseline_recorded": "2026-10-17"
+      "sha256": "0646c753a6da1bd32632acb2d2767712c5ad1a89985b74f2b97236ad99610661",
+      "baseline_recorded": "2026-10-23"
     },
     "https://github.com/brave/brave-search-mcp-server": {
       "sha256": "a7cc8d27f289fedb58a067da2e31d1612e168c9789058c338b4b2ed53739fb12",
@@ -166,27 +170,35 @@
     },
     "https://help.elevenlabs.io/hc/en-us/articles/13313564601361-Can-I-publish-the-content-I-generate-on-the-platform": {
       "sha256": "4d624e31aff5ea2465436b627dadf30930d5db3ce82f25c1c595da4d9923eec4",
-      "baseline_recorded": "2026-10-17"
+      "baseline_recorded": "2026-10-23"
+    },
+    "https://help.getzep.com/v4/context-mcp-server": {
+      "sha256": "aac36658d72d31f929956a2cfdea592d52ff5d58414774d0f80073287c15640d",
+      "baseline_recorded": "2026-10-23"
     },
     "https://help.hunter.io/en/articles/11131690-pricing-plans-and-feature-faqs": {
       "sha256": "45b08a0c9f3ae81b4542ec28206f5b77b205fff4088615ff3997e6c9dffd36f5",
       "baseline_recorded": "2026-10-11"
+    },
+    "https://help.mistral.ai/en/articles/698531-why-am-i-hitting-api-rate-limits-and-how-do-i-increase-them": {
+      "sha256": "e76d41458e4d8d8230718e38a0c62c401697ce1ba390abda5a7ee941e84b1957",
+      "baseline_recorded": "2026-10-23"
     },
     "https://huggingface.co/docs/inference-providers/main/pricing": {
       "sha256": "e4e74fec07644173485b29bc5f9d226da4e87d6239330c919ce8cb3360b0f6b8",
       "baseline_recorded": "2026-10-11"
     },
     "https://imagekit.io/docs/build-with-ai": {
-      "sha256": "eb50f6ada2038f34237cf69757d795e9bac6a7fa558c924900b0be308e434674",
-      "baseline_recorded": "2026-10-17"
+      "sha256": "371b07d8e36e3c6de445c28636e8a04b2abc54ab55a71e7bb4adb4ba6ed4939d",
+      "baseline_recorded": "2026-10-23"
     },
     "https://imagekit.io/lp/imagekit-forever-free-plan": {
       "sha256": "d885caaa33c107751d7f829baa72f04c409741cb3e4cdcb25fafdf01d19e157c",
-      "baseline_recorded": "2026-10-17"
+      "baseline_recorded": "2026-10-23"
     },
     "https://imagekit.io/plans/": {
-      "sha256": "056d1188f01407ac5923210d96f8d3137fb90ab3663c792be611ea6b869b90b0",
-      "baseline_recorded": "2026-10-17"
+      "sha256": "b91fbba678585f32e6120a4c94af1a0a1e0d97a9049894345046d8e9b54246bc",
+      "baseline_recorded": "2026-10-23"
     },
     "https://jina.ai/reader/": {
       "sha256": "a14a81176d3b129704ccca4e771265d87f41d53d7242ea61b1b1a5566ef10d59",
@@ -205,8 +217,8 @@
       "baseline_recorded": "2026-10-11"
     },
     "https://langfuse.com/pricing": {
-      "sha256": "60a979ecb6642e693d02bb6fb8812a240f124f8fc4c84eab0d3ae3c306cca7c5",
-      "baseline_recorded": "2026-10-17"
+      "sha256": "2601d737cc5f991d487bbf7bc0dbb0980c294fa8c4dc6021a6b877bdee0fafef",
+      "baseline_recorded": "2026-10-23"
     },
     "https://mcp.scrapingbee.com/": {
       "sha256": "2d9696ac442f7cbe28d8e5e06bd0adb3053fe8eea2b73187db16f7db5221e403",
@@ -308,17 +320,21 @@
       "sha256": "d349b9de049ff406f13ac46fa783a14942fb98b6939c076478b52298abfbc4b6",
       "baseline_recorded": "2026-10-17"
     },
+    "https://scrapingant.com/mcp-server-web-scraping": {
+      "sha256": "6beedbeb56bccdd24f3d8a5a34cff840b22ffbe8b1176a82768916a3d7c376c5",
+      "baseline_recorded": "2026-10-23"
+    },
     "https://scrapingant.com/price-scraping-api": {
-      "sha256": "db02ee38664932ad31f41d0af8824fdca2aa947874ddae395c5da613dc8df0a1",
-      "baseline_recorded": "2026-10-14"
+      "sha256": "e73783a6d38db9031e89400dded861f430f5e2202d6c2f1376cd62aed3c90fc5",
+      "baseline_recorded": "2026-10-23"
     },
     "https://screenshotone.com/ai-information/": {
       "sha256": "b1ef9db5c5ea465e652214118116d3f1264a53a97e796fcf6d1817d5b3303849",
       "baseline_recorded": "2026-10-11"
     },
     "https://serpapi.com/pricing": {
-      "sha256": "0935794d461c45870a3338b540a3fd71b182e12474b3e8e526c417b14f9b3983",
-      "baseline_recorded": "2026-10-17"
+      "sha256": "7b31e4a0410083c53e92a728dbf1098f23ca32db1a0e3a7adeffbdfc75759f0d",
+      "baseline_recorded": "2026-10-23"
     },
     "https://serper.dev/": {
       "sha256": "ee0f0c0f4ca8749469a85b711e1faa2910f3d5e17da2c28059911fa7863f83c5",
@@ -329,24 +345,24 @@
       "baseline_recorded": "2026-10-11"
     },
     "https://steel.dev/pricing": {
-      "sha256": "3150fbf68684d1160ac713be990942a8c32d8ccaf425cc1ffd165a66d9f33f2d",
-      "baseline_recorded": "2026-10-17"
+      "sha256": "75d1c2a19cbd58bf105b28d967fbc7e19afaf45fadc2ffe7e17bfb95d9de5af9",
+      "baseline_recorded": "2026-10-23"
     },
     "https://supermemory.ai/pricing/": {
       "sha256": "1c5f49a60695c5f8b8728d125dfb07d10dc5595e5150d56b3b23eb2afe56926f",
       "baseline_recorded": "2026-10-20"
     },
     "https://support.airtable.com/articles/7735693959-managing-api-call-limits-in-airtable": {
-      "sha256": "bc82d5114b413c8327968d1f945ded30bc2612dcadcc6d72303600acfe81161c",
-      "baseline_recorded": "2026-10-14"
+      "sha256": "54f4513ae1db9a2006f6e5605505553cd2110087934df878c7ec18cf59d9e11e",
+      "baseline_recorded": "2026-10-23"
     },
     "https://support.assemblyai.com/articles/5370767329-can-i-sign-up-for-free": {
       "sha256": "485e85939bb4949321508e06f04382384381a839ce95a45de4e9007278592d1e",
       "baseline_recorded": "2026-10-11"
     },
     "https://support.deepl.com/hc/en-us/articles/360021200939-DeepL-API-plans": {
-      "sha256": "25d8a8c8e67d6ec133b5d930c033d28525567922c575dfa343d285e9eaf889b1",
-      "baseline_recorded": "2026-10-17"
+      "sha256": "a0d70254143dc22ec53fc6e16f0c92a1f6a4001a26c388dd9a7aceb3e1deab90",
+      "baseline_recorded": "2026-10-23"
     },
     "https://turso.tech/pricing": {
       "sha256": "514cc86eed09e3388bd0415c64af1a1a83f7c31f8cdbe04f247de78e6b0fef83",
@@ -376,9 +392,13 @@
       "sha256": "6fd2b05cf451e0d72c9a658a8c516907c4aef579dc404a6ec6a4fddd2fd7346a",
       "baseline_recorded": "2026-10-11"
     },
+    "https://www.airtop.ai/": {
+      "sha256": "0ff50ab18f3e71d4aa462848887c766c1b6cec1e51a16949d06e3a7198b62a1e",
+      "baseline_recorded": "2026-10-23"
+    },
     "https://www.airtop.ai/pricing": {
-      "sha256": "8b6b5189fcbaa3de0a0ef3824dc63b8417f6a9b4b39f0943076bc039c39dc9e7",
-      "baseline_recorded": "2026-10-20"
+      "sha256": "ff9fd151e5a98b80233a95d458868b93a0647ba0b4375a46db2a10a66c406154",
+      "baseline_recorded": "2026-10-23"
     },
     "https://www.alphavantage.co/support/": {
       "sha256": "d53fcf87b1ff7492621e96c94798f70e90b64223bba7fa6da18353a24ad7ffca",
@@ -388,17 +408,37 @@
       "sha256": "ab0c5564755bb5b64a534bb8ad9e15db59bc4e9300b04690971dda852523d050",
       "baseline_recorded": "2026-10-20"
     },
+    "https://www.backblaze.com/cloud-storage": {
+      "sha256": "8dff9811989aafe82dd6da0e950726989f8aa65f062e87efbfa15d273cb676ee",
+      "baseline_recorded": "2026-10-23"
+    },
+    "https://www.backblaze.com/cloud-storage/pricing": {
+      "sha256": "118e2632fac35f4afb3afbf366bf132b6e51b5c3d1ec66b5a9fd55918786efbd",
+      "baseline_recorded": "2026-10-23"
+    },
+    "https://www.backblaze.com/docs/cloud-storage-s3-compatible-api": {
+      "sha256": "5b2e2e045ac763a33fa4259e0967bde5699407ad15cb22c11e4e75b9f37d9f5c",
+      "baseline_recorded": "2026-10-23"
+    },
     "https://www.bannerbear.com/pricing/": {
-      "sha256": "bc420e427f0f3981a0bfe2c2cc6dd3fff88727aef1e6b68d50b8a919d754d3bd",
-      "baseline_recorded": "2026-10-11"
+      "sha256": "ae704f87b7c6b3753bf931283c7d7c060ac2a1ce362aaae6896207cb32a6298e",
+      "baseline_recorded": "2026-10-23"
+    },
+    "https://www.bannerbear.com/v5/products/mcp/": {
+      "sha256": "c87b4382c18c9ce481398ef246738257dfee4fe76e19bdf6a36e948d2a58d61b",
+      "baseline_recorded": "2026-10-23"
     },
     "https://www.braintrust.dev/pricing": {
       "sha256": "b35bed11fa17bfde6ec85b8094a7d515179d9b270fb5158f51bd4e44ead2d475",
       "baseline_recorded": "2026-10-11"
     },
+    "https://www.brevo.com/ai/email-mcp/": {
+      "sha256": "3b99587d8eccce6ed880bdd79ecfe685cb9cd5661613b804c1d33305150f770a",
+      "baseline_recorded": "2026-10-23"
+    },
     "https://www.brevo.com/products/transactional-email/": {
-      "sha256": "c2d6f771af7594ae56e91dca6f3a097ed4c2827ce9ce531ff4daf5b43600c3c5",
-      "baseline_recorded": "2026-10-11"
+      "sha256": "d190052cf7e1691d929f418aab921dec4b045849f687faa22df82fe28f4898da",
+      "baseline_recorded": "2026-10-23"
     },
     "https://www.browserbase.com/blog/free-plan": {
       "sha256": "d2388765cd80dd2d63552489b8f97af9660fe216296891969fa634679b4ac308",
@@ -417,8 +457,8 @@
       "baseline_recorded": "2026-10-17"
     },
     "https://www.cerebras.ai/pricing": {
-      "sha256": "0281cd0cf89d0bcbc85c2508aaf7d3d2d7330ab755dceae0f198817208d33511",
-      "baseline_recorded": "2026-10-14"
+      "sha256": "3fe827e4d2dbace35d0a58a0cc6faf167ac7f8079e008d9f4d98fdb15e346edf",
+      "baseline_recorded": "2026-10-23"
     },
     "https://www.daily.co/pricing/video-sdk/": {
       "sha256": "e9ee76e370008965452b974ae416d26e0a2b57f6ff20522a8e6a47a57287c690",
@@ -437,16 +477,16 @@
       "baseline_recorded": "2026-10-11"
     },
     "https://www.getzep.com/pricing/": {
-      "sha256": "fde145163bca98cc027804b7d1fd8d26f7f485e959d3b97620d4cba066902df9",
-      "baseline_recorded": "2026-10-14"
+      "sha256": "26b5417b05dfd3859b3e3314c3bf5eaf1bb8a67e62d5c86769b029c6f009f50d",
+      "baseline_recorded": "2026-10-23"
     },
     "https://www.helicone.ai/pricing": {
-      "sha256": "ada8fb2ea35ef9b6ee3d74091152e2252a2f6d283489434e7674d6941b071b0c",
-      "baseline_recorded": "2026-10-11"
+      "sha256": "ccd19aea789063c0f8d4df36888c1eb1a273c7a6757fd8a7535b195a2496d292",
+      "baseline_recorded": "2026-10-23"
     },
     "https://www.hyperbrowser.ai/pricing": {
       "sha256": "7bb974e35fe0e478957b2efd04ed1f177f771b93bd0e83706c0cbb4525ac15de",
-      "baseline_recorded": "2026-10-20"
+      "baseline_recorded": "2026-10-23"
     },
     "https://www.langchain.com/pricing": {
       "sha256": "a548dcca64cb39f8aa06dba41d85f4f0c5d9aa6701d5632e3799b7b11aa016e9",
@@ -454,15 +494,15 @@
     },
     "https://www.linkup.so/pricing": {
       "sha256": "7d9436948d4496edb8b4f81c442f4e2d1d3a21c00fdd9dbcbf0228ce864547b6",
-      "baseline_recorded": "2026-10-20"
+      "baseline_recorded": "2026-10-23"
     },
     "https://www.llamaindex.ai/pricing": {
       "sha256": "c2d9d04e268b29595941f66d549279d82d43594de2d70429c5a0147913d5a5ec",
       "baseline_recorded": "2026-10-11"
     },
     "https://www.notte.cc/pricing": {
-      "sha256": "6009ee984e3fb61cdcc549f6f5c9a3cf7812883b9c77a4d63a0c060da8906374",
-      "baseline_recorded": "2026-10-17"
+      "sha256": "f0fd31e7eca04ea823b1119e0b534aebee6318c98f8df0b0386c85c08f63d9aa",
+      "baseline_recorded": "2026-10-23"
     },
     "https://www.olostep.com/pricing": {
       "sha256": "ac0d014bad6a8aea5823defedfb5ffa495f52f67db29147dcf62c06a6b0c1f7e",
@@ -485,20 +525,24 @@
       "baseline_recorded": "2026-10-17"
     },
     "https://www.scrapingdog.com/pricing/": {
-      "sha256": "c061fbc01a27ad6f28da3ae75fc48b500813f09e3f2b57abc1de88f661227416",
-      "baseline_recorded": "2026-10-20"
+      "sha256": "6653df7408736df066bb0d4435a0c360b6ba1b6d8d1dc08c871a0108cd4a1aaa",
+      "baseline_recorded": "2026-10-23"
     },
     "https://www.searchapi.io/": {
-      "sha256": "003cc912620f18bffcff64163e642ac6ced2f350ddbcdbd1dac77e38de837b0b",
-      "baseline_recorded": "2026-10-17"
+      "sha256": "604089c5b70bd804d9ad3c1568de8e6e60c7a8858046e17764a66206a81e6762",
+      "baseline_recorded": "2026-10-23"
     },
     "https://www.speechmatics.com/pricing": {
       "sha256": "1c8012f36b89bd65695f921dcddb65a886b358437a82a4cbd1932253d2c1037f",
       "baseline_recorded": "2026-10-14"
     },
     "https://www.tavily.com/pricing": {
-      "sha256": "f882571a3654cb38ca4a8fc1b76c562e03be63568b433a442ee9f27e2e92d6af",
-      "baseline_recorded": "2026-10-17"
+      "sha256": "fb29235267aacf472407aba9eec35d934f7bc50c4891ebdcbc69c06321a7fc1c",
+      "baseline_recorded": "2026-10-23"
+    },
+    "https://www.tigrisdata.com/pricing/": {
+      "sha256": "ad3c9563fd8b062ba328eedea511ce88cbe4cb3c72da402baa7ff84de398395e",
+      "baseline_recorded": "2026-10-23"
     },
     "https://www.twilio.com/docs/usage/trials": {
       "sha256": "a8cde6cff656bef5e70cf535738374b5bb124389da65ace1ebb69c5927827025",
@@ -509,8 +553,12 @@
       "baseline_recorded": "2026-10-20"
     },
     "https://www.zenrows.com/blog/zenrows-mcp": {
-      "sha256": "f7c50725f1c78d9a748ad09c8e23a2746596ebf2ab4738dc6c9c441f1c292c8b",
-      "baseline_recorded": "2026-10-11"
+      "sha256": "cac78ff226d8240cc72bbaff74f42de107189b980dc0f2ae3233a933f9bd9e88",
+      "baseline_recorded": "2026-10-23"
+    },
+    "https://www.zenrows.com/pricing": {
+      "sha256": "d3d114836b176ed34b415e69f374547203688311d4acbaae1c8b2aea98ca5528",
+      "baseline_recorded": "2026-10-23"
     },
     "https://you.com/docs/agents/mcp-server": {
       "sha256": "3c35bf45dbe8e732aaf4182738e2217f0cba79aa5d58a0da696007f604235f95",

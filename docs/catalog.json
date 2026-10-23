@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "version": "2026.10.20",
-  "updated_at": "2026-10-20",
+  "version": "2026.10.23",
+  "updated_at": "2026-10-23",
   "repository": "https://github.com/manishiitg/free-agent-tools",
   "freshness_days": 30,
   "categories": [
@@ -216,8 +216,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-14",
-      "last_reviewed": "2026-10-14",
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -240,9 +240,10 @@
       "api_access": true,
       "offer": {
         "kind": "unconfirmed",
-        "summary": "Free plan lists 1,000 credits plus a 10,000-credit one-time bonus",
+        "summary": "Shutdown announced for November 13; advertised free-credit terms remain unconfirmed",
         "conditions": [
-          "Includes 3 simultaneous sessions and 1 deployed agent; the 10,000-credit bonus is explicitly one-time.",
+          "The homepage and pricing page now announce a November 13 shutdown. The banner does not specify a year, timezone, export deadline or credit-refund policy; check current availability before relying on the service.",
+          "The pricing page still advertises 1,000 base credits and a 10,000-credit one-time bonus, with 3 simultaneous sessions and 1 deployed agent; the shutdown notice takes priority when evaluating new use.",
           "The separate Mark trial lasts 7 days or until credits are consumed. Reset and expiry of the base API credits are not explicitly stated."
         ]
       },
@@ -251,10 +252,15 @@
           "url": "https://www.airtop.ai/pricing",
           "type": "official",
           "purpose": "pricing and eligibility"
+        },
+        {
+          "url": "https://www.airtop.ai/",
+          "type": "official",
+          "purpose": "official shutdown notice"
         }
       ],
       "last_verified": null,
-      "last_reviewed": "2026-10-20",
+      "last_reviewed": "2026-10-23",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
@@ -453,6 +459,57 @@
       }
     },
     {
+      "id": "backblaze-b2",
+      "name": "Backblaze B2",
+      "categories": [
+        "storage"
+      ],
+      "description": "S3-compatible object storage for files, media, application data and backups.",
+      "capabilities": [
+        "object",
+        "storage",
+        "s3",
+        "files",
+        "backup",
+        "media"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "First 10 GB of storage free; monthly egress up to 3 times average stored data",
+        "conditions": [
+          "No payment card required to start. The first 10 GB is a storage allowance, not an extra 10 GB accumulated each month. Storage beyond it is metered.",
+          "Free egress is tied to average monthly storage. Additional egress is charged unless it qualifies through an eligible CDN or compute partner; it is not universally unlimited download traffic.",
+          "The current pay-as-you-go table lists Class A/B/C calls as free and the first 2,500 Class D calls per day free; Class D overage is paid. API categories and other services keep their own terms."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.backblaze.com/cloud-storage/pricing",
+          "type": "official",
+          "purpose": "free storage, egress and API transaction terms"
+        },
+        {
+          "url": "https://www.backblaze.com/cloud-storage",
+          "type": "official",
+          "purpose": "card requirement and S3-compatible API access"
+        },
+        {
+          "url": "https://www.backblaze.com/docs/cloud-storage-s3-compatible-api",
+          "type": "official",
+          "purpose": "official API access"
+        }
+      ],
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
       "id": "bannerbear",
       "name": "Bannerbear",
       "categories": [
@@ -469,7 +526,9 @@
         "kind": "trial",
         "summary": "30 trial API credits",
         "conditions": [
-          "No card required; AI credits differ from API credits."
+          "No payment card required. The 30 API credits are trial credits, distinct from AI credits; trial expiry is not stated on the reviewed pricing page.",
+          "A basic image starts at 1 API credit, with additional formats and output scale increasing usage. Trial limits apply through the API and dashboard alike: one workspace and three each of image templates, animation templates, workflows and instant URLs.",
+          "Official MCP setup is documented; tool execution still uses the account allowance and trial limits."
         ]
       },
       "sources": [
@@ -477,14 +536,19 @@
           "url": "https://www.bannerbear.com/pricing/",
           "type": "official",
           "purpose": "pricing and eligibility"
+        },
+        {
+          "url": "https://www.bannerbear.com/v5/products/mcp/",
+          "type": "official",
+          "purpose": "official MCP setup and access requirements"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
       "status": "verified",
       "mcp": {
-        "support": "unknown",
-        "setup_url": null,
+        "support": "official",
+        "setup_url": "https://www.bannerbear.com/v5/products/mcp/",
         "agentworks_connector": null
       }
     },
@@ -619,7 +683,8 @@
         "kind": "recurring",
         "summary": "300 emails per day through API/SMTP",
         "conditions": [
-          "Domain verification and sending policies apply; not a bulk-mail entitlement."
+          "The daily 300-email allowance is recurring, with no payment card required and full API/SMTP access. Domain authentication and sending policies apply; SMS and WhatsApp costs are separate.",
+          "The official MCP server requires an MCP-enabled account token. Its sending tools differ from the separately documented plugin and connector, which prepare drafts and reports without sending."
         ]
       },
       "sources": [
@@ -627,14 +692,19 @@
           "url": "https://www.brevo.com/products/transactional-email/",
           "type": "official",
           "purpose": "pricing and eligibility"
+        },
+        {
+          "url": "https://www.brevo.com/ai/email-mcp/",
+          "type": "official",
+          "purpose": "official MCP setup and access requirements"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
       "status": "verified",
       "mcp": {
-        "support": "unknown",
-        "setup_url": null,
+        "support": "official",
+        "setup_url": "https://www.brevo.com/ai/email-mcp/",
         "agentworks_connector": null
       }
     },
@@ -664,8 +734,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -866,8 +936,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-14",
-      "last_reviewed": "2026-10-14",
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1083,8 +1153,8 @@
           "purpose": "official MCP setup"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
       "status": "verified",
       "mcp": {
         "support": "official",
@@ -1158,8 +1228,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1305,8 +1375,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1393,8 +1463,8 @@
           "purpose": "commercial rights and attribution"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1473,8 +1543,8 @@
           "purpose": "grant amounts, regional eligibility and spending thresholds"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1753,7 +1823,9 @@
         "kind": "recurring",
         "summary": "10,000 monitored requests per month on Hobby",
         "conditions": [
-          "Monitoring allowance does not pay for underlying model inference."
+          "Hobby includes 1 seat, 1 organization and 1 GB storage, with 7-day data retention. It monitors up to 10,000 requests per month; this does not pay for underlying model inference.",
+          "Hobby ingestion is limited to 10 logs per minute and API access to 10 calls per minute. Paid Pro/Team seven-day trials and conditional startup/student offers are separate.",
+          "Payment-card requirements are not stated on the reviewed public pricing page."
         ]
       },
       "sources": [
@@ -1763,8 +1835,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1882,7 +1954,7 @@
         }
       ],
       "last_verified": null,
-      "last_reviewed": "2026-10-20",
+      "last_reviewed": "2026-10-23",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
@@ -1914,7 +1986,8 @@
         "conditions": [
           "Forever Free has two user seats. Media storage is a fixed 3 GB capacity, not an additional monthly allocation; monthly metered resources have separate limits.",
           "A video unit measures processing, not a complete video; generation and AI operations have their own extension costs and limits.",
-          "The official Free landing page states no credit card is needed. Hosted DAM/Admin MCP servers require account sign-in; the separate documentation DevTools MCP needs no account."
+          "The official Free landing page states no credit card is needed. Hosted DAM/Admin MCP servers require account sign-in; the separate documentation DevTools MCP needs no account.",
+          "Forever Free also includes 500 cache-purge requests per month; purge requests are a separate quota from bandwidth, storage and processing units."
         ]
       },
       "sources": [
@@ -1934,8 +2007,8 @@
           "purpose": "official MCP setup and authentication"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
       "status": "verified",
       "mcp": {
         "support": "official",
@@ -2084,8 +2157,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2161,7 +2234,7 @@
         }
       ],
       "last_verified": null,
-      "last_reviewed": "2026-10-20",
+      "last_reviewed": "2026-10-23",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
@@ -2235,6 +2308,51 @@
       ],
       "last_verified": "2026-10-11",
       "last_reviewed": "2026-10-11",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "mistral-api",
+      "name": "Mistral API",
+      "categories": [
+        "inference"
+      ],
+      "description": "Hosted model inference through the Mistral Studio API, including chat completions.",
+      "capabilities": [
+        "models",
+        "inference",
+        "chat",
+        "text",
+        "generation"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "Default Free mode with limited API usage; no fixed universal token grant published",
+        "conditions": [
+          "API access is enabled by default without a payment card. An account and API key are required; Free mode is intended for evaluation and prototyping.",
+          "Requests-per-second, tokens-per-minute and tokens-per-month limits apply at organization level and vary by model. Check current limits in the account console; no fixed numerical quota is assumed here.",
+          "Pay-as-you-go and Vibe/Le Chat subscription budgets are separate. Prepaying API credits does not by itself raise the usage tier; thresholds depend on actual billed usage."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key",
+          "type": "official",
+          "purpose": "default card-free API access and account setup"
+        },
+        {
+          "url": "https://help.mistral.ai/en/articles/698531-why-am-i-hitting-api-rate-limits-and-how-do-i-increase-them",
+          "type": "official",
+          "purpose": "Free eligibility, model-specific organization limits and billing tiers"
+        }
+      ],
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2397,8 +2515,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3203,7 +3321,8 @@
         "summary": "10,000 free API credits per month",
         "conditions": [
           "No payment card required; failed requests consume no credits.",
-          "Successful requests have different costs for rendering, residential proxies and AI extraction; credits are not equal to a guaranteed number of pages."
+          "Successful requests have different costs for rendering, residential proxies and AI extraction; credits are not equal to a guaranteed number of pages.",
+          "The hosted MCP server uses the same API-credit balance; request settings determine the cost, so MCP calls are not a separate unlimited allowance. An account API key is required."
         ]
       },
       "sources": [
@@ -3211,14 +3330,19 @@
           "url": "https://scrapingant.com/price-scraping-api",
           "type": "official",
           "purpose": "pricing and eligibility"
+        },
+        {
+          "url": "https://scrapingant.com/mcp-server-web-scraping",
+          "type": "official",
+          "purpose": "official MCP setup and access requirements"
         }
       ],
-      "last_verified": "2026-10-14",
-      "last_reviewed": "2026-10-14",
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
       "status": "verified",
       "mcp": {
-        "support": "unknown",
-        "setup_url": null,
+        "support": "official",
+        "setup_url": "https://scrapingant.com/mcp-server-web-scraping",
         "agentworks_connector": null
       }
     },
@@ -3294,7 +3418,7 @@
         }
       ],
       "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-20",
+      "last_reviewed": "2026-10-23",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
@@ -3364,8 +3488,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3399,8 +3523,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3548,8 +3672,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3629,12 +3753,53 @@
           "purpose": "MCP setup"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
       "status": "verified",
       "mcp": {
         "support": "official",
         "setup_url": "https://docs.tavily.com/documentation/mcp",
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "tigris",
+      "name": "Tigris",
+      "categories": [
+        "storage"
+      ],
+      "description": "Globally distributed S3-compatible object storage with separate storage and API-operation meters.",
+      "capabilities": [
+        "object",
+        "storage",
+        "s3",
+        "files",
+        "global",
+        "cdn"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "Monthly: 5 GB of Standard storage, 10,000 Class A and 100,000 Class B requests",
+        "conditions": [
+          "No payment card required to start. The allowance refreshes monthly; storage is billed from average daily peak usage in GB-months, rather than an additional 5 GB retained forever each month.",
+          "Free storage applies to Standard. Class A includes PUT/COPY/POST/LIST and Class B includes GET and related reads. DELETE/CANCEL and regional/internet egress are free.",
+          "Infrequent Access and archive tiers have separate retrieval or minimum-retention charges. Free egress does not make storage, notifications or excess API operations unlimited."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.tigrisdata.com/pricing/",
+          "type": "official",
+          "purpose": "monthly free allowance, card requirement, S3 API operations and storage accounting"
+        }
+      ],
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
         "agentworks_connector": null
       }
     },
@@ -3877,8 +4042,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3982,21 +4147,28 @@
       ],
       "api_access": true,
       "offer": {
-        "kind": "trial",
-        "summary": "Trial advertises 1,000 basic URLs and 40 protected URLs",
+        "kind": "recurring",
+        "summary": "5,000 credits per month on Free",
         "conditions": [
-          "No card required; protected and basic URL allowances differ."
+          "The current pricing page lists no payment card requirement, 5 concurrent requests, monthly refresh and no rollover. Free has no top-ups; wait for the next refresh or upgrade after exhaustion.",
+          "Credits are shared across web operations. A standard page starts at 1 credit; JavaScript rendering, premium proxies and browser sessions cost more. Standalone Residential Proxies are excluded from Free.",
+          "Only successful results consume credits, but returned 404 and 410 responses count as successful. The older MCP article still describes a 1,000-basic/40-protected-URL trial; use the current pricing plan instead."
         ]
       },
       "sources": [
+        {
+          "url": "https://www.zenrows.com/pricing",
+          "type": "official",
+          "purpose": "current monthly Free allowance, exclusions and reset rules"
+        },
         {
           "url": "https://www.zenrows.com/blog/zenrows-mcp",
           "type": "official",
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
       "status": "verified",
       "mcp": {
         "support": "official",
@@ -4021,9 +4193,9 @@
         "kind": "recurring",
         "summary": "10,000 credits per month",
         "conditions": [
-          "Free credits do not roll over and have no automatic top-up; includes 2 projects, 1 Memory MCP Server seat and 5 custom entity/edge types.",
-          "Ingestion consumes 1 credit per 350 bytes or part thereof; retrieval and storage are not charged credits. Rate limits vary with service load.",
-          "Payment-card requirements are not specified on the reviewed pricing page. MCP setup has not been separately researched."
+          "Free credits do not roll over and have no automatic top-up; includes 2 projects, 1 Context MCP Server seat and 5 custom entity/edge types.",
+          "Ingestion consumes 1 credit per 350 bytes or part thereof; retrieval and storage are not charged credits. Rate limits vary with service load, and Free episodes have lower processing priority.",
+          "Context MCP setup requires a project connection and user sign-in through the configured identity provider. Custom OIDC requires Enterprise; this is distinct from the public documentation MCP. Payment-card requirements are not stated on the reviewed pricing page."
         ]
       },
       "sources": [
@@ -4031,14 +4203,19 @@
           "url": "https://www.getzep.com/pricing/",
           "type": "official",
           "purpose": "pricing and eligibility"
+        },
+        {
+          "url": "https://help.getzep.com/v4/context-mcp-server",
+          "type": "official",
+          "purpose": "official MCP setup and access requirements"
         }
       ],
-      "last_verified": "2026-10-14",
-      "last_reviewed": "2026-10-14",
+      "last_verified": "2026-10-23",
+      "last_reviewed": "2026-10-23",
       "status": "verified",
       "mcp": {
-        "support": "unknown",
-        "setup_url": null,
+        "support": "official",
+        "setup_url": "https://help.getzep.com/v4/context-mcp-server",
         "agentworks_connector": null
       }
     },
