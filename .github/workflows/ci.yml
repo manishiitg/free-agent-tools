@@ -26,7 +26,11 @@ jobs:
       - run: python scripts/smoke_mcp.py
       - run: node --check docs/assets/app.js
       - run: npm install --no-save playwright@1.62.1
-      - run: npx playwright install --with-deps chromium
+      - name: Use the runner's installed Chrome
+        run: |
+          catalog_chrome_path="$(command -v google-chrome)"
+          "$catalog_chrome_path" --version
+          echo "PLAYWRIGHT_CHROMIUM_EXECUTABLE=$catalog_chrome_path" >> "$GITHUB_ENV"
       - run: node scripts/smoke_site.cjs
       - name: Verify the native HQ catalog integration
         run: |
