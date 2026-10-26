@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "version": "2026.10.23",
-  "updated_at": "2026-10-23",
+  "version": "2026.10.26",
+  "updated_at": "2026-10-26",
   "repository": "https://github.com/manishiitg/free-agent-tools",
   "freshness_days": 30,
   "categories": [
@@ -260,7 +260,7 @@
         }
       ],
       "last_verified": null,
-      "last_reviewed": "2026-10-23",
+      "last_reviewed": "2026-10-26",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
@@ -285,7 +285,8 @@
         "kind": "recurring",
         "summary": "25 requests per day for most datasets",
         "conditions": [
-          "Premium data and commercial licensing vary by endpoint."
+          "The free API key covers up to 25 requests per day for most datasets. Real-time and 15-minute delayed US stock data require a premium plan; commercial licensing varies by endpoint.",
+          "Unlimited requests for verified open-source or educational projects require separate eligibility verification; they are not a universal free-key allowance."
         ]
       },
       "sources": [
@@ -295,8 +296,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -374,8 +375,8 @@
           "purpose": "official MCP setup and authentication"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "official",
@@ -658,8 +659,8 @@
           "purpose": "official MCP setup and authentication"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "official",
@@ -771,8 +772,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -846,7 +847,8 @@
         "kind": "recurring",
         "summary": "1,000 units per month",
         "conditions": [
-          "No card required; 2 concurrent browsers and 2-minute maximum sessions."
+          "No card required; 2 concurrent browsers and 2-minute maximum sessions.",
+          "Free includes 1 day of persisted sessions and replays, with an 8-hour log search window. Units meter resource usage rather than a fixed number of browser tasks; proxy traffic has additional unit charges."
         ]
       },
       "sources": [
@@ -856,8 +858,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -896,8 +898,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -942,6 +944,62 @@
       "mcp": {
         "support": "unknown",
         "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "cloud-firestore",
+      "name": "Cloud Firestore",
+      "categories": [
+        "databases"
+      ],
+      "description": "Hosted document database with REST access and an official Firebase MCP server.",
+      "capabilities": [
+        "database",
+        "documents",
+        "queries",
+        "storage",
+        "rest"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "1 GiB storage; 50,000 reads, 20,000 writes and 20,000 deletes per day; 10 GiB outbound per month",
+        "conditions": [
+          "Applies to one database per project. Daily operation quotas reset around midnight Pacific time; storage is capacity and outbound transfer has a monthly allowance.",
+          "The Spark plan needs no payment information. More quota or additional databases require billing; Blaze charges for usage beyond its free quotas.",
+          "TTL deletes, point-in-time recovery, backups, restores and clones have no free usage and require billing.",
+          "The official Firebase MCP server uses Firebase CLI credentials or Application Default Credentials. Cloud operations still use the project quota; local MCP does not provide a separate free database allowance."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://firebase.google.com/docs/firestore/pricing",
+          "type": "official",
+          "purpose": "free database quotas, reset time and excluded operations"
+        },
+        {
+          "url": "https://firebase.google.com/docs/projects/billing/firebase-pricing-plans",
+          "type": "official",
+          "purpose": "Spark payment requirements and Blaze billing"
+        },
+        {
+          "url": "https://firebase.google.com/docs/firestore/use-rest-api",
+          "type": "official",
+          "purpose": "REST access and authentication"
+        },
+        {
+          "url": "https://firebase.google.com/docs/ai-assistance/mcp-server",
+          "type": "official",
+          "purpose": "official Firebase MCP setup, credentials and Firestore tools"
+        }
+      ],
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
+      "status": "verified",
+      "mcp": {
+        "support": "official",
+        "setup_url": "https://firebase.google.com/docs/ai-assistance/mcp-server",
         "agentworks_connector": null
       }
     },
@@ -1100,8 +1158,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1573,7 +1631,8 @@
         "conditions": [
           "1,000 credits refresh monthly; no payment card required. The Free plan allows 2 concurrent requests.",
           "Credits are shared across endpoints: basic scrape uses 1 per page, Search uses 2 per 10 results, and browser interaction uses 2 per minute. Advanced formats add credits.",
-          "An empty failed scrape is not charged, but a returned error-status page such as 403 or 404 still costs 1 credit. Pay-as-you-go credit additions are available only on paid plans."
+          "An empty failed scrape is not charged, but a returned error-status page such as 403 or 404 still costs 1 credit. Pay-as-you-go credit additions are available only on paid plans.",
+          "Official MCP also offers keyless Search, Scrape and Parse without an account, within daily limits. The reviewed setup pages do not state numeric keyless allowances; this restricted access is separate from the signed-in monthly API credits."
         ]
       },
       "sources": [
@@ -1586,10 +1645,15 @@
           "url": "https://docs.firecrawl.dev/mcp-server",
           "type": "official",
           "purpose": "MCP setup"
+        },
+        {
+          "url": "https://docs.firecrawl.dev/mcp-server/keyless",
+          "type": "official",
+          "purpose": "keyless MCP scope and limits"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "official",
@@ -1633,8 +1697,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1716,8 +1780,8 @@
           "purpose": "MCP setup"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "official",
@@ -1860,10 +1924,11 @@
       ],
       "api_access": true,
       "offer": {
-        "kind": "recurring",
-        "summary": "$0.10 monthly credit for free users",
+        "kind": "paid",
+        "summary": "No monthly inference credit for free accounts; credit purchase or a paid subscription required",
         "conditions": [
-          "Amount is subject to change; PRO subscriptions have a separate allocation."
+          "Free accounts no longer receive the previously advertised $0.10 monthly credit. PRO includes $2 per month; Team and Enterprise include $2 per seat per month with a paid subscription.",
+          "Subscription credits are shared across eligible Hugging Face compute services, not a separate inference-only free balance. Requests using a custom provider key are billed by that provider and do not use these included credits."
         ]
       },
       "sources": [
@@ -1873,8 +1938,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1954,7 +2019,7 @@
         }
       ],
       "last_verified": null,
-      "last_reviewed": "2026-10-23",
+      "last_reviewed": "2026-10-26",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
@@ -2084,8 +2149,8 @@
           "purpose": "API and official MCP access"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "official",
@@ -2234,7 +2299,7 @@
         }
       ],
       "last_verified": null,
-      "last_reviewed": "2026-10-23",
+      "last_reviewed": "2026-10-26",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
@@ -2259,9 +2324,11 @@
       "api_access": true,
       "offer": {
         "kind": "recurring",
-        "summary": "Free document-processing tier; mode-dependent credits",
+        "summary": "10,000 document-processing credits per month; 5 concurrent parse jobs",
         "conditions": [
-          "Page cost differs by parsing mode; consult pricing before estimating page capacity."
+          "Credits cover document processing, including parsing, extraction and indexing. Page cost depends on the selected mode; 10,000 credits is not a fixed number of pages.",
+          "Free requires an upgrade to Starter for pay-as-you-go usage. Card requirements, rollover and the exact reset date are not established by the reviewed pricing page.",
+          "The advertised 800,000-credit Pro bonus is a separate, limited-time paid-plan promotion for business email domains; it is not included in the Free allowance."
         ]
       },
       "sources": [
@@ -2271,8 +2338,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2390,8 +2457,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2434,8 +2501,8 @@
           "purpose": "official MCP setup and authentication"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "official",
@@ -2478,8 +2545,8 @@
           "purpose": "MCP setup"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "official",
@@ -2551,8 +2618,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2595,8 +2662,8 @@
           "purpose": "free-model rate limits and account credit conditions"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2620,7 +2687,7 @@
         "kind": "recurring",
         "summary": "One Call: first 1,000 calls per day free",
         "conditions": [
-          "The current pricing page applies the first 1,000 free daily calls to One Call and lists endpoint 4.0; endpoint 3.0 is marked deprecated.",
+          "The current pricing page applies the first 1,000 free daily calls to One Call and lists both endpoint versions 4.0 and 3.0.",
           "Extra One Call calls are billed. Other weather products have separate subscriptions and limits; this is not 1,000 free daily calls for every OpenWeather API.",
           "Payment-card and overage settings should be checked before activation; the reviewed public pricing page does not establish a card-free One Call signup."
         ]
@@ -2637,8 +2704,8 @@
           "purpose": "current One Call allowance and product versions"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2680,8 +2747,8 @@
           "purpose": "welcome credit eligibility and expiry"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2718,8 +2785,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2825,8 +2892,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2953,8 +3020,8 @@
           "purpose": "official MCP setup and AI-tool billing"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "official",
@@ -2995,8 +3062,8 @@
           "purpose": "official MCP setup and authentication"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "official",
@@ -3142,8 +3209,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3418,7 +3485,7 @@
         }
       ],
       "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-23",
+      "last_reviewed": "2026-10-26",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
@@ -3833,8 +3900,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3878,8 +3945,8 @@
           "purpose": "API trial units, 30-day expiry, country and recipient restrictions"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3915,8 +3982,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-14",
-      "last_reviewed": "2026-10-14",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3961,8 +4028,8 @@
           "purpose": "MCP setup"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "official",
@@ -4004,8 +4071,8 @@
           "purpose": "official MCP setup and authentication"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "official",
@@ -4125,8 +4192,8 @@
           "purpose": "MCP free profile, tools and setup"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "official",
@@ -4236,7 +4303,8 @@
         "kind": "trial",
         "summary": "$5 initial credit, for first billing month",
         "conditions": [
-          "Shared across standard plans; expires after first billing month."
+          "The $5 starting balance is shared across standard plans and expires at the end of the first billing month. It is not a recurring monthly grant.",
+          "After the first month the account is suspended until a spending limit is set. Switching between standard plans does not issue another starting credit; enterprise trials have separate terms."
         ]
       },
       "sources": [
@@ -4246,8 +4314,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-26",
+      "last_reviewed": "2026-10-26",
       "status": "verified",
       "mcp": {
         "support": "unknown",

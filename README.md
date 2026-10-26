@@ -83,37 +83,37 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 
 ## Catalog
 
-104 providers across 25 categories. Snapshot: 2026-10-23. 100 offers reviewed against official evidence; 4 need further confirmation. Review dates below do not update themselves.
+105 providers across 25 categories. Snapshot: 2026-10-26. 101 offers reviewed against official evidence; 4 need further confirmation. Review dates below do not update themselves.
 
 ### Search & research
 
 | Provider | Offer | Published allowance | Evidence / review |
 |---|---|---|---|
-| [Brave Search](https://brave.com/search/api/) | recurring | $5 monthly credits listed for Search and $5 for Answers; broader headline advertises up to $20 | Verified 2026-10-20 |
+| [Brave Search](https://brave.com/search/api/) | recurring | $5 monthly credits listed for Search and $5 for Answers; broader headline advertises up to $20 | Verified 2026-10-26 |
 | [Exa](https://exa.ai/pricing) | recurring | $10 monthly credits plus $10 onboarding bonus | Verified 2026-10-20 |
 | [Hyperbrowser](https://www.hyperbrowser.ai/pricing) | unconfirmed | 5,000 credits included with a free account; free-plan renewal period unclear | Needs review |
-| [Keenable](https://keenable.ai/pricing) | recurring | 100,000 free search requests per month | Verified 2026-10-17 |
+| [Keenable](https://keenable.ai/pricing) | recurring | 100,000 free search requests per month | Verified 2026-10-26 |
 | [Linkup](https://www.linkup.so/pricing) | unconfirmed | 4,000 free queries advertised; reset and expiry unclear | Needs review |
-| [Parallel](https://parallel.ai/blog/free-tier-parallel) | recurring | $5 monthly credits for eligible organizations | Verified 2026-10-20 |
-| [Perplexity API](https://docs.perplexity.ai/docs/getting-started/pricing) | paid | Paid API; universal free allowance not confirmed | Verified 2026-10-20 |
+| [Parallel](https://parallel.ai/blog/free-tier-parallel) | recurring | $5 monthly credits for eligible organizations | Verified 2026-10-26 |
+| [Perplexity API](https://docs.perplexity.ai/docs/getting-started/pricing) | paid | Paid API; universal free allowance not confirmed | Verified 2026-10-26 |
 | [SearchApi](https://www.searchapi.io/) | trial | 100 starting requests | Verified 2026-10-23 |
 | [SerpApi](https://serpapi.com/pricing) | recurring | 250 searches per month | Verified 2026-10-23 |
 | [Serper](https://serper.dev/) | trial | 2,500 starting queries | Verified 2026-10-11 |
 | [Tavily](https://www.tavily.com/pricing) | recurring | 1,000 API credits per month | Verified 2026-10-23 |
-| [Valyu](https://www.valyu.ai/pricing) | trial | $10 signup credit, or $20 with a work email | Verified 2026-10-20 |
-| [You.com](https://you.com/product/web-search-api) | recurring | 100 keyless MCP search queries per day; separate $100 signup credit | Verified 2026-10-17 |
+| [Valyu](https://www.valyu.ai/pricing) | trial | $10 signup credit, or $20 with a work email | Verified 2026-10-26 |
+| [You.com](https://you.com/product/web-search-api) | recurring | 100 keyless MCP search queries per day; separate $100 signup credit | Verified 2026-10-26 |
 
 ### Scraping & extraction
 
 | Provider | Offer | Published allowance | Evidence / review |
 |---|---|---|---|
-| [Apify](https://apify.com/pricing) | recurring | $5 platform usage per month | Verified 2026-10-20 |
+| [Apify](https://apify.com/pricing) | recurring | $5 platform usage per month | Verified 2026-10-26 |
 | [Bright Data](https://brightdata.com/pricing/web-scraper) | recurring | 5,000 Web Scraper API records per month | Verified 2026-10-23 |
-| [Firecrawl](https://www.firecrawl.dev/pricing) | recurring | 1,000 credits per month | Verified 2026-10-20 |
+| [Firecrawl](https://www.firecrawl.dev/pricing) | recurring | 1,000 credits per month | Verified 2026-10-26 |
 | [Hyperbrowser](https://www.hyperbrowser.ai/pricing) | unconfirmed | 5,000 credits included with a free account; free-plan renewal period unclear | Needs review |
 | [Jina Reader](https://jina.ai/reader/) | trial | Free rate-limited access; 10 million starting tokens with a new key | Verified 2026-10-20 |
-| [Olostep](https://www.olostep.com/pricing) | trial | 500 successful trial requests | Verified 2026-10-17 |
-| [Oxylabs](https://oxylabs.io/products/web-api/scrape/web) | trial | $5 one-time welcome credit per new team | Verified 2026-10-20 |
+| [Olostep](https://www.olostep.com/pricing) | trial | 500 successful trial requests | Verified 2026-10-26 |
+| [Oxylabs](https://oxylabs.io/products/web-api/scrape/web) | trial | $5 one-time welcome credit per new team | Verified 2026-10-26 |
 | [Scrape.do](https://scrape.do/pricing/) | recurring | 1,000 successful API credits per month | Verified 2026-10-17 |
 | [ScrapeGraphAI](https://scrapegraphai.com/pricing) | trial | 500 one-time credits | Verified 2026-10-17 |
 | [ScraperAPI](https://www.scraperapi.com/pricing/) | trial | 5,000 API credits for a 7-day trial | Verified 2026-10-14 |
@@ -121,7 +121,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [ScrapingBee](https://www.scrapingbee.com/pricing/) | trial | 1,000 trial credits | Verified 2026-10-17 |
 | [Scrapingdog](https://www.scrapingdog.com/pricing/) | unconfirmed | 100 free credits; provider calls this a trial and monthly renewal is unclear | Needs review |
 | [ZenRows](https://www.zenrows.com/pricing) | recurring | 5,000 credits per month on Free | Verified 2026-10-23 |
-| [Zyte](https://docs.zyte.com/zyte-api/pricing.html) | trial | $5 initial credit, for first billing month | Verified 2026-10-11 |
+| [Zyte](https://docs.zyte.com/zyte-api/pricing.html) | trial | $5 initial credit, for first billing month | Verified 2026-10-26 |
 
 ### Browser automation
 
@@ -130,9 +130,9 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [AgentQL](https://www.agentql.com/pricing) | recurring | 50 API calls per month; separate 300-call trial | Verified 2026-10-11 |
 | [Airtop](https://www.airtop.ai/pricing) | unconfirmed | Shutdown announced for November 13; advertised free-credit terms remain unconfirmed | Needs review |
 | [Anchor Browser](https://anchorbrowser.io/) | recurring | 5 credits per month | Verified 2026-10-11 |
-| [Browser Use Cloud](https://browser-use.com/pricing) | trial | $1 one-time credit for eligible signups | Verified 2026-10-20 |
+| [Browser Use Cloud](https://browser-use.com/pricing) | trial | $1 one-time credit for eligible signups | Verified 2026-10-26 |
 | [Browserbase](https://www.browserbase.com/pricing) | recurring | 1 browser hour per month; Free plan also lists 3 agent runs, 1,000 search calls and 1,000 fetch calls | Verified 2026-10-20 |
-| [Browserless](https://www.browserless.io/pricing) | recurring | 1,000 units per month | Verified 2026-10-11 |
+| [Browserless](https://www.browserless.io/pricing) | recurring | 1,000 units per month | Verified 2026-10-26 |
 | [Hyperbrowser](https://www.hyperbrowser.ai/pricing) | unconfirmed | 5,000 credits included with a free account; free-plan renewal period unclear | Needs review |
 | [Notte](https://www.notte.cc/pricing) | trial | $10 one-time credits with no expiry | Verified 2026-10-23 |
 | [Steel](https://steel.dev/pricing) | trial | $30 one-time credits | Verified 2026-10-23 |
@@ -142,25 +142,25 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | Provider | Offer | Published allowance | Evidence / review |
 |---|---|---|---|
 | [Cerebras Inference](https://www.cerebras.ai/pricing) | trial | $5 one-time promotional credit, valid for 30 days | Verified 2026-10-23 |
-| [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/platform/pricing/) | recurring | 10,000 neurons per day | Verified 2026-10-20 |
+| [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/platform/pricing/) | recurring | 10,000 neurons per day | Verified 2026-10-26 |
 | [Cohere](https://docs.cohere.com/docs/rate-limits) | trial | Free evaluation API keys with usage limits | Verified 2026-10-11 |
-| [Gemini API](https://ai.google.dev/gemini-api/docs/pricing) | recurring | Free tier for selected models with usage limits | Verified 2026-10-20 |
+| [Gemini API](https://ai.google.dev/gemini-api/docs/pricing) | recurring | Free tier for selected models with usage limits | Verified 2026-10-26 |
 | [Groq](https://community.groq.com/t/do-i-get-charged-for-anything-on-the-groq-free-plan/832) | recurring | Free API plan with model-specific rate limits | Verified 2026-10-11 |
-| [Hugging Face Inference Providers](https://huggingface.co/docs/inference-providers/main/pricing) | recurring | $0.10 monthly credit for free users | Verified 2026-10-11 |
+| [Hugging Face Inference Providers](https://huggingface.co/docs/inference-providers/main/pricing) | paid | No monthly inference credit for free accounts; credit purchase or a paid subscription required | Verified 2026-10-26 |
 | [Mistral API](https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key) | recurring | Default Free mode with limited API usage; no fixed universal token grant published | Verified 2026-10-23 |
-| [OpenRouter](https://openrouter.ai/support) | recurring | Free model variants with low rate limits | Verified 2026-10-20 |
+| [OpenRouter](https://openrouter.ai/support) | recurring | Free model variants with low rate limits | Verified 2026-10-26 |
 
 ### Speech & voice
 
 | Provider | Offer | Published allowance | Evidence / review |
 |---|---|---|---|
 | [AssemblyAI](https://support.assemblyai.com/articles/5370767329-can-i-sign-up-for-free) | trial | $50 trial credits | Verified 2026-10-11 |
-| [Cartesia](https://www.cartesia.ai/pricing) | recurring | 20,000 model credits per month plus $1 monthly agent allowance | Verified 2026-10-17 |
+| [Cartesia](https://www.cartesia.ai/pricing) | recurring | 20,000 model credits per month plus $1 monthly agent allowance | Verified 2026-10-26 |
 | [Deepgram](https://deepgram.com/pricing) | trial | $200 starting credit | Verified 2026-10-20 |
 | [ElevenLabs](https://elevenlabs.io/pricing/api) | recurring | Free plan includes API access; endpoint allowance varies | Verified 2026-10-23 |
-| [Gemini API](https://ai.google.dev/gemini-api/docs/pricing) | recurring | Free tier for selected models with usage limits | Verified 2026-10-20 |
+| [Gemini API](https://ai.google.dev/gemini-api/docs/pricing) | recurring | Free tier for selected models with usage limits | Verified 2026-10-26 |
 | [Speechmatics](https://www.speechmatics.com/pricing) | trial | $100 starting transcription credits | Verified 2026-10-14 |
-| [Twilio](https://www.twilio.com/docs/usage/trials) | trial | 30-day trial: 100 SMS, 100 WhatsApp messages, 75 voice minutes and 3,000 emails | Verified 2026-10-20 |
+| [Twilio](https://www.twilio.com/docs/usage/trials) | trial | 30-day trial: 100 SMS, 100 WhatsApp messages, 75 voice minutes and 3,000 emails | Verified 2026-10-26 |
 
 ### Realtime audio & video
 
@@ -174,7 +174,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 |---|---|---|---|
 | [fal](https://fal.ai/startup-program) | grant | $1,000 startup grant on approval, with conditional growth to $5,000 | Verified 2026-10-23 |
 | [Replicate](https://replicate.com/pricing) | paid | Usage-based API; universal free credit not confirmed | Verified 2026-10-11 |
-| [Runware](https://runware.ai/pricing) | trial | $2 starting credits for business-email signups | Verified 2026-10-20 |
+| [Runware](https://runware.ai/pricing) | trial | $2 starting credits for business-email signups | Verified 2026-10-26 |
 | [Runway API](https://docs.dev.runwayml.com/guides/setup/) | paid | Paid API; $10 minimum starting payment | Verified 2026-10-11 |
 
 ### Document parsing & OCR
@@ -183,10 +183,10 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 |---|---|---|---|
 | [Google Sheets API](https://developers.google.com/workspace/sheets/api/limits) | recurring | Standard API use at no extra cost; 300 reads and 300 writes per minute per project | Verified 2026-10-17 |
 | [LandingAI](https://landing.ai/pricing-agentic-apis) | trial | 1,000 starting credits advertised | Verified 2026-10-11 |
-| [LlamaParse](https://www.llamaindex.ai/pricing) | recurring | Free document-processing tier; mode-dependent credits | Verified 2026-10-11 |
+| [LlamaParse](https://www.llamaindex.ai/pricing) | recurring | 10,000 document-processing credits per month; 5 concurrent parse jobs | Verified 2026-10-26 |
 | [Reducto](https://reducto.ai/pricing) | trial | $150 free starting usage on Standard | Verified 2026-10-11 |
 | [ScrapeGraphAI](https://scrapegraphai.com/pricing) | trial | 500 one-time credits | Verified 2026-10-17 |
-| [Unstructured](https://unstructured.io/pricing) | trial | 10,000 free starting pages | Verified 2026-10-14 |
+| [Unstructured](https://unstructured.io/pricing) | trial | 10,000 free starting pages | Verified 2026-10-26 |
 
 ### Screenshots, PDFs & rendering
 
@@ -206,7 +206,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [Daytona](https://www.daytona.io/pricing) | trial | $200 starting compute credit | Verified 2026-10-11 |
 | [E2B](https://e2b.dev/pricing) | trial | $100 one-time usage credit | Verified 2026-10-20 |
 | [Hyperbrowser](https://www.hyperbrowser.ai/pricing) | unconfirmed | 5,000 credits included with a free account; free-plan renewal period unclear | Needs review |
-| [Modal](https://modal.com/pricing) | recurring | $30 compute credit per month | Verified 2026-10-20 |
+| [Modal](https://modal.com/pricing) | recurring | $30 compute credit per month | Verified 2026-10-26 |
 
 ### Agent memory
 
@@ -220,9 +220,9 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 
 | Provider | Offer | Published allowance | Evidence / review |
 |---|---|---|---|
-| [Gemini API](https://ai.google.dev/gemini-api/docs/pricing) | recurring | Free tier for selected models with usage limits | Verified 2026-10-20 |
+| [Gemini API](https://ai.google.dev/gemini-api/docs/pricing) | recurring | Free tier for selected models with usage limits | Verified 2026-10-26 |
 | [Pinecone](https://www.pinecone.io/pricing/) | recurring | Free Starter: 2 GB database storage, 1M read units and 2M write units per month | Verified 2026-10-17 |
-| [Qdrant](https://qdrant.tech/cloud/) | recurring | Free single-node cluster: 1 GB RAM and 4 GB disk | Verified 2026-10-20 |
+| [Qdrant](https://qdrant.tech/cloud/) | recurring | Free single-node cluster: 1 GB RAM and 4 GB disk | Verified 2026-10-26 |
 | [Voyage AI](https://docs.voyageai.com/docs/pricing) | trial | 200 million free tokens for selected current models; other models differ | Verified 2026-10-23 |
 | [Weaviate](https://weaviate.io/pricing) | recurring | Always-free cluster: 100,000 objects, 1 GB memory and 10 GB disk; separate embedding and Query Agent quotas | Verified 2026-10-20 |
 
@@ -232,7 +232,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 |---|---|---|---|
 | [Arcade](https://www.arcade.dev/pricing/) | recurring | 2,000 auth events and 2,000 tool calls per month | Verified 2026-10-20 |
 | [Composio](https://composio.dev/pricing) | recurring | 100,000 tool calls and 50,000 triggers per month | Verified 2026-10-23 |
-| [Nango](https://nango.dev/pricing) | recurring | 10 connected accounts, plus 10 compute hours and 10 GB data transfer per month | Verified 2026-10-20 |
+| [Nango](https://nango.dev/pricing) | recurring | 10 connected accounts, plus 10 compute hours and 10 GB data transfer per month | Verified 2026-10-26 |
 | [Pipedream](https://pipedream.com/pricing) | trial | Free development access; production is paid | Verified 2026-10-11 |
 
 ### Email
@@ -241,7 +241,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 |---|---|---|---|
 | [Brevo](https://www.brevo.com/products/transactional-email/) | recurring | 300 emails per day through API/SMTP | Verified 2026-10-23 |
 | [Resend](https://resend.com/pricing) | recurring | 3,000 emails per month with 100-per-day limit | Verified 2026-10-20 |
-| [Twilio](https://www.twilio.com/docs/usage/trials) | trial | 30-day trial: 100 SMS, 100 WhatsApp messages, 75 voice minutes and 3,000 emails | Verified 2026-10-20 |
+| [Twilio](https://www.twilio.com/docs/usage/trials) | trial | 30-day trial: 100 SMS, 100 WhatsApp messages, 75 voice minutes and 3,000 emails | Verified 2026-10-26 |
 
 ### Data enrichment
 
@@ -259,7 +259,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [Helicone](https://www.helicone.ai/pricing) | recurring | 10,000 monitored requests per month on Hobby | Verified 2026-10-23 |
 | [Langfuse](https://langfuse.com/pricing) | recurring | 50,000 units per month | Verified 2026-10-23 |
 | [LangSmith](https://www.langchain.com/pricing) | recurring | 5,000 base traces per month and one seat | Verified 2026-10-11 |
-| [PostHog](https://posthog.com/pricing) | recurring | Monthly: 1 million analytics events, 1 million feature-flag requests, 5,000 replays and 100,000 exceptions | Verified 2026-10-20 |
+| [PostHog](https://posthog.com/pricing) | recurring | Monthly: 1 million analytics events, 1 million feature-flag requests, 5,000 replays and 100,000 exceptions | Verified 2026-10-26 |
 
 ### Translation
 
@@ -277,13 +277,13 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 
 | Provider | Offer | Published allowance | Evidence / review |
 |---|---|---|---|
-| [OpenWeather](https://openweathermap.org/api/one-call-3) | recurring | One Call: first 1,000 calls per day free | Verified 2026-10-20 |
+| [OpenWeather](https://openweathermap.org/api/one-call-3) | recurring | One Call: first 1,000 calls per day free | Verified 2026-10-26 |
 
 ### Financial data
 
 | Provider | Offer | Published allowance | Evidence / review |
 |---|---|---|---|
-| [Alpha Vantage](https://www.alphavantage.co/support/) | recurring | 25 requests per day for most datasets | Verified 2026-10-11 |
+| [Alpha Vantage](https://www.alphavantage.co/support/) | recurring | 25 requests per day for most datasets | Verified 2026-10-26 |
 
 ### Object storage
 
@@ -300,18 +300,19 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | Provider | Offer | Published allowance | Evidence / review |
 |---|---|---|---|
 | [Airtable](https://support.airtable.com/articles/7735693959-managing-api-call-limits-in-airtable) | recurring | 1,000 API calls per workspace per calendar month on Free | Verified 2026-10-23 |
+| [Cloud Firestore](https://firebase.google.com/docs/firestore/pricing) | recurring | 1 GiB storage; 50,000 reads, 20,000 writes and 20,000 deletes per day; 10 GiB outbound per month | Verified 2026-10-26 |
 | [Cloudflare D1](https://developers.cloudflare.com/d1/platform/pricing/) | recurring | 5M rows read and 100,000 rows written per day; 5 GB total storage | Verified 2026-10-17 |
-| [Neon](https://neon.com/pricing) | recurring | 100 CU-hours per project per month and 1 GB database storage per project; up to 100 projects | Verified 2026-10-20 |
-| [Turso](https://turso.tech/pricing) | recurring | 500M rows read and 10M rows written per month; 5 GB storage and 100 databases | Verified 2026-10-17 |
-| [Upstash Redis](https://upstash.com/pricing/redis) | recurring | 250 MB database storage, 500,000 commands and 10 GB bandwidth per month | Verified 2026-10-20 |
+| [Neon](https://neon.com/pricing) | recurring | 100 CU-hours per project per month and 1 GB database storage per project; up to 100 projects | Verified 2026-10-26 |
+| [Turso](https://turso.tech/pricing) | recurring | 500M rows read and 10M rows written per month; 5 GB storage and 100 databases | Verified 2026-10-26 |
+| [Upstash Redis](https://upstash.com/pricing/redis) | recurring | 250 MB database storage, 500,000 commands and 10 GB bandwidth per month | Verified 2026-10-26 |
 
 ### Developer tools
 
 | Provider | Offer | Published allowance | Evidence / review |
 |---|---|---|---|
 | [Cloudflare Workers](https://developers.cloudflare.com/workers/platform/pricing/) | recurring | 100,000 requests per day with 10 ms CPU time per invocation | Verified 2026-10-17 |
-| [GitHub API](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api) | recurring | 5,000 REST requests per hour for ordinary authenticated user access; 60 per hour for unauthenticated public access | Verified 2026-10-20 |
-| [PostHog](https://posthog.com/pricing) | recurring | Monthly: 1 million analytics events, 1 million feature-flag requests, 5,000 replays and 100,000 exceptions | Verified 2026-10-20 |
+| [GitHub API](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api) | recurring | 5,000 REST requests per hour for ordinary authenticated user access; 60 per hour for unauthenticated public access | Verified 2026-10-26 |
+| [PostHog](https://posthog.com/pricing) | recurring | Monthly: 1 million analytics events, 1 million feature-flag requests, 5,000 replays and 100,000 exceptions | Verified 2026-10-26 |
 
 ### Business APIs
 
@@ -320,7 +321,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [Abstract API](https://www.abstractapi.com/pricing) | recurring | 100 email validations, 100 phone validations and 1,000 IP geolocation requests per month | Verified 2026-10-20 |
 | [Airtable](https://support.airtable.com/articles/7735693959-managing-api-call-limits-in-airtable) | recurring | 1,000 API calls per workspace per calendar month on Free | Verified 2026-10-23 |
 | [Google Sheets API](https://developers.google.com/workspace/sheets/api/limits) | recurring | Standard API use at no extra cost; 300 reads and 300 writes per minute per project | Verified 2026-10-17 |
-| [Twilio](https://www.twilio.com/docs/usage/trials) | trial | 30-day trial: 100 SMS, 100 WhatsApp messages, 75 voice minutes and 3,000 emails | Verified 2026-10-20 |
+| [Twilio](https://www.twilio.com/docs/usage/trials) | trial | 30-day trial: 100 SMS, 100 WhatsApp messages, 75 voice minutes and 3,000 emails | Verified 2026-10-26 |
 
 ### Image & video processing
 
