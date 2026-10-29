@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "version": "2026.10.26",
-  "updated_at": "2026-10-26",
+  "version": "2026.10.29",
+  "updated_at": "2026-10-29",
   "repository": "https://github.com/manishiitg/free-agent-tools",
   "freshness_days": 30,
   "categories": [
@@ -216,8 +216,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-23",
-      "last_reviewed": "2026-10-23",
+      "last_verified": "2026-10-29",
+      "last_reviewed": "2026-10-29",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -260,7 +260,7 @@
         }
       ],
       "last_verified": null,
-      "last_reviewed": "2026-10-26",
+      "last_reviewed": "2026-10-29",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
@@ -322,7 +322,8 @@
         "kind": "recurring",
         "summary": "5 credits per month",
         "conditions": [
-          "Task and session limits differ; check detailed operation pricing."
+          "Free includes 5 concurrent browsers and up to 500 browser sessions. Completed tasks cost 0.1 credits each; other usage can have different costs.",
+          "Payment-card and credit rollover or expiry terms are not stated on the reviewed pricing page."
         ]
       },
       "sources": [
@@ -332,8 +333,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-29",
+      "last_reviewed": "2026-10-29",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -440,7 +441,8 @@
         "kind": "trial",
         "summary": "$50 trial credits",
         "conditions": [
-          "Upgrade after trial credits are consumed; verify streaming eligibility."
+          "The $50 balance is an initial trial allowance, not a monthly refill. Free credits do not expire and remain after upgrade, according to the provider support article.",
+          "Async transcription, Speech Understanding and streaming speech-to-text are available on the trial; LLM Gateway is excluded. A credit card upgrades the account; verify signup requirements before use."
         ]
       },
       "sources": [
@@ -448,10 +450,15 @@
           "url": "https://support.assemblyai.com/articles/5370767329-can-i-sign-up-for-free",
           "type": "official",
           "purpose": "pricing and eligibility"
+        },
+        {
+          "url": "https://support.assemblyai.com/articles/8688235663-do-my-free-credits-expire",
+          "type": "official",
+          "purpose": "free-credit expiry and upgrade"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-29",
+      "last_reviewed": "2026-10-29",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -735,8 +742,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-23",
-      "last_reviewed": "2026-10-23",
+      "last_verified": "2026-10-29",
+      "last_reviewed": "2026-10-29",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1000,6 +1007,65 @@
       "mcp": {
         "support": "official",
         "setup_url": "https://firebase.google.com/docs/ai-assistance/mcp-server",
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "cloudflare-browser-run",
+      "name": "Cloudflare Browser Run",
+      "categories": [
+        "browser",
+        "scraping",
+        "rendering"
+      ],
+      "description": "Hosted headless browsers for automation, web scraping, screenshots and PDF generation.",
+      "capabilities": [
+        "browser",
+        "automation",
+        "scraping",
+        "screenshots",
+        "pdf",
+        "crawl"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "10 browser minutes per day on Workers Free; 3 concurrent browser sessions",
+        "conditions": [
+          "Browser time is shared across Quick Actions and Browser Sessions; usage beyond the daily allowance is blocked until the next UTC day on Workers Free.",
+          "Free allows one new browser session every 20 seconds and one Quick Actions request every 10 seconds. The crawl endpoint is limited to 5 jobs per day and 100 pages per job, also subject to browser-time limits.",
+          "API use requires a Cloudflare account and a Browser Rendering API token. The reviewed Browser Run pricing page does not state a payment-card requirement for Free.",
+          "Cloudflare documents its own Playwright MCP server, deployed as a Worker with browser and Durable Object bindings. Worker and Durable Object usage have their own quotas; the MCP server does not add browser time."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://developers.cloudflare.com/browser-run/pricing/",
+          "type": "official",
+          "purpose": "browser-time pricing and Workers Free allowance"
+        },
+        {
+          "url": "https://developers.cloudflare.com/browser-run/limits/",
+          "type": "official",
+          "purpose": "daily reset, concurrency and endpoint limits"
+        },
+        {
+          "url": "https://developers.cloudflare.com/browser-run/get-started/",
+          "type": "official",
+          "purpose": "API access and authentication"
+        },
+        {
+          "url": "https://developers.cloudflare.com/browser-run/playwright/playwright-mcp/",
+          "type": "official",
+          "purpose": "official Playwright MCP setup and required bindings"
+        }
+      ],
+      "last_verified": "2026-10-29",
+      "last_reviewed": "2026-10-29",
+      "status": "verified",
+      "mcp": {
+        "support": "official",
+        "setup_url": "https://developers.cloudflare.com/browser-run/playwright/playwright-mcp/",
         "agentworks_connector": null
       }
     },
@@ -1286,8 +1352,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-23",
-      "last_reviewed": "2026-10-23",
+      "last_verified": "2026-10-29",
+      "last_reviewed": "2026-10-29",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1433,8 +1499,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-23",
-      "last_reviewed": "2026-10-23",
+      "last_verified": "2026-10-29",
+      "last_reviewed": "2026-10-29",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1459,8 +1525,8 @@
         "kind": "trial",
         "summary": "$100 one-time usage credit",
         "conditions": [
-          "The $100 credit is one-time. Hobby has no platform subscription fee, but sandbox compute is metered separately; it is not unlimited free compute.",
-          "Hobby permits up to 20 concurrent sandboxes and sessions up to 1 hour. Credit expiry and payment-card requirements are not stated on the reviewed pricing page."
+          "The $100 credit is one-time. Hobby has no platform subscription fee and requires no credit card, but sandbox compute is metered separately; it is not unlimited free compute.",
+          "Hobby permits up to 20 concurrent sandboxes and sessions up to 1 hour. Credit expiry is not stated on the reviewed pricing page."
         ]
       },
       "sources": [
@@ -1470,8 +1536,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-10-29",
+      "last_reviewed": "2026-10-29",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2019,7 +2085,7 @@
         }
       ],
       "last_verified": null,
-      "last_reviewed": "2026-10-26",
+      "last_reviewed": "2026-10-29",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
@@ -2222,8 +2288,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-23",
-      "last_reviewed": "2026-10-23",
+      "last_verified": "2026-10-29",
+      "last_reviewed": "2026-10-29",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2299,7 +2365,7 @@
         }
       ],
       "last_verified": null,
-      "last_reviewed": "2026-10-26",
+      "last_reviewed": "2026-10-29",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
@@ -2344,6 +2410,62 @@
       "mcp": {
         "support": "unknown",
         "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "loops",
+      "name": "Loops",
+      "categories": [
+        "email",
+        "business"
+      ],
+      "description": "Email platform for transactional and marketing messages with an API and hosted MCP server.",
+      "capabilities": [
+        "email",
+        "transactional",
+        "marketing",
+        "contacts",
+        "events"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "4,000 combined marketing and transactional sends per rolling 30 days",
+        "conditions": [
+          "Free needs no credit card. The pricing page allows sending to the first 1,000 contacts and places Loops branding on outgoing emails; check recipient eligibility before relying on the transactional API.",
+          "Transactional and marketing emails share the 4,000-send allowance. The provider says Free can store unlimited contacts, but recipient and subscribed-contact restrictions apply.",
+          "Transactional sending requires a verified sending domain and a published template. Official remote MCP uses account sign-in and can send transactional emails under the same plan limits."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://loops.so/pricing",
+          "type": "official",
+          "purpose": "free-plan allowance, eligibility and card requirement"
+        },
+        {
+          "url": "https://loops.so/transactional-email",
+          "type": "official",
+          "purpose": "transactional email setup and rolling allowance"
+        },
+        {
+          "url": "https://loops.so/docs/api-reference/send-transactional-email",
+          "type": "official",
+          "purpose": "transactional API authentication and access"
+        },
+        {
+          "url": "https://loops.so/docs/mcp-server",
+          "type": "official",
+          "purpose": "official remote MCP setup and authentication"
+        }
+      ],
+      "last_verified": "2026-10-29",
+      "last_reviewed": "2026-10-29",
+      "status": "verified",
+      "mcp": {
+        "support": "official",
+        "setup_url": "https://loops.so/docs/mcp-server",
         "agentworks_connector": null
       }
     },
@@ -2811,7 +2933,8 @@
         "kind": "recurring",
         "summary": "50 conversion credits per month",
         "conditions": [
-          "Credits account for output size; a large document can use multiple credits."
+          "One credit covers up to 5 MB of generated output; larger PDFs use multiple credits. Free lists a 15 MB maximum file size and a 30-second timeout.",
+          "Additional conversion credits are not available on the Free plan. Payment-card requirements and the exact monthly reset date are not stated on the reviewed pricing page."
         ]
       },
       "sources": [
@@ -2821,8 +2944,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-10-29",
+      "last_reviewed": "2026-10-29",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3485,7 +3608,7 @@
         }
       ],
       "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-26",
+      "last_reviewed": "2026-10-29",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
@@ -3555,8 +3678,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-23",
-      "last_reviewed": "2026-10-23",
+      "last_verified": "2026-10-29",
+      "last_reviewed": "2026-10-29",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3739,8 +3862,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-23",
-      "last_reviewed": "2026-10-23",
+      "last_verified": "2026-10-29",
+      "last_reviewed": "2026-10-29",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3777,8 +3900,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-10-29",
+      "last_reviewed": "2026-10-29",
       "status": "verified",
       "mcp": {
         "support": "unknown",

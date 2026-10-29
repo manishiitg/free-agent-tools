@@ -5,8 +5,8 @@
       "baseline_recorded": "2026-10-26"
     },
     "https://anchorbrowser.io/": {
-      "sha256": "0ceb295dab75fe357721043d5009767766684848d36b550484ef6935169e2548",
-      "baseline_recorded": "2026-10-11"
+      "sha256": "d94bee77e6d98f40eb73ab1d5ef4a83ed36d1b6355c03945cf1bc91490052164",
+      "baseline_recorded": "2026-10-29"
     },
     "https://apify.com/pricing": {
       "sha256": "384b266861831d85eba7c6055cb8ae26c89b8ade1c8f8ab65d493210a4d0ed19",
@@ -21,8 +21,8 @@
       "baseline_recorded": "2026-10-26"
     },
     "https://brightdata.com/pricing/web-scraper": {
-      "sha256": "335c542642c1124be47ab610d631c58f800b354fc05b96c9f47c7096652ae0c4",
-      "baseline_recorded": "2026-10-23"
+      "sha256": "49952f7e0d0d06904d92565fb02bf3790aa48b0562731eac8bf0c2db1ebabb91",
+      "baseline_recorded": "2026-10-29"
     },
     "https://browser-use.com/pricing": {
       "sha256": "0743d98978a20496c2399da889d9e998c7af18238d26e31e0c041f8dc878e0ea",
@@ -45,12 +45,28 @@
       "baseline_recorded": "2026-10-11"
     },
     "https://composio.dev/pricing": {
-      "sha256": "75969874191ea40928451a47eb0cb8f3b05b2197a4d9b11e47e1ebbf72359206",
-      "baseline_recorded": "2026-10-23"
+      "sha256": "5504204c2a1b7b886fa9e18dd00ff15ae2e720bb73ce6ff0cafb3c1bd004fdc4",
+      "baseline_recorded": "2026-10-29"
     },
     "https://deepgram.com/pricing": {
       "sha256": "dba925c6f883bff19591efcf1fdc4cd38441d350dc2222b59c7e46505c0a8707",
       "baseline_recorded": "2026-10-20"
+    },
+    "https://developers.cloudflare.com/browser-run/get-started/": {
+      "sha256": "ceb27db5dcdfc854e5522e9f244b7f1666122a78f30a09c41bf2f1f16bcf701d",
+      "baseline_recorded": "2026-10-29"
+    },
+    "https://developers.cloudflare.com/browser-run/limits/": {
+      "sha256": "9127ff93009ea9bc98cda5cbc0d2f7adacc91486bb34c5b633f625aa95a01e80",
+      "baseline_recorded": "2026-10-29"
+    },
+    "https://developers.cloudflare.com/browser-run/playwright/playwright-mcp/": {
+      "sha256": "e0766a39c4221ac14b53cf5c7608a9a31126d3b9bc88773ad665f6485f364891",
+      "baseline_recorded": "2026-10-29"
+    },
+    "https://developers.cloudflare.com/browser-run/pricing/": {
+      "sha256": "5292e9760bacd15c5d1cbec219f47d387eb86abce1278c9d3c0f3e437921e14a",
+      "baseline_recorded": "2026-10-29"
     },
     "https://developers.cloudflare.com/d1/platform/pricing/": {
       "sha256": "04d42157b86149ece3c8344748d3eadf311e99843c35e1819cb3abd49c2d29b3",
@@ -137,8 +153,8 @@
       "baseline_recorded": "2026-10-26"
     },
     "https://e2b.dev/pricing": {
-      "sha256": "d6427272be9c88fa53539c0546fd37dc435e9805afae5083fbb0b603723088e3",
-      "baseline_recorded": "2026-10-20"
+      "sha256": "271a56a9292bc6c82faa495c71fcaafc9c491d3e4db76c3b85705669ea5f38a2",
+      "baseline_recorded": "2026-10-29"
     },
     "https://elevenlabs.io/docs/overview/administration/billing": {
       "sha256": "0977eaae418cbb551b9202eb2c986ad7ba14ae0c4b66d586cb00bf23214013cf",
@@ -237,8 +253,24 @@
       "baseline_recorded": "2026-10-11"
     },
     "https://langfuse.com/pricing": {
-      "sha256": "2601d737cc5f991d487bbf7bc0dbb0980c294fa8c4dc6021a6b877bdee0fafef",
-      "baseline_recorded": "2026-10-23"
+      "sha256": "be45e2742d439f31ab41266ea1e1c3e953ab0b1e9b5b3a15f4c2d418615b90af",
+      "baseline_recorded": "2026-10-29"
+    },
+    "https://loops.so/docs/api-reference/send-transactional-email": {
+      "sha256": "d2f81c2122e7661151700bd8e023b1475f05ba8051b86722c2e107eef55ad762",
+      "baseline_recorded": "2026-10-29"
+    },
+    "https://loops.so/docs/mcp-server": {
+      "sha256": "12182a776098d57df15cb3f4be4bedf54811b7c31b0b3f39b409e4a60ce7a1ad",
+      "baseline_recorded": "2026-10-29"
+    },
+    "https://loops.so/pricing": {
+      "sha256": "9908a2d381339dc2080c3d44809eb28bf14e4a46d149f032aebdfcc31ab28888",
+      "baseline_recorded": "2026-10-29"
+    },
+    "https://loops.so/transactional-email": {
+      "sha256": "b7c7fd69651a7bd6ea99b737e4d3acda5120274d0a892da699f3c62d6d2ad071",
+      "baseline_recorded": "2026-10-29"
     },
     "https://mcp.scrapingbee.com/": {
       "sha256": "2d9696ac442f7cbe28d8e5e06bd0adb3053fe8eea2b73187db16f7db5221e403",
@@ -293,8 +325,8 @@
       "baseline_recorded": "2026-10-26"
     },
     "https://pdfshift.io/pricing/": {
-      "sha256": "b2fc5096d105d56e1b9a45ec00cb9ce424202b5fe92b3de851a91cb67f682fa6",
-      "baseline_recorded": "2026-10-11"
+      "sha256": "98fbdf08ee48b165bdf8065d7910ffb68c6e36df6aa746be3bd002db49a53a2c",
+      "baseline_recorded": "2026-10-29"
     },
     "https://pipedream.com/pricing": {
       "sha256": "5dc55ee36d35c57f2a20d603c76d039e3729809e3a1bd5ba74b26779b0666f91",
@@ -365,24 +397,28 @@
       "baseline_recorded": "2026-10-11"
     },
     "https://steel.dev/pricing": {
-      "sha256": "75d1c2a19cbd58bf105b28d967fbc7e19afaf45fadc2ffe7e17bfb95d9de5af9",
-      "baseline_recorded": "2026-10-23"
+      "sha256": "e5eb5a861cdc76fbce846d3c671ca1b5e415385debb02153f3e0ac23e982b139",
+      "baseline_recorded": "2026-10-29"
     },
     "https://supermemory.ai/pricing/": {
-      "sha256": "1c5f49a60695c5f8b8728d125dfb07d10dc5595e5150d56b3b23eb2afe56926f",
-      "baseline_recorded": "2026-10-20"
+      "sha256": "8f7e13c6cabf8d4f2ff95dbb414182a586c69690f72ad94a0a82fcf943aeb446",
+      "baseline_recorded": "2026-10-29"
     },
     "https://support.airtable.com/articles/7735693959-managing-api-call-limits-in-airtable": {
-      "sha256": "54f4513ae1db9a2006f6e5605505553cd2110087934df878c7ec18cf59d9e11e",
-      "baseline_recorded": "2026-10-23"
+      "sha256": "772770e74c0ab8e0c5f399726c701256b41a6db5e84bfae9bf29fdcf189362c5",
+      "baseline_recorded": "2026-10-29"
     },
     "https://support.assemblyai.com/articles/5370767329-can-i-sign-up-for-free": {
-      "sha256": "485e85939bb4949321508e06f04382384381a839ce95a45de4e9007278592d1e",
-      "baseline_recorded": "2026-10-11"
+      "sha256": "180dee23c27af29e3aeabadae10f97b5e2a92c6a3cf59c96dca471af22918971",
+      "baseline_recorded": "2026-10-29"
+    },
+    "https://support.assemblyai.com/articles/8688235663-do-my-free-credits-expire": {
+      "sha256": "d28bf929dbe150586c79b886809d16b3d30a044ef0e136fd4d9307880b19ce6c",
+      "baseline_recorded": "2026-10-29"
     },
     "https://support.deepl.com/hc/en-us/articles/360021200939-DeepL-API-plans": {
-      "sha256": "a0d70254143dc22ec53fc6e16f0c92a1f6a4001a26c388dd9a7aceb3e1deab90",
-      "baseline_recorded": "2026-10-23"
+      "sha256": "53c4f6f3ae060614e8d0d032624092584c64d24c91ba7edeef64c870b4c0496d",
+      "baseline_recorded": "2026-10-29"
     },
     "https://turso.tech/pricing": {
       "sha256": "94cc14526b000e76522c35c2c514aa506357cb8b721c7ecac2b63291ea0315c1",
@@ -549,8 +585,8 @@
       "baseline_recorded": "2026-10-26"
     },
     "https://www.searchapi.io/": {
-      "sha256": "604089c5b70bd804d9ad3c1568de8e6e60c7a8858046e17764a66206a81e6762",
-      "baseline_recorded": "2026-10-23"
+      "sha256": "e33f8214c105722ce5bc26f4372b72365defe51bba9a64bb85510e3303b81592",
+      "baseline_recorded": "2026-10-29"
     },
     "https://www.speechmatics.com/pricing": {
       "sha256": "1c8012f36b89bd65695f921dcddb65a886b358437a82a4cbd1932253d2c1037f",
