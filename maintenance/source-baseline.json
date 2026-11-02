@@ -88,9 +88,29 @@
       "sha256": "27707427fb28309a8d5d162101116af0b991294a0b4a938d13319620a453a1c5",
       "baseline_recorded": "2026-10-17"
     },
+    "https://developers.google.com/workspace/drive/api/guides/configure-mcp-server": {
+      "sha256": "a4ba90baab9418e8fccb84430a5a5d61c61117d3a0cb327e53e55c52532e090d",
+      "baseline_recorded": "2026-11-02"
+    },
+    "https://developers.google.com/workspace/drive/api/guides/limits": {
+      "sha256": "2e1f236e7cbd57d51dcf7166d8f6836fd1b47a6e3c703b1c1202f38273309661",
+      "baseline_recorded": "2026-11-02"
+    },
+    "https://developers.google.com/workspace/drive/release-notes": {
+      "sha256": "7fcf3fb138089b6353adc774c5499af761453ce2e66a6adafa51fcfbccb21433",
+      "baseline_recorded": "2026-11-02"
+    },
+    "https://developers.google.com/workspace/release-notes": {
+      "sha256": "8b768217ed1acc24857fd9f62dce94ac457aa21515ac45fedc08f1d536fbe025",
+      "baseline_recorded": "2026-11-02"
+    },
+    "https://developers.google.com/workspace/sheets/api/guides/configure-mcp-server": {
+      "sha256": "d48238259a7d7a580ef8336787a52e21f4908cd2e9279cf2265745c32c5ebca6",
+      "baseline_recorded": "2026-11-02"
+    },
     "https://developers.google.com/workspace/sheets/api/limits": {
       "sha256": "f8392b5efc0d1d17f2fda92a8212697cba77e69ae5a48cf566e3a2b5a5efb715",
-      "baseline_recorded": "2026-10-17"
+      "baseline_recorded": "2026-11-02"
     },
     "https://developers.oxylabs.io/dashboard/credit-based-billing": {
       "sha256": "b7fb276a4c8df3ae1ddb091eb1c15aa2088a3db871412551273e09c3ed9e23db",
@@ -127,6 +147,10 @@
     "https://docs.linkup.so/pages/documentation/get-started/quickstart": {
       "sha256": "17c572913c6b9e2a8ac19b9869f0a14f607da172f937d5c522bd0e92e64bc81e",
       "baseline_recorded": "2026-10-26"
+    },
+    "https://docs.mem0.ai/platform/mem0-mcp": {
+      "sha256": "5d6a5dd4ba7cbebf652a7f32e77697ed2eb45e173012747356277dc060ceec7b",
+      "baseline_recorded": "2026-11-02"
     },
     "https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key": {
       "sha256": "bd3962bb289212583d13929aa99abb43c03f626f119fa6fe244a2fbaf4249bab",
@@ -277,8 +301,8 @@
       "baseline_recorded": "2026-10-17"
     },
     "https://mem0.ai/pricing": {
-      "sha256": "202f027ddadfdc0681bfd67ff413684fea1e595136eb6056a982e3fe168ccce3",
-      "baseline_recorded": "2026-10-11"
+      "sha256": "094c7d6eaa11d48dd5b667624b4efa5ba08012c09b52ef8dc3dc3618d4a502ee",
+      "baseline_recorded": "2026-11-02"
     },
     "https://modal.com/pricing": {
       "sha256": "d0d334b9e34104b1edc4d15267ee181926650c4b7edfa3fcc0dd8a5e1e1a160d",
@@ -385,8 +409,8 @@
       "baseline_recorded": "2026-10-11"
     },
     "https://serpapi.com/pricing": {
-      "sha256": "7b31e4a0410083c53e92a728dbf1098f23ca32db1a0e3a7adeffbdfc75759f0d",
-      "baseline_recorded": "2026-10-23"
+      "sha256": "e5977a60e98ae65a85514adf6353aa3344d925ddcb8cb80349aa617bfe0297a1",
+      "baseline_recorded": "2026-11-02"
     },
     "https://serper.dev/": {
       "sha256": "ee0f0c0f4ca8749469a85b711e1faa2910f3d5e17da2c28059911fa7863f83c5",
@@ -420,6 +444,10 @@
       "sha256": "53c4f6f3ae060614e8d0d032624092584c64d24c91ba7edeef64c870b4c0496d",
       "baseline_recorded": "2026-10-29"
     },
+    "https://support.google.com/googleone/answer/9004014": {
+      "sha256": "53551c709838a897c8eb627353a5a642be4f0cdc3408b2eb1d18ba4e54c55edf",
+      "baseline_recorded": "2026-11-02"
+    },
     "https://turso.tech/pricing": {
       "sha256": "94cc14526b000e76522c35c2c514aa506357cb8b721c7ecac2b63291ea0315c1",
       "baseline_recorded": "2026-10-26"
@@ -449,12 +477,12 @@
       "baseline_recorded": "2026-10-11"
     },
     "https://www.airtop.ai/": {
-      "sha256": "0ff50ab18f3e71d4aa462848887c766c1b6cec1e51a16949d06e3a7198b62a1e",
-      "baseline_recorded": "2026-10-26"
+      "sha256": "a2950d761aa2f45d74507984512c9d45dffc17e0194bbe62e43d4f5e3963e789",
+      "baseline_recorded": "2026-11-02"
     },
     "https://www.airtop.ai/pricing": {
-      "sha256": "ff9fd151e5a98b80233a95d458868b93a0647ba0b4375a46db2a10a66c406154",
-      "baseline_recorded": "2026-10-26"
+      "sha256": "a0a630d2b113ae013f55fcde0c4c7846c6a1c566e6dc04c0e058b34454ee197a",
+      "baseline_recorded": "2026-11-02"
     },
     "https://www.alphavantage.co/support/": {
       "sha256": "5b8275ab62426bed38c25f8cd7e8eb5d74e13e39c69d9dcd64dad2f5ea2b699a",
@@ -513,8 +541,8 @@
       "baseline_recorded": "2026-10-26"
     },
     "https://www.cerebras.ai/pricing": {
-      "sha256": "3fe827e4d2dbace35d0a58a0cc6faf167ac7f8079e008d9f4d98fdb15e346edf",
-      "baseline_recorded": "2026-10-23"
+      "sha256": "5681d9eca3abe4d58773c5d9289348bffccb38f6ea3f63683275b3b809bd182e",
+      "baseline_recorded": "2026-11-02"
     },
     "https://www.daily.co/pricing/video-sdk/": {
       "sha256": "e9ee76e370008965452b974ae416d26e0a2b57f6ff20522a8e6a47a57287c690",
@@ -589,8 +617,8 @@
       "baseline_recorded": "2026-10-29"
     },
     "https://www.speechmatics.com/pricing": {
-      "sha256": "1c8012f36b89bd65695f921dcddb65a886b358437a82a4cbd1932253d2c1037f",
-      "baseline_recorded": "2026-10-14"
+      "sha256": "88b5f3919a496752e7c1423876dca1e8d99b05c6ee68c9a2c34eec365a0f77b0",
+      "baseline_recorded": "2026-11-02"
     },
     "https://www.tavily.com/pricing": {
       "sha256": "fb29235267aacf472407aba9eec35d934f7bc50c4891ebdcbc69c06321a7fc1c",

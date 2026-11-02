@@ -83,7 +83,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 
 ## Catalog
 
-107 providers across 25 categories. Snapshot: 2026-10-29. 103 offers reviewed against official evidence; 4 need further confirmation. Review dates below do not update themselves.
+108 providers across 25 categories. Snapshot: 2026-11-02. 104 offers reviewed against official evidence; 4 need further confirmation. Review dates below do not update themselves.
 
 ### Search & research
 
@@ -97,7 +97,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [Parallel](https://parallel.ai/blog/free-tier-parallel) | recurring | $5 monthly credits for eligible organizations | Verified 2026-10-26 |
 | [Perplexity API](https://docs.perplexity.ai/docs/getting-started/pricing) | paid | Paid API; universal free allowance not confirmed | Verified 2026-10-26 |
 | [SearchApi](https://www.searchapi.io/) | trial | 100 starting requests | Verified 2026-10-29 |
-| [SerpApi](https://serpapi.com/pricing) | recurring | 250 searches per month | Verified 2026-10-23 |
+| [SerpApi](https://serpapi.com/pricing) | recurring | 250 searches per month | Verified 2026-11-02 |
 | [Serper](https://serper.dev/) | trial | 2,500 starting queries | Verified 2026-10-11 |
 | [Tavily](https://www.tavily.com/pricing) | recurring | 1,000 API credits per month | Verified 2026-10-23 |
 | [Valyu](https://www.valyu.ai/pricing) | trial | $10 signup credit, or $20 with a work email | Verified 2026-10-26 |
@@ -129,7 +129,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | Provider | Offer | Published allowance | Evidence / review |
 |---|---|---|---|
 | [AgentQL](https://www.agentql.com/pricing) | recurring | 50 API calls per month; separate 300-call trial | Verified 2026-10-11 |
-| [Airtop](https://www.airtop.ai/pricing) | unconfirmed | Shutdown announced for November 13; advertised free-credit terms remain unconfirmed | Needs review |
+| [Airtop](https://www.airtop.ai/pricing) | unconfirmed | Previously announced shutdown; current service plans and free-credit terms unconfirmed | Needs review |
 | [Anchor Browser](https://anchorbrowser.io/) | recurring | 5 credits per month | Verified 2026-10-29 |
 | [Browser Use Cloud](https://browser-use.com/pricing) | trial | $1 one-time credit for eligible signups | Verified 2026-10-26 |
 | [Browserbase](https://www.browserbase.com/pricing) | recurring | 1 browser hour per month; Free plan also lists 3 agent runs, 1,000 search calls and 1,000 fetch calls | Verified 2026-10-20 |
@@ -143,7 +143,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 
 | Provider | Offer | Published allowance | Evidence / review |
 |---|---|---|---|
-| [Cerebras Inference](https://www.cerebras.ai/pricing) | trial | $5 one-time promotional credit, valid for 30 days | Verified 2026-10-23 |
+| [Cerebras Inference](https://www.cerebras.ai/pricing) | trial | $5 one-time promotional credit, valid for 30 days | Verified 2026-11-02 |
 | [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/platform/pricing/) | recurring | 10,000 neurons per day | Verified 2026-10-26 |
 | [Cohere](https://docs.cohere.com/docs/rate-limits) | trial | Free evaluation API keys with usage limits | Verified 2026-10-11 |
 | [Gemini API](https://ai.google.dev/gemini-api/docs/pricing) | recurring | Free tier for selected models with usage limits | Verified 2026-10-26 |
@@ -161,7 +161,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [Deepgram](https://deepgram.com/pricing) | trial | $200 starting credit | Verified 2026-10-20 |
 | [ElevenLabs](https://elevenlabs.io/pricing/api) | recurring | Free plan includes API access; endpoint allowance varies | Verified 2026-10-23 |
 | [Gemini API](https://ai.google.dev/gemini-api/docs/pricing) | recurring | Free tier for selected models with usage limits | Verified 2026-10-26 |
-| [Speechmatics](https://www.speechmatics.com/pricing) | trial | $100 starting transcription credits | Verified 2026-10-14 |
+| [Speechmatics](https://www.speechmatics.com/pricing) | trial | $100 starting transcription credits | Verified 2026-11-02 |
 | [Twilio](https://www.twilio.com/docs/usage/trials) | trial | 30-day trial: 100 SMS, 100 WhatsApp messages, 75 voice minutes and 3,000 emails | Verified 2026-10-26 |
 
 ### Realtime audio & video
@@ -183,7 +183,8 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 
 | Provider | Offer | Published allowance | Evidence / review |
 |---|---|---|---|
-| [Google Sheets API](https://developers.google.com/workspace/sheets/api/limits) | recurring | Standard API use at no extra cost; 300 reads and 300 writes per minute per project | Verified 2026-10-17 |
+| [Google Drive API](https://developers.google.com/workspace/drive/api/guides/limits) | recurring | Standard Drive API usage at no additional cost, within Google project quotas | Verified 2026-11-02 |
+| [Google Sheets API](https://developers.google.com/workspace/sheets/api/limits) | recurring | Standard API use at no extra cost; 300 reads and 300 writes per minute per project | Verified 2026-11-02 |
 | [LandingAI](https://landing.ai/pricing-agentic-apis) | trial | 1,000 starting credits advertised | Verified 2026-10-11 |
 | [LlamaParse](https://www.llamaindex.ai/pricing) | recurring | 10,000 document-processing credits per month; 5 concurrent parse jobs | Verified 2026-10-26 |
 | [Reducto](https://reducto.ai/pricing) | trial | $150 free starting usage on Standard | Verified 2026-10-11 |
@@ -215,7 +216,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 
 | Provider | Offer | Published allowance | Evidence / review |
 |---|---|---|---|
-| [Mem0](https://mem0.ai/pricing) | recurring | 10,000 add requests and 1,000 retrieval requests per month | Verified 2026-10-11 |
+| [Mem0](https://mem0.ai/pricing) | recurring | 50,000 adds and 10,000 retrievals per month with your own model key | Verified 2026-11-02 |
 | [Supermemory](https://supermemory.ai/pricing/) | recurring | $5 credits per month | Verified 2026-10-29 |
 | [Zep](https://www.getzep.com/pricing/) | recurring | 10,000 credits per month | Verified 2026-10-23 |
 
@@ -296,6 +297,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [Backblaze B2](https://www.backblaze.com/cloud-storage/pricing) | recurring | First 10 GB of storage free; monthly egress up to 3 times average stored data | Verified 2026-10-23 |
 | [Cloudflare R2](https://developers.cloudflare.com/r2/pricing/) | recurring | 10 GB-month storage, 1 million Class A operations and 10 million Class B operations per month | Verified 2026-10-14 |
 | [Cloudinary](https://cloudinary.com/pricing) | recurring | 25 shared credits with rolling 30-day usage accounting | Verified 2026-10-23 |
+| [Google Drive API](https://developers.google.com/workspace/drive/api/guides/limits) | recurring | Standard Drive API usage at no additional cost, within Google project quotas | Verified 2026-11-02 |
 | [ImageKit](https://imagekit.io/plans/) | recurring | 20 GB bandwidth, 500 video units and 650 extension units per month; 3 GB storage | Verified 2026-10-23 |
 | [Tigris](https://www.tigrisdata.com/pricing/) | recurring | Monthly: 5 GB of Standard storage, 10,000 Class A and 100,000 Class B requests | Verified 2026-10-23 |
 
@@ -324,7 +326,8 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 |---|---|---|---|
 | [Abstract API](https://www.abstractapi.com/pricing) | recurring | 100 email validations, 100 phone validations and 1,000 IP geolocation requests per month | Verified 2026-10-20 |
 | [Airtable](https://support.airtable.com/articles/7735693959-managing-api-call-limits-in-airtable) | recurring | 1,000 API calls per workspace per calendar month on Free | Verified 2026-10-29 |
-| [Google Sheets API](https://developers.google.com/workspace/sheets/api/limits) | recurring | Standard API use at no extra cost; 300 reads and 300 writes per minute per project | Verified 2026-10-17 |
+| [Google Drive API](https://developers.google.com/workspace/drive/api/guides/limits) | recurring | Standard Drive API usage at no additional cost, within Google project quotas | Verified 2026-11-02 |
+| [Google Sheets API](https://developers.google.com/workspace/sheets/api/limits) | recurring | Standard API use at no extra cost; 300 reads and 300 writes per minute per project | Verified 2026-11-02 |
 | [Loops](https://loops.so/pricing) | recurring | 4,000 combined marketing and transactional sends per rolling 30 days | Verified 2026-10-29 |
 | [Twilio](https://www.twilio.com/docs/usage/trials) | trial | 30-day trial: 100 SMS, 100 WhatsApp messages, 75 voice minutes and 3,000 emails | Verified 2026-10-26 |
 

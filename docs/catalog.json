@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "version": "2026.10.29",
-  "updated_at": "2026-10-29",
+  "version": "2026.11.02",
+  "updated_at": "2026-11-02",
   "repository": "https://github.com/manishiitg/free-agent-tools",
   "freshness_days": 30,
   "categories": [
@@ -240,11 +240,11 @@
       "api_access": true,
       "offer": {
         "kind": "unconfirmed",
-        "summary": "Shutdown announced for November 13; advertised free-credit terms remain unconfirmed",
+        "summary": "Previously announced shutdown; current service plans and free-credit terms unconfirmed",
         "conditions": [
-          "The homepage and pricing page now announce a November 13 shutdown. The banner does not specify a year, timezone, export deadline or credit-refund policy; check current availability before relying on the service.",
-          "The pricing page still advertises 1,000 base credits and a 10,000-credit one-time bonus, with 3 simultaneous sessions and 1 deployed agent; the shutdown notice takes priority when evaluating new use.",
-          "The separate Mark trial lasts 7 days or until credits are consumed. Reset and expiry of the base API credits are not explicitly stated."
+          "In October the homepage and pricing page announced a November 13 shutdown without a year or timezone. As of November 2 those pages say Airtop is working on something new and no longer show the shutdown banner; the provider has not clarified whether the earlier shutdown plan changed.",
+          "The current pricing page still advertises 1,000 base credits and a 10,000-credit one-time bonus, with 3 simultaneous sessions and 1 deployed agent. Current availability and credit renewal or expiry remain unconfirmed.",
+          "The separate Mark trial lasts 7 days or until credits are consumed. Check current service availability before relying on it."
         ]
       },
       "sources": [
@@ -256,11 +256,11 @@
         {
           "url": "https://www.airtop.ai/",
           "type": "official",
-          "purpose": "official shutdown notice"
+          "purpose": "current service announcement"
         }
       ],
       "last_verified": null,
-      "last_reviewed": "2026-10-29",
+      "last_reviewed": "2026-11-02",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
@@ -945,8 +945,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-23",
-      "last_reviewed": "2026-10-23",
+      "last_verified": "2026-11-02",
+      "last_reviewed": "2026-11-02",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1856,6 +1856,65 @@
       }
     },
     {
+      "id": "google-drive-api",
+      "name": "Google Drive API",
+      "categories": [
+        "storage",
+        "business",
+        "documents"
+      ],
+      "description": "API for working with Google Drive files and folders, with an official developer-preview MCP server.",
+      "capabilities": [
+        "storage",
+        "files",
+        "documents",
+        "search",
+        "folders",
+        "rest"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "Standard Drive API usage at no additional cost, within Google project quotas",
+        "conditions": [
+          "The documented current limits for new projects include 1 million quota units per project per minute and 325,000 per user per project per minute. Operations have different unit costs; a quota unit is not one API request. Existing project quotas can differ.",
+          "Google says standard API usage is no additional cost and plans charges above standard daily thresholds later in 2026, following notice. Account authorization, Cloud project setup and Drive storage limits are separate.",
+          "A standard Google Account includes up to 15 GB storage shared across Drive, Gmail and Photos; it is storage capacity, not a monthly Drive API allowance. Workspace account storage varies.",
+          "The official Drive MCP server is in the Google Workspace Developer Preview and requires program membership, a Cloud project and OAuth. Starting November 11, 2026, Google says MCP OAuth clients must be marked for AI agents; MCP has its own quotas."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://developers.google.com/workspace/drive/api/guides/limits",
+          "type": "official",
+          "purpose": "Drive API quotas, standard usage and prospective billing"
+        },
+        {
+          "url": "https://support.google.com/googleone/answer/9004014",
+          "type": "official",
+          "purpose": "shared personal account storage allowance"
+        },
+        {
+          "url": "https://developers.google.com/workspace/drive/api/guides/configure-mcp-server",
+          "type": "official",
+          "purpose": "developer-preview official MCP setup and eligibility"
+        },
+        {
+          "url": "https://developers.google.com/workspace/drive/release-notes",
+          "type": "official",
+          "purpose": "upcoming MCP OAuth client requirement"
+        }
+      ],
+      "last_verified": "2026-11-02",
+      "last_reviewed": "2026-11-02",
+      "status": "verified",
+      "mcp": {
+        "support": "official",
+        "setup_url": "https://developers.google.com/workspace/drive/api/guides/configure-mcp-server",
+        "agentworks_connector": null
+      }
+    },
+    {
       "id": "google-sheets-api",
       "name": "Google Sheets API",
       "categories": [
@@ -1878,7 +1937,8 @@
         "conditions": [
           "Each read/write pool also has a 60-per-minute limit per user per project. These are resetting rate limits, not monetary credits; projects can have different quotas.",
           "The public documentation warns that exceeding quota limits is planned to incur Google Cloud billing charges later in 2026. Standard allowance is not a promise of unlimited free over-quota usage.",
-          "Google account, project/API setup and authorization to the target spreadsheet are required. Workspace subscription and file/storage limits are separate; the reviewed page does not state a card requirement."
+          "Google account, project/API setup and authorization to the target spreadsheet are required. Workspace subscription and file/storage limits are separate; the reviewed page does not state a card requirement.",
+          "The official Sheets MCP server is a Google Workspace Developer Preview requiring program membership, a Cloud project and OAuth. Google says MCP OAuth clients must be marked for AI agents starting November 11, 2026; MCP and REST API quotas are distinct."
         ]
       },
       "sources": [
@@ -1886,14 +1946,24 @@
           "url": "https://developers.google.com/workspace/sheets/api/limits",
           "type": "official",
           "purpose": "standard API cost, rate limits and announced over-quota billing"
+        },
+        {
+          "url": "https://developers.google.com/workspace/sheets/api/guides/configure-mcp-server",
+          "type": "official",
+          "purpose": "developer-preview MCP setup and eligibility"
+        },
+        {
+          "url": "https://developers.google.com/workspace/release-notes",
+          "type": "official",
+          "purpose": "upcoming MCP OAuth client requirement"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-11-02",
+      "last_reviewed": "2026-11-02",
       "status": "verified",
       "mcp": {
-        "support": "unknown",
-        "setup_url": null,
+        "support": "official",
+        "setup_url": "https://developers.google.com/workspace/sheets/api/guides/configure-mcp-server",
         "agentworks_connector": null
       }
     },
@@ -2085,7 +2155,7 @@
         }
       ],
       "last_verified": null,
-      "last_reviewed": "2026-10-29",
+      "last_reviewed": "2026-11-02",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
@@ -2365,7 +2435,7 @@
         }
       ],
       "last_verified": null,
-      "last_reviewed": "2026-10-29",
+      "last_reviewed": "2026-11-02",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
@@ -2483,9 +2553,11 @@
       "api_access": true,
       "offer": {
         "kind": "recurring",
-        "summary": "10,000 add requests and 1,000 retrieval requests per month",
+        "summary": "50,000 adds and 10,000 retrievals per month with your own model key",
         "conditions": [
-          "One project on Hobby. Persistent data needs migration before switching providers."
+          "The first 30 days include Mem0-funded model calls with 10,000 adds and 1,000 retrievals per month. Afterward the Free plan requires your own model key for model calls; model-provider charges are separate.",
+          "With your own model key the Free plan lists 50,000 adds and 10,000 retrievals per month. Usage beyond plan limits is billed according to the provider; review the monthly cap and billing settings.",
+          "The hosted Mem0 MCP uses account sign-in or an API key and works against the account; its memory operations are subject to the same service terms. Card requirements and the exact monthly reset date are not specified in the reviewed pricing page."
         ]
       },
       "sources": [
@@ -2493,14 +2565,19 @@
           "url": "https://mem0.ai/pricing",
           "type": "official",
           "purpose": "pricing and eligibility"
+        },
+        {
+          "url": "https://docs.mem0.ai/platform/mem0-mcp",
+          "type": "official",
+          "purpose": "hosted MCP setup and authentication"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-11-02",
+      "last_reviewed": "2026-11-02",
       "status": "verified",
       "mcp": {
-        "support": "unknown",
-        "setup_url": null,
+        "support": "official",
+        "setup_url": "https://docs.mem0.ai/platform/mem0-mcp",
         "agentworks_connector": null
       }
     },
@@ -3608,7 +3685,7 @@
         }
       ],
       "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-29",
+      "last_reviewed": "2026-11-02",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
@@ -3713,8 +3790,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-23",
-      "last_reviewed": "2026-10-23",
+      "last_verified": "2026-11-02",
+      "last_reviewed": "2026-11-02",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3826,8 +3903,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-14",
-      "last_reviewed": "2026-10-14",
+      "last_verified": "2026-11-02",
+      "last_reviewed": "2026-11-02",
       "status": "verified",
       "mcp": {
         "support": "unknown",
