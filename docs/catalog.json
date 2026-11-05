@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "version": "2026.11.02",
-  "updated_at": "2026-11-02",
+  "version": "2026.11.05",
+  "updated_at": "2026-11-05",
   "repository": "https://github.com/manishiitg/free-agent-tools",
   "freshness_days": 30,
   "categories": [
@@ -164,7 +164,8 @@
         "kind": "recurring",
         "summary": "50 API calls per month; separate 300-call trial",
         "conditions": [
-          "Remote-browser hours are a separate allowance."
+          "Starter includes 50 API calls per month, 10 requests per minute and 10 remote-browser hours, with 5 concurrent browser sessions. The pricing page lists paid overage rates for both calls and browser time.",
+          "The separate free trial includes 300 API calls, 1 remote-browser hour and 1 concurrent browser session; no credit card is required to try it. Trial expiry and Starter card requirements are not stated on the reviewed pricing page."
         ]
       },
       "sources": [
@@ -174,8 +175,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-11-05",
+      "last_reviewed": "2026-11-05",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -260,7 +261,7 @@
         }
       ],
       "last_verified": null,
-      "last_reviewed": "2026-11-02",
+      "last_reviewed": "2026-11-05",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
@@ -612,9 +613,11 @@
       "api_access": true,
       "offer": {
         "kind": "recurring",
-        "summary": "Free included trace/evaluation usage",
+        "summary": "$10 model credits, 1 GB processed data and 10,000 scores per month",
         "conditions": [
-          "Model credits, processed data and scores have separate allowances."
+          "Starter requires no payment card and includes unlimited users and projects with 14-day data retention. The model credit covers eligible built-in models and AI features, not an unconditional allowance at every upstream provider.",
+          "Processed data, scores and model usage are separately metered; published prices apply beyond their included allowances. Check billing settings before exceeding them.",
+          "The official hosted MCP uses account OAuth or an API key. MCP calls and any model or evaluation activity are subject to the applicable account and provider limits."
         ]
       },
       "sources": [
@@ -622,14 +625,19 @@
           "url": "https://www.braintrust.dev/pricing",
           "type": "official",
           "purpose": "pricing and eligibility"
+        },
+        {
+          "url": "https://www.braintrust.dev/blog/braintrust-mcp",
+          "type": "official",
+          "purpose": "official MCP authentication and setup"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-11-05",
+      "last_reviewed": "2026-11-05",
       "status": "verified",
       "mcp": {
-        "support": "unknown",
-        "setup_url": null,
+        "support": "official",
+        "setup_url": "https://www.braintrust.dev/blog/braintrust-mcp",
         "agentworks_connector": null
       }
     },
@@ -1110,6 +1118,52 @@
       }
     },
     {
+      "id": "cloudflare-images",
+      "name": "Cloudflare Images Transformations",
+      "categories": [
+        "media-processing",
+        "rendering"
+      ],
+      "description": "Resize, optimize and convert externally stored images through Cloudflare URLs or Workers.",
+      "capabilities": [
+        "images",
+        "resize",
+        "transform",
+        "optimize",
+        "rendering"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "5,000 unique transformations per calendar month on Images Free",
+        "conditions": [
+          "Free covers transformations of images stored outside Cloudflare Images. Storing images in the Images product requires a paid plan; outside storage and Workers can have separate charges or quotas.",
+          "The same source image and transformation parameters count once per calendar month even if requested repeatedly; format and quality are excluded from uniqueness. After 5,000, cached variants still work but new transformations return an error on Free.",
+          "Transformations can be requested via a configured Cloudflare zone URL or Workers. The reviewed pages do not specify free-plan card requirements or an official MCP server for this feature."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://developers.cloudflare.com/images/pricing/",
+          "type": "official",
+          "purpose": "free transformation allowance, billing and exclusions"
+        },
+        {
+          "url": "https://developers.cloudflare.com/images/optimization/transformations/overview/",
+          "type": "official",
+          "purpose": "URL and Workers access setup"
+        }
+      ],
+      "last_verified": "2026-11-05",
+      "last_reviewed": "2026-11-05",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
       "id": "cloudflare-r2",
       "name": "Cloudflare R2",
       "categories": [
@@ -1302,9 +1356,10 @@
       "api_access": true,
       "offer": {
         "kind": "trial",
-        "summary": "Free evaluation API keys with usage limits",
+        "summary": "Free evaluation keys: 1,000 API calls per month with endpoint-specific rate limits",
         "conditions": [
-          "Evaluation access is distinct from paid production keys."
+          "Trial API keys are for evaluation and have a 1,000-call monthly limit; different endpoints and models have separate per-minute limits.",
+          "Production keys are paid; newer Chat model variants can retain trial-style limits even with production keys. The reviewed limits page does not state card requirements or trial expiry."
         ]
       },
       "sources": [
@@ -1314,8 +1369,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-11-05",
+      "last_reviewed": "2026-11-05",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1388,8 +1443,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-11-05",
+      "last_reviewed": "2026-11-05",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1414,7 +1469,8 @@
         "kind": "trial",
         "summary": "$200 starting compute credit",
         "conditions": [
-          "Free credits cannot be spent on GPU sandboxes; check expiry in wallet."
+          "The pricing page advertises $200 in starting compute credit and no card for trial signup. Credits are not recurring; the exact expiry is not stated on that page.",
+          "Free credits cannot be used for GPU sandboxes, according to billing documentation. Check the wallet for the individual credit expiration; resource use is metered."
         ]
       },
       "sources": [
@@ -1422,10 +1478,15 @@
           "url": "https://www.daytona.io/pricing",
           "type": "official",
           "purpose": "pricing and eligibility"
+        },
+        {
+          "url": "https://www.daytona.io/docs/billing",
+          "type": "official",
+          "purpose": "free credit restrictions and expiration display"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-11-05",
+      "last_reviewed": "2026-11-05",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1789,7 +1850,8 @@
         "kind": "recurring",
         "summary": "3,000 credits per day",
         "conditions": [
-          "No card required; 5 requests per second; operation costs vary."
+          "No credit card required. Free permits up to 5 requests per second; different API operations consume different numbers of credits.",
+          "The provider allows commercial and production use within Free limits, with required Geoapify and data-source attribution."
         ]
       },
       "sources": [
@@ -1799,8 +1861,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-11-05",
+      "last_reviewed": "2026-11-05",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2110,8 +2172,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-11-05",
+      "last_reviewed": "2026-11-05",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2155,7 +2217,7 @@
         }
       ],
       "last_verified": null,
-      "last_reviewed": "2026-11-02",
+      "last_reviewed": "2026-11-05",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
@@ -2311,7 +2373,8 @@
         "kind": "trial",
         "summary": "1,000 starting credits advertised",
         "conditions": [
-          "Credit costs depend on model and service tier."
+          "Pricing advertises 1,000 initial credits with no card required; this is not a confirmed recurring monthly allocation. Credit costs vary by model and service.",
+          "The Explore plan is pay-as-you-go after starting credits. Expiry and overage activation conditions are not specified on the reviewed pricing page."
         ]
       },
       "sources": [
@@ -2321,8 +2384,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-11-05",
+      "last_reviewed": "2026-11-05",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2393,8 +2456,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-11-05",
+      "last_reviewed": "2026-11-05",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2435,7 +2498,7 @@
         }
       ],
       "last_verified": null,
-      "last_reviewed": "2026-11-02",
+      "last_reviewed": "2026-11-05",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
@@ -2827,6 +2890,58 @@
       }
     },
     {
+      "id": "open-meteo",
+      "name": "Open-Meteo",
+      "categories": [
+        "weather",
+        "maps"
+      ],
+      "description": "Weather forecasts, history, geocoding and environmental data through a keyless API.",
+      "capabilities": [
+        "weather",
+        "forecast",
+        "history",
+        "geocoding",
+        "climate",
+        "air-quality"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "Free keyless weather API for non-commercial use, under 10,000 calls per day",
+        "conditions": [
+          "No API key, account or credit card is required for the public non-commercial API. Data attribution is required under CC BY 4.0; commercial API use requires a paid plan.",
+          "The terms specify fewer than 10,000 calls per day, 5,000 per hour and 600 per minute, with a 300,000-per-month limit in the comparison table. Limits apply by IP address and application; the free service has no uptime guarantee.",
+          "A community MCP server can use the public API, but is not operated by Open-Meteo. Its own rate limits and hosting arrangements are separate from the provider API terms."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://open-meteo.com/",
+          "type": "official",
+          "purpose": "keyless non-commercial access and attribution"
+        },
+        {
+          "url": "https://open-meteo.com/en/pricing",
+          "type": "official",
+          "purpose": "free and commercial plan comparison"
+        },
+        {
+          "url": "https://open-meteo.com/en/terms",
+          "type": "official",
+          "purpose": "non-commercial eligibility and rate limits"
+        }
+      ],
+      "last_verified": "2026-11-05",
+      "last_reviewed": "2026-11-05",
+      "status": "verified",
+      "mcp": {
+        "support": "community",
+        "setup_url": "https://github.com/cmer81/open-meteo-mcp",
+        "agentworks_connector": null
+      }
+    },
+    {
       "id": "openrouter",
       "name": "OpenRouter",
       "categories": [
@@ -3167,8 +3282,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-11-05",
+      "last_reviewed": "2026-11-05",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3299,8 +3414,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-11-05",
+      "last_reviewed": "2026-11-05",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3685,7 +3800,7 @@
         }
       ],
       "last_verified": "2026-10-11",
-      "last_reviewed": "2026-11-02",
+      "last_reviewed": "2026-11-05",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
@@ -3827,8 +3942,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-11-05",
+      "last_reviewed": "2026-11-05",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3863,8 +3978,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-11-05",
+      "last_reviewed": "2026-11-05",
       "status": "verified",
       "mcp": {
         "support": "unknown",
