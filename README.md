@@ -83,7 +83,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 
 ## Catalog
 
-110 providers across 25 categories. Snapshot: 2026-11-05. 106 offers reviewed against official evidence; 4 need further confirmation. Review dates below do not update themselves.
+110 providers across 25 categories. Snapshot: 2026-11-08. 106 offers reviewed against official evidence; 4 need further confirmation. Review dates below do not update themselves.
 
 ### Search & research
 
@@ -117,7 +117,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [Oxylabs](https://oxylabs.io/products/web-api/scrape/web) | trial | $5 one-time welcome credit per new team | Verified 2026-10-26 |
 | [Scrape.do](https://scrape.do/pricing/) | recurring | 1,000 successful API credits per month | Verified 2026-10-17 |
 | [ScrapeGraphAI](https://scrapegraphai.com/pricing) | trial | 500 one-time credits | Verified 2026-10-17 |
-| [ScraperAPI](https://www.scraperapi.com/pricing/) | trial | 5,000 API credits for a 7-day trial | Verified 2026-10-14 |
+| [ScraperAPI](https://www.scraperapi.com/pricing/) | recurring | 1,000 API credits per month; separate 5,000-credit, 7-day trial | Verified 2026-11-08 |
 | [ScrapingAnt](https://scrapingant.com/price-scraping-api) | recurring | 10,000 free API credits per month | Verified 2026-10-23 |
 | [ScrapingBee](https://www.scrapingbee.com/pricing/) | trial | 1,000 trial credits | Verified 2026-10-17 |
 | [Scrapingdog](https://www.scrapingdog.com/pricing/) | unconfirmed | 100 free credits; provider calls this a trial and monthly renewal is unclear | Needs review |
@@ -147,7 +147,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/platform/pricing/) | recurring | 10,000 neurons per day | Verified 2026-10-26 |
 | [Cohere](https://docs.cohere.com/docs/rate-limits) | trial | Free evaluation keys: 1,000 API calls per month with endpoint-specific rate limits | Verified 2026-11-05 |
 | [Gemini API](https://ai.google.dev/gemini-api/docs/pricing) | recurring | Free tier for selected models with usage limits | Verified 2026-10-26 |
-| [Groq](https://community.groq.com/t/do-i-get-charged-for-anything-on-the-groq-free-plan/832) | recurring | Free API plan with model-specific rate limits | Verified 2026-10-11 |
+| [Groq](https://console.groq.com/docs/rate-limits) | recurring | Free API plan with model-specific rate limits | Verified 2026-11-08 |
 | [Hugging Face Inference Providers](https://huggingface.co/docs/inference-providers/main/pricing) | paid | No monthly inference credit for free accounts; credit purchase or a paid subscription required | Verified 2026-10-26 |
 | [Mistral API](https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key) | recurring | Default Free mode with limited API usage; no fixed universal token grant published | Verified 2026-10-23 |
 | [OpenRouter](https://openrouter.ai/support) | recurring | Free model variants with low rate limits | Verified 2026-10-26 |
@@ -177,7 +177,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [fal](https://fal.ai/startup-program) | grant | $1,000 startup grant on approval, with conditional growth to $5,000 | Verified 2026-10-23 |
 | [Replicate](https://replicate.com/pricing) | paid | Usage-based API; universal free credit not confirmed | Verified 2026-10-11 |
 | [Runware](https://runware.ai/pricing) | trial | $2 starting credits for business-email signups | Verified 2026-10-26 |
-| [Runway API](https://docs.dev.runwayml.com/guides/setup/) | paid | Paid API; $10 minimum starting payment | Verified 2026-10-11 |
+| [Runway API](https://docs.dev.runwayml.com/guides/setup/) | paid | Paid API; $10 minimum starting payment | Verified 2026-11-08 |
 
 ### Document parsing & OCR
 
@@ -199,7 +199,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [Cloudflare Browser Run](https://developers.cloudflare.com/browser-run/pricing/) | recurring | 10 browser minutes per day on Workers Free; 3 concurrent browser sessions | Verified 2026-10-29 |
 | [Cloudflare Images Transformations](https://developers.cloudflare.com/images/pricing/) | recurring | 5,000 unique transformations per calendar month on Images Free | Verified 2026-11-05 |
 | [PDFShift](https://pdfshift.io/pricing/) | recurring | 50 conversion credits per month | Verified 2026-10-29 |
-| [ScreenshotOne](https://screenshotone.com/ai-information/) | recurring | 100 screenshots per month | Verified 2026-10-11 |
+| [ScreenshotOne](https://screenshotone.com/ai-information/) | recurring | 100 screenshots per month | Verified 2026-11-08 |
 | [Shotstack](https://shotstack.io/docs/guide/getting-started/request-api-keys/) | trial | 10 starting credits valid for 30 days | Verified 2026-11-05 |
 
 ### Sandboxes & compute
@@ -255,7 +255,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 |---|---|---|---|
 | [Abstract API](https://www.abstractapi.com/pricing) | recurring | 100 email validations, 100 phone validations and 1,000 IP geolocation requests per month | Verified 2026-10-20 |
 | [Hunter](https://help.hunter.io/en/articles/11131690-pricing-plans-and-feature-faqs) | recurring | 50 credits per month | Verified 2026-11-05 |
-| [People Data Labs](https://www.peopledatalabs.com/pricing/person) | recurring | Up to 100 person records per month | Verified 2026-10-11 |
+| [People Data Labs](https://www.peopledatalabs.com/pricing/person) | recurring | Up to 100 person records per month | Verified 2026-11-08 |
 
 ### Tracing & evaluation
 
@@ -298,7 +298,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | Provider | Offer | Published allowance | Evidence / review |
 |---|---|---|---|
 | [Backblaze B2](https://www.backblaze.com/cloud-storage/pricing) | recurring | First 10 GB of storage free; monthly egress up to 3 times average stored data | Verified 2026-10-23 |
-| [Cloudflare R2](https://developers.cloudflare.com/r2/pricing/) | recurring | 10 GB-month storage, 1 million Class A operations and 10 million Class B operations per month | Verified 2026-10-14 |
+| [Cloudflare R2](https://developers.cloudflare.com/r2/pricing/) | recurring | 10 GB-month storage, 1 million Class A operations and 10 million Class B operations per month | Verified 2026-11-08 |
 | [Cloudinary](https://cloudinary.com/pricing) | recurring | 25 shared credits with rolling 30-day usage accounting | Verified 2026-10-23 |
 | [Google Drive API](https://developers.google.com/workspace/drive/api/guides/limits) | recurring | Standard Drive API usage at no additional cost, within Google project quotas | Verified 2026-11-02 |
 | [ImageKit](https://imagekit.io/plans/) | recurring | 20 GB bandwidth, 500 video units and 650 extension units per month; 3 GB storage | Verified 2026-10-23 |

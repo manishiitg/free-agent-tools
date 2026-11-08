@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "version": "2026.11.05",
-  "updated_at": "2026-11-05",
+  "version": "2026.11.08",
+  "updated_at": "2026-11-08",
   "repository": "https://github.com/manishiitg/free-agent-tools",
   "freshness_days": 30,
   "categories": [
@@ -1199,8 +1199,8 @@
           "purpose": "subscription eligibility and API access"
         }
       ],
-      "last_verified": "2026-10-14",
-      "last_reviewed": "2026-10-14",
+      "last_verified": "2026-11-08",
+      "last_reviewed": "2026-11-08",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2049,18 +2049,24 @@
         "kind": "recurring",
         "summary": "Free API plan with model-specific rate limits",
         "conditions": [
-          "Check current model limits in Groq console before routing production traffic."
+          "Free API limits vary by model and apply per organization across requests and tokens; current exact limits are shown in the account limits page. Exceeding a rate limit returns a 429 response.",
+          "The Developer plan is a separate paid upgrade requiring a payment method; the reviewed billing FAQ does not explicitly state signup requirements for Free."
         ]
       },
       "sources": [
         {
-          "url": "https://community.groq.com/t/do-i-get-charged-for-anything-on-the-groq-free-plan/832",
+          "url": "https://console.groq.com/docs/rate-limits",
           "type": "official",
-          "purpose": "pricing and eligibility"
+          "purpose": "free model-specific API limits"
+        },
+        {
+          "url": "https://console.groq.com/docs/billing-faqs",
+          "type": "official",
+          "purpose": "free and paid plan billing"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-11-08",
+      "last_reviewed": "2026-11-08",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3161,7 +3167,8 @@
         "kind": "recurring",
         "summary": "Up to 100 person records per month",
         "conditions": [
-          "Free-plan email, phone and address fields are obfuscated."
+          "The free person API is intended for testing and includes up to 100 credits or records per month; email, phone and address fields are obfuscated.",
+          "Card requirements and any free-plan expiry are not stated on the reviewed person pricing page."
         ]
       },
       "sources": [
@@ -3171,8 +3178,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-11-08",
+      "last_reviewed": "2026-11-08",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3560,8 +3567,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-11-08",
+      "last_reviewed": "2026-11-08",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3662,26 +3669,42 @@
       ],
       "api_access": true,
       "offer": {
-        "kind": "trial",
-        "summary": "5,000 API credits for a 7-day trial",
+        "kind": "recurring",
+        "summary": "1,000 API credits per month; separate 5,000-credit, 7-day trial",
         "conditions": [
-          "No payment card required. This is trial access, not a confirmed renewable allowance.",
-          "Domain, proxy and JavaScript-rendering multipliers affect credit consumption."
+          "The free plan includes 1,000 credits per month and up to 5 concurrent connections. The initial 7-day trial provides 5,000 credits; the pricing page says no credit card is required for the trial.",
+          "A standard successful page request costs one credit, but domain and request parameters can increase the credit cost.",
+          "The official MCP server can run locally; the provider also documents a hosted MCP endpoint authenticated with an API key. Both use the same underlying account and applicable usage limits."
         ]
       },
       "sources": [
         {
           "url": "https://www.scraperapi.com/pricing/",
           "type": "official",
-          "purpose": "pricing and eligibility"
+          "purpose": "trial, card and credit costs"
+        },
+        {
+          "url": "https://docs.scraperapi.com/resources/faq/plans-and-billing",
+          "type": "official",
+          "purpose": "recurring free allowance and trial"
+        },
+        {
+          "url": "https://docs.scraperapi.com/integrations/llm-integrations/mcp-server",
+          "type": "official",
+          "purpose": "official MCP setup"
+        },
+        {
+          "url": "https://docs.scraperapi.com/integrations/automation-and-workflow-integrations/n8n-integration",
+          "type": "official",
+          "purpose": "hosted MCP authentication"
         }
       ],
-      "last_verified": "2026-10-14",
-      "last_reviewed": "2026-10-14",
+      "last_verified": "2026-11-08",
+      "last_reviewed": "2026-11-08",
       "status": "verified",
       "mcp": {
-        "support": "unknown",
-        "setup_url": null,
+        "support": "official",
+        "setup_url": "https://docs.scraperapi.com/integrations/llm-integrations/mcp-server",
         "agentworks_connector": null
       }
     },
@@ -3835,8 +3858,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
+      "last_verified": "2026-11-08",
+      "last_reviewed": "2026-11-08",
       "status": "verified",
       "mcp": {
         "support": "unknown",
