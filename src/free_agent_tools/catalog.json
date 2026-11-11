@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "version": "2026.11.08",
-  "updated_at": "2026-11-08",
+  "version": "2026.11.11",
+  "updated_at": "2026-11-11",
   "repository": "https://github.com/manishiitg/free-agent-tools",
   "freshness_days": 30,
   "categories": [
@@ -1108,8 +1108,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-11-11",
+      "last_reviewed": "2026-11-11",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1241,8 +1241,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-11-11",
+      "last_reviewed": "2026-11-11",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2504,7 +2504,7 @@
         }
       ],
       "last_verified": null,
-      "last_reviewed": "2026-11-05",
+      "last_reviewed": "2026-11-11",
       "status": "needs_review",
       "mcp": {
         "support": "unknown",
@@ -3253,8 +3253,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-11-11",
+      "last_reviewed": "2026-11-11",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3446,22 +3446,28 @@
       ],
       "api_access": true,
       "offer": {
-        "kind": "paid",
-        "summary": "Usage-based API; universal free credit not confirmed",
+        "kind": "unconfirmed",
+        "summary": "Selected models can be tried free; amount and expiry not specified",
         "conditions": [
-          "Selected trials and promotions are not assumed to apply to every model."
+          "Replicate says selected models can be run for free, but billing setup will be requested after some use; it does not state a universal free credit amount, renewal or expiry.",
+          "Most usage is billed by compute time or model input/output. Do not assume a recurring free allowance or free access to every model."
         ]
       },
       "sources": [
         {
           "url": "https://replicate.com/pricing",
           "type": "official",
-          "purpose": "pricing and eligibility"
+          "purpose": "usage-based pricing"
+        },
+        {
+          "url": "https://replicate.com/docs/topics/billing",
+          "type": "official",
+          "purpose": "limited free access and billing"
         }
       ],
       "last_verified": "2026-10-11",
-      "last_reviewed": "2026-10-11",
-      "status": "verified",
+      "last_reviewed": "2026-11-11",
+      "status": "needs_review",
       "mcp": {
         "support": "unknown",
         "setup_url": null,
@@ -3604,8 +3610,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-11-11",
+      "last_reviewed": "2026-11-11",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3646,8 +3652,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-11-11",
+      "last_reviewed": "2026-11-11",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3809,25 +3815,41 @@
       "api_access": true,
       "offer": {
         "kind": "unconfirmed",
-        "summary": "100 free credits; provider calls this a trial and monthly renewal is unclear",
+        "summary": "100 starting credits advertised; renewal and trial duration unclear",
         "conditions": [
-          "The pricing comparison labels Free as 100 monthly credits, but the signup FAQ calls the initial allowance a trial. Renewal and expiry are unconfirmed; no recurring monthly allowance is assumed.",
-          "No credit card required; one concurrent request. Failed requests are not charged. API features consume different credits, so the allowance is not 100 requests for every endpoint."
+          "The pricing page advertises 100 starting credits without a credit card and calls them a trial. The homepage says seven-day trial; the documentation overview separately says 200 requests per month. The published pages do not establish how these offers relate, so recurring allowance and expiry remain unconfirmed.",
+          "Free is listed with one concurrent request. API features have different credit costs; 100 credits do not necessarily mean 100 requests. Failed requests are not charged.",
+          "The official MCP server requires an API key and uses the same API credits as direct requests."
         ]
       },
       "sources": [
         {
           "url": "https://www.scrapingdog.com/pricing/",
           "type": "official",
-          "purpose": "pricing and eligibility"
+          "purpose": "free offer and eligibility"
+        },
+        {
+          "url": "https://www.scrapingdog.com/",
+          "type": "official",
+          "purpose": "advertised trial duration"
+        },
+        {
+          "url": "https://www.scrapingdog.com/documentation/index.html",
+          "type": "official",
+          "purpose": "conflicting free allowance and API credit costs"
+        },
+        {
+          "url": "https://www.scrapingdog.com/sdks/",
+          "type": "official",
+          "purpose": "official MCP setup and API usage"
         }
       ],
       "last_verified": "2026-10-11",
-      "last_reviewed": "2026-11-05",
+      "last_reviewed": "2026-11-11",
       "status": "needs_review",
       "mcp": {
-        "support": "unknown",
-        "setup_url": null,
+        "support": "official",
+        "setup_url": "https://www.scrapingdog.com/sdks/",
         "agentworks_connector": null
       }
     },
