@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "version": "2026.11.11",
-  "updated_at": "2026-11-11",
+  "version": "2026.11.14",
+  "updated_at": "2026-11-14",
   "repository": "https://github.com/manishiitg/free-agent-tools",
   "freshness_days": 30,
   "categories": [
@@ -139,8 +139,8 @@
           "purpose": "API access, monthly free quotas, rate limits and card requirements"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-11-14",
+      "last_reviewed": "2026-11-14",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -402,24 +402,36 @@
       "api_access": true,
       "offer": {
         "kind": "recurring",
-        "summary": "2,000 auth events and 2,000 tool calls per month",
+        "summary": "2,000 tool calls per month on Arcade Cloud Free",
         "conditions": [
-          "No card required; underlying service costs and permissions are separate."
+          "No credit card required for the Free plan. Connected services can have their own charges and authorization requirements.",
+          "Arcade blog articles describe a separate 2,000 monthly auth-event allowance, but the current pricing page does not specify it. Confirm authentication limits in your account.",
+          "Arcade documents MCP gateways for connecting clients to tools. Gateway authentication and downstream service access are separate from the tool-call allowance."
         ]
       },
       "sources": [
         {
           "url": "https://www.arcade.dev/pricing/",
           "type": "official",
-          "purpose": "pricing and eligibility"
+          "purpose": "free tier pricing and eligibility"
+        },
+        {
+          "url": "https://www.arcade.dev/blog/best-ai-gateways/",
+          "type": "official",
+          "purpose": "auth-event allowance cited by provider blog"
+        },
+        {
+          "url": "https://docs.arcade.dev/en/get-started/quickstarts/call-tool-client",
+          "type": "official",
+          "purpose": "MCP gateway setup"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-11-14",
+      "last_reviewed": "2026-11-14",
       "status": "verified",
       "mcp": {
-        "support": "unknown",
-        "setup_url": null,
+        "support": "official",
+        "setup_url": "https://docs.arcade.dev/en/get-started/quickstarts/call-tool-client",
         "agentworks_connector": null
       }
     },
@@ -590,8 +602,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-11-14",
+      "last_reviewed": "2026-11-14",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -836,8 +848,8 @@
           "purpose": "MCP setup"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-11-14",
+      "last_reviewed": "2026-11-14",
       "status": "verified",
       "mcp": {
         "support": "official",
@@ -1512,9 +1524,10 @@
       "api_access": true,
       "offer": {
         "kind": "trial",
-        "summary": "$200 starting credit",
+        "summary": "$200 starting credit; provider says it does not expire",
         "conditions": [
-          "No card required. Startup grants are separate and conditional."
+          "No credit card is required to start. Deepgram says the signup credit does not expire; usage is metered at the applicable API rates.",
+          "This is a starting credit rather than a recurring monthly allowance. Separate startup grants are conditional."
         ]
       },
       "sources": [
@@ -1524,8 +1537,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-11-14",
+      "last_reviewed": "2026-11-14",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -1689,8 +1702,8 @@
           "purpose": "MCP setup"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-11-14",
+      "last_reviewed": "2026-11-14",
       "status": "verified",
       "mcp": {
         "support": "official",
@@ -3501,8 +3514,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-11-14",
+      "last_reviewed": "2026-11-14",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -4508,8 +4521,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-11-14",
+      "last_reviewed": "2026-11-14",
       "status": "verified",
       "mcp": {
         "support": "unknown",

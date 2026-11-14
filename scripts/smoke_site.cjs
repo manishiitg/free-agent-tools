@@ -28,7 +28,7 @@ const server = http.createServer((req, res) => {
     await page.locator('#search').fill('deepgram');
     assert.equal(await page.locator('.provider').count(), 1);
     assert.match(await page.locator('.allowance').innerText(), /\$200/);
-    await page.locator('details summary').click(); assert.match(await page.locator('details').innerText(), /No card required/);
+    await page.locator('details summary').click(); assert.match(await page.locator('details').innerText(), /no (?:credit )?card (?:is )?required/i);
     await page.locator('#offer').selectOption('recurring'); assert.equal(await page.locator('.provider').count(), 0);
     assert.equal(await page.locator('#pagination').isVisible(), false);
     await page.locator('#reset').click(); await page.locator('#free-only').check();
