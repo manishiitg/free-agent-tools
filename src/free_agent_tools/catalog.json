@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "version": "2026.11.14",
-  "updated_at": "2026-11-14",
+  "version": "2026.11.17",
+  "updated_at": "2026-11-17",
   "repository": "https://github.com/manishiitg/free-agent-tools",
   "freshness_days": 30,
   "categories": [
@@ -1799,6 +1799,52 @@
         "support": "official",
         "setup_url": "https://docs.firecrawl.dev/mcp-server",
         "agentworks_connector": "Firecrawl"
+      }
+    },
+    {
+      "id": "frankfurter",
+      "name": "Frankfurter",
+      "categories": [
+        "finance",
+        "business"
+      ],
+      "description": "Current and historical currency reference rates from central banks and official sources.",
+      "capabilities": [
+        "exchange rates",
+        "currency",
+        "conversion",
+        "historical data",
+        "finance"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "Free public currency reference-rate API and official MCP, without an API key",
+        "conditions": [
+          "No account, payment card or API key is required for the public API or the official remote MCP server. There are no stated daily or monthly quotas; requests are rate-limited to prevent abuse. Cache results or self-host for high-volume use.",
+          "Rates are reference rates rather than live trading quotes. Sources publish at different frequencies, so check the returned date and provider.",
+          "The provider says its blended rates are free for commercial use; direct queries to individual providers are subject to those providers’ terms."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://frankfurter.dev/",
+          "type": "official",
+          "purpose": "free public API, limits, commercial use and data quality"
+        },
+        {
+          "url": "https://frankfurter.dev/mcp/",
+          "type": "official",
+          "purpose": "official remote MCP access and setup"
+        }
+      ],
+      "last_verified": "2026-11-17",
+      "last_reviewed": "2026-11-17",
+      "status": "verified",
+      "mcp": {
+        "support": "official",
+        "setup_url": "https://frankfurter.dev/mcp/",
+        "agentworks_connector": null
       }
     },
     {

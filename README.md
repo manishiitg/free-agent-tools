@@ -83,7 +83,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 
 ## Catalog
 
-110 providers across 25 categories. Snapshot: 2026-11-14. 105 offers reviewed against official evidence; 5 need further confirmation. Review dates below do not update themselves.
+111 providers across 25 categories. Snapshot: 2026-11-17. 106 offers reviewed against official evidence; 5 need further confirmation. Review dates below do not update themselves.
 
 ### Search & research
 
@@ -292,6 +292,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | Provider | Offer | Published allowance | Evidence / review |
 |---|---|---|---|
 | [Alpha Vantage](https://www.alphavantage.co/support/) | recurring | 25 requests per day for most datasets | Verified 2026-10-26 |
+| [Frankfurter](https://frankfurter.dev/) | recurring | Free public currency reference-rate API and official MCP, without an API key | Verified 2026-11-17 |
 
 ### Object storage
 
@@ -329,6 +330,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 |---|---|---|---|
 | [Abstract API](https://www.abstractapi.com/pricing) | recurring | 100 email validations, 100 phone validations and 1,000 IP geolocation requests per month | Verified 2026-11-14 |
 | [Airtable](https://support.airtable.com/articles/7735693959-managing-api-call-limits-in-airtable) | recurring | 1,000 API calls per workspace per calendar month on Free | Verified 2026-10-29 |
+| [Frankfurter](https://frankfurter.dev/) | recurring | Free public currency reference-rate API and official MCP, without an API key | Verified 2026-11-17 |
 | [Google Drive API](https://developers.google.com/workspace/drive/api/guides/limits) | recurring | Standard Drive API usage at no additional cost, within Google project quotas | Verified 2026-11-02 |
 | [Google Sheets API](https://developers.google.com/workspace/sheets/api/limits) | recurring | Standard API use at no extra cost; 300 reads and 300 writes per minute per project | Verified 2026-11-02 |
 | [Loops](https://loops.so/pricing) | recurring | 4,000 combined marketing and transactional sends per rolling 30 days | Verified 2026-10-29 |
