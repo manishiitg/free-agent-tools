@@ -83,7 +83,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 
 ## Catalog
 
-111 providers across 25 categories. Snapshot: 2026-11-17. 106 offers reviewed against official evidence; 5 need further confirmation. Review dates below do not update themselves.
+112 providers across 25 categories. Snapshot: 2026-11-20. 107 offers reviewed against official evidence; 5 need further confirmation. Review dates below do not update themselves.
 
 ### Search & research
 
@@ -94,6 +94,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [Hyperbrowser](https://www.hyperbrowser.ai/pricing) | unconfirmed | 5,000 credits included with a free account; free-plan renewal period unclear | Needs review |
 | [Keenable](https://keenable.ai/pricing) | recurring | 100,000 free search requests per month | Verified 2026-10-26 |
 | [Linkup](https://www.linkup.so/pricing) | unconfirmed | 4,000 free queries advertised; reset and expiry unclear | Needs review |
+| [OpenAlex](https://help.openalex.org/access/example-costs/) | recurring | $1 of API usage per day with a free account; $0.10 per day without a key | Verified 2026-11-20 |
 | [Parallel](https://parallel.ai/blog/free-tier-parallel) | recurring | $5 monthly credits for eligible organizations | Verified 2026-10-26 |
 | [Perplexity API](https://docs.perplexity.ai/docs/getting-started/pricing) | paid | Paid API; universal free allowance not confirmed | Verified 2026-10-26 |
 | [SearchApi](https://www.searchapi.io/) | trial | 100 starting requests | Verified 2026-10-29 |
@@ -255,6 +256,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 |---|---|---|---|
 | [Abstract API](https://www.abstractapi.com/pricing) | recurring | 100 email validations, 100 phone validations and 1,000 IP geolocation requests per month | Verified 2026-11-14 |
 | [Hunter](https://help.hunter.io/en/articles/11131690-pricing-plans-and-feature-faqs) | recurring | 50 credits per month | Verified 2026-11-05 |
+| [OpenAlex](https://help.openalex.org/access/example-costs/) | recurring | $1 of API usage per day with a free account; $0.10 per day without a key | Verified 2026-11-20 |
 | [People Data Labs](https://www.peopledatalabs.com/pricing/person) | recurring | Up to 100 person records per month | Verified 2026-11-08 |
 
 ### Tracing & evaluation

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "version": "2026.11.17",
-  "updated_at": "2026-11-17",
+  "version": "2026.11.20",
+  "updated_at": "2026-11-20",
   "repository": "https://github.com/manishiitg/free-agent-tools",
   "freshness_days": 30,
   "categories": [
@@ -3003,6 +3003,63 @@
       "mcp": {
         "support": "community",
         "setup_url": "https://github.com/cmer81/open-meteo-mcp",
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "openalex",
+      "name": "OpenAlex",
+      "categories": [
+        "search",
+        "enrichment"
+      ],
+      "description": "Search scholarly works, authors, institutions and citations through an API and MCP connector.",
+      "capabilities": [
+        "research",
+        "scholarly search",
+        "papers",
+        "citations",
+        "authors",
+        "institutions"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "$1 of API usage per day with a free account; $0.10 per day without a key",
+        "conditions": [
+          "A free account provides an API key and $1 in daily usage without a payment method; basic keyless use has a $0.10 daily budget. The daily budget resets at midnight UTC.",
+          "Operations consume different amounts: the provider illustrates $1 as approximately 1,000 searches or 100 content downloads; single-entity lookups have no usage cost. Per-second limits also apply, and a new free account has a temporary first-dollar pace limit.",
+          "The official MCP connector requires an OpenAlex account and OAuth, and uses the account’s API key and daily budget. The connector can also modify the signed-in user’s own author profile when requested. Paid or prepaid usage is separate from the free daily budget."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://help.openalex.org/access/example-costs/",
+          "type": "official",
+          "purpose": "free daily budgets and operation costs"
+        },
+        {
+          "url": "https://help.openalex.org/api/authentication/",
+          "type": "official",
+          "purpose": "account and rate limits"
+        },
+        {
+          "url": "https://help.openalex.org/access/buying-and-renewing/",
+          "type": "official",
+          "purpose": "payment requirements and budget reset"
+        },
+        {
+          "url": "https://help.openalex.org/access/connector/",
+          "type": "official",
+          "purpose": "official MCP authentication, capabilities and account budget"
+        }
+      ],
+      "last_verified": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "status": "verified",
+      "mcp": {
+        "support": "official",
+        "setup_url": "https://help.openalex.org/access/connector/",
         "agentworks_connector": null
       }
     },
