@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "version": "2026.11.20",
-  "updated_at": "2026-11-20",
+  "version": "2026.11.23",
+  "updated_at": "2026-11-23",
   "repository": "https://github.com/manishiitg/free-agent-tools",
   "freshness_days": 30,
   "categories": [
@@ -4796,6 +4796,56 @@
       "mcp": {
         "support": "unknown",
         "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "datacircle",
+      "name": "Datacircle",
+      "categories": [
+        "business",
+        "enrichment"
+      ],
+      "description": "Prices, rate limits and rankings of every GTM data API plan, for choosing a data API.",
+      "capabilities": [
+        "api pricing",
+        "rate limits",
+        "api comparison",
+        "gtm data",
+        "enrichment apis"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "Free open API and MCP server with no key, 60 calls a minute",
+        "conditions": [
+          "No account or API key is required for the API at api.datacircle.dev/v1 or the MCP server at api.datacircle.dev/mcp. Requests are limited to 60 a minute from one address.",
+          "The data is the price per 1,000 calls, rate limits, speed and returned fields of each plan of each GTM API, as published on datacircle.dev."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://datacircle.dev",
+          "type": "official",
+          "purpose": "what the service lists and who runs it"
+        },
+        {
+          "url": "https://api.datacircle.dev/v1/openapi.json",
+          "type": "official",
+          "purpose": "keyless API spec and rate limit"
+        },
+        {
+          "url": "https://datacircle.dev/docs/mcp",
+          "type": "official",
+          "purpose": "official remote MCP access and setup"
+        }
+      ],
+      "last_verified": "2026-11-23",
+      "last_reviewed": "2026-11-23",
+      "status": "verified",
+      "mcp": {
+        "support": "official",
+        "setup_url": "https://datacircle.dev/docs/mcp",
         "agentworks_connector": null
       }
     }
