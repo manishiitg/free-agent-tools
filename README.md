@@ -83,7 +83,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 
 ## Catalog
 
-112 providers across 25 categories. Snapshot: 2026-11-20. 107 offers reviewed against official evidence; 5 need further confirmation. Review dates below do not update themselves.
+113 providers across 25 categories. Snapshot: 2026-11-23. 108 offers reviewed against official evidence; 5 need further confirmation. Review dates below do not update themselves.
 
 ### Search & research
 
@@ -94,6 +94,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [Hyperbrowser](https://www.hyperbrowser.ai/pricing) | unconfirmed | 5,000 credits included with a free account; free-plan renewal period unclear | Needs review |
 | [Keenable](https://keenable.ai/pricing) | recurring | 100,000 free search requests per month | Verified 2026-10-26 |
 | [Linkup](https://www.linkup.so/pricing) | unconfirmed | 4,000 free queries advertised; reset and expiry unclear | Needs review |
+| [Open Library](https://openlibrary.org/developers/api) | recurring | Free book lookup APIs for human-centered discovery, with request rate limits | Verified 2026-11-23 |
 | [OpenAlex](https://help.openalex.org/access/example-costs/) | recurring | $1 of API usage per day with a free account; $0.10 per day without a key | Verified 2026-11-20 |
 | [Parallel](https://parallel.ai/blog/free-tier-parallel) | recurring | $5 monthly credits for eligible organizations | Verified 2026-10-26 |
 | [Perplexity API](https://docs.perplexity.ai/docs/getting-started/pricing) | paid | Paid API; universal free allowance not confirmed | Verified 2026-10-26 |
@@ -113,14 +114,14 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [Cloudflare Browser Run](https://developers.cloudflare.com/browser-run/pricing/) | recurring | 10 browser minutes per day on Workers Free; 3 concurrent browser sessions | Verified 2026-10-29 |
 | [Firecrawl](https://www.firecrawl.dev/pricing) | recurring | 1,000 credits per month | Verified 2026-10-26 |
 | [Hyperbrowser](https://www.hyperbrowser.ai/pricing) | unconfirmed | 5,000 credits included with a free account; free-plan renewal period unclear | Needs review |
-| [Jina Reader](https://jina.ai/reader/) | trial | Free rate-limited access; 10 million starting tokens with a new key | Verified 2026-10-20 |
+| [Jina Reader](https://jina.ai/reader/) | trial | Free rate-limited access; 10 million starting tokens with a new key | Verified 2026-11-23 |
 | [Olostep](https://www.olostep.com/pricing) | trial | 500 successful trial requests | Verified 2026-10-26 |
 | [Oxylabs](https://oxylabs.io/products/web-api/scrape/web) | trial | $5 one-time welcome credit per new team | Verified 2026-10-26 |
 | [Scrape.do](https://scrape.do/pricing/) | recurring | 1,000 successful API credits per month | Verified 2026-11-11 |
 | [ScrapeGraphAI](https://scrapegraphai.com/pricing) | trial | 500 one-time credits | Verified 2026-11-11 |
 | [ScraperAPI](https://www.scraperapi.com/pricing/) | recurring | 1,000 API credits per month; separate 5,000-credit, 7-day trial | Verified 2026-11-08 |
 | [ScrapingAnt](https://scrapingant.com/price-scraping-api) | recurring | 10,000 free API credits per month | Verified 2026-10-23 |
-| [ScrapingBee](https://www.scrapingbee.com/pricing/) | trial | 1,000 trial credits | Verified 2026-10-17 |
+| [ScrapingBee](https://www.scrapingbee.com/pricing/) | trial | 1,000 trial credits | Verified 2026-11-23 |
 | [Scrapingdog](https://www.scrapingdog.com/pricing/) | unconfirmed | 100 starting credits advertised; renewal and trial duration unclear | Needs review |
 | [ZenRows](https://www.zenrows.com/pricing) | recurring | 5,000 credits per month on Free | Verified 2026-10-23 |
 | [Zyte](https://docs.zyte.com/zyte-api/pricing.html) | trial | $5 initial credit, for first billing month | Verified 2026-10-26 |
@@ -256,6 +257,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 |---|---|---|---|
 | [Abstract API](https://www.abstractapi.com/pricing) | recurring | 100 email validations, 100 phone validations and 1,000 IP geolocation requests per month | Verified 2026-11-14 |
 | [Hunter](https://help.hunter.io/en/articles/11131690-pricing-plans-and-feature-faqs) | recurring | 50 credits per month | Verified 2026-11-05 |
+| [Open Library](https://openlibrary.org/developers/api) | recurring | Free book lookup APIs for human-centered discovery, with request rate limits | Verified 2026-11-23 |
 | [OpenAlex](https://help.openalex.org/access/example-costs/) | recurring | $1 of API usage per day with a free account; $0.10 per day without a key | Verified 2026-11-20 |
 | [People Data Labs](https://www.peopledatalabs.com/pricing/person) | recurring | Up to 100 person records per month | Verified 2026-11-08 |
 

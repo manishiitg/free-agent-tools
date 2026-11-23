@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "version": "2026.11.20",
-  "updated_at": "2026-11-20",
+  "version": "2026.11.23",
+  "updated_at": "2026-11-23",
   "repository": "https://github.com/manishiitg/free-agent-tools",
   "freshness_days": 30,
   "categories": [
@@ -2371,8 +2371,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-20",
-      "last_reviewed": "2026-10-20",
+      "last_verified": "2026-11-23",
+      "last_reviewed": "2026-11-23",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -2947,6 +2947,52 @@
       ],
       "last_verified": "2026-10-26",
       "last_reviewed": "2026-10-26",
+      "status": "verified",
+      "mcp": {
+        "support": "unknown",
+        "setup_url": null,
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "open-library",
+      "name": "Open Library",
+      "categories": [
+        "search",
+        "enrichment"
+      ],
+      "description": "Book discovery APIs for searching works, editions, authors and subjects.",
+      "capabilities": [
+        "book search",
+        "books",
+        "authors",
+        "bibliographic metadata",
+        "research"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "Free book lookup APIs for human-centered discovery, with request rate limits",
+        "conditions": [
+          "Open Library prioritizes open-source and mission-aligned projects, library partners, research, learning and real-time book lookup. Its APIs are not intended as a bulk-data backend or high-traffic commercial infrastructure; use the free monthly data dumps for bulk access.",
+          "The documented default limit is 1 request per second, rising to 3 per second for requests identifying the application with a User-Agent and contact. The provider asks users to register their application or use case and cache results.",
+          "Book and author search are documented public API endpoints. The reviewed pages do not specify payment-card requirements or official MCP support; other APIs, such as modifying lists, may require a user account."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://openlibrary.org/developers/api",
+          "type": "official",
+          "purpose": "free use, eligibility, registration and rate limits"
+        },
+        {
+          "url": "https://openlibrary.org/dev/docs/api/search",
+          "type": "official",
+          "purpose": "book search API documentation"
+        }
+      ],
+      "last_verified": "2026-11-23",
+      "last_reviewed": "2026-11-23",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -3907,8 +3953,8 @@
           "purpose": "official MCP setup and credit consumption"
         }
       ],
-      "last_verified": "2026-10-17",
-      "last_reviewed": "2026-10-17",
+      "last_verified": "2026-11-23",
+      "last_reviewed": "2026-11-23",
       "status": "verified",
       "mcp": {
         "support": "official",
