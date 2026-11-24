@@ -260,6 +260,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [Open Library](https://openlibrary.org/developers/api) | recurring | Free book lookup APIs for human-centered discovery, with request rate limits | Verified 2026-11-23 |
 | [OpenAlex](https://help.openalex.org/access/example-costs/) | recurring | $1 of API usage per day with a free account; $0.10 per day without a key | Verified 2026-11-20 |
 | [People Data Labs](https://www.peopledatalabs.com/pricing/person) | recurring | Up to 100 person records per month | Verified 2026-11-08 |
+| [Datacircle](https://datacircle.dev) | recurring | Free open API and MCP server with no key, 60 calls a minute | Verified 2026-11-23 |
 
 ### Tracing & evaluation
 
@@ -339,6 +340,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [Google Sheets API](https://developers.google.com/workspace/sheets/api/limits) | recurring | Standard API use at no extra cost; 300 reads and 300 writes per minute per project | Verified 2026-11-02 |
 | [Loops](https://loops.so/pricing) | recurring | 4,000 combined marketing and transactional sends per rolling 30 days | Verified 2026-10-29 |
 | [Twilio](https://www.twilio.com/docs/usage/trials) | trial | 30-day trial: 100 SMS, 100 WhatsApp messages, 75 voice minutes and 3,000 emails | Verified 2026-10-26 |
+| [Datacircle](https://datacircle.dev) | recurring | Free open API and MCP server with no key, 60 calls a minute | Verified 2026-11-23 |
 
 ### Image & video processing
 
