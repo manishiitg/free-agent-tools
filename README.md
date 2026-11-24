@@ -83,7 +83,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 
 ## Catalog
 
-113 providers across 25 categories. Snapshot: 2026-11-23. 108 offers reviewed against official evidence; 5 need further confirmation. Review dates below do not update themselves.
+114 providers across 25 categories. Snapshot: 2026-11-24. 109 offers reviewed against official evidence; 5 need further confirmation. Review dates below do not update themselves.
 
 ### Search & research
 
@@ -136,6 +136,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [Browser Use Cloud](https://browser-use.com/pricing) | trial | $1 one-time credit for eligible signups | Verified 2026-10-26 |
 | [Browserbase](https://www.browserbase.com/pricing) | recurring | 1 browser hour per month; Free plan also lists 3 agent runs, 1,000 search calls and 1,000 fetch calls | Verified 2026-11-14 |
 | [Browserless](https://www.browserless.io/pricing) | recurring | 1,000 units per month | Verified 2026-10-26 |
+| [Cloudbrowser](https://cloudbrowser.tv/pricing) | recurring | 1 browser-hour per UTC calendar month; 1 running browser | Verified 2026-11-24 |
 | [Cloudflare Browser Run](https://developers.cloudflare.com/browser-run/pricing/) | recurring | 10 browser minutes per day on Workers Free; 3 concurrent browser sessions | Verified 2026-10-29 |
 | [Hyperbrowser](https://www.hyperbrowser.ai/pricing) | unconfirmed | 5,000 credits included with a free account; free-plan renewal period unclear | Needs review |
 | [Notte](https://www.notte.cc/pricing) | trial | $10 one-time credits with no expiry | Verified 2026-10-23 |
