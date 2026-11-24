@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "version": "2026.11.23",
-  "updated_at": "2026-11-23",
+  "version": "2026.11.24",
+  "updated_at": "2026-11-24",
   "repository": "https://github.com/manishiitg/free-agent-tools",
   "freshness_days": 30,
   "categories": [
@@ -1027,6 +1027,61 @@
       "mcp": {
         "support": "official",
         "setup_url": "https://firebase.google.com/docs/ai-assistance/mcp-server",
+        "agentworks_connector": null
+      }
+    },
+    {
+      "id": "cloudbrowser",
+      "name": "Cloudbrowser",
+      "categories": [
+        "browser"
+      ],
+      "description": "Persistent, isolated Chrome desktops with CDP access, browser lifecycle management through REST or a Go CLI, and permission-controlled Live View.",
+      "capabilities": [
+        "browser",
+        "automation",
+        "persistent profiles",
+        "CDP",
+        "live view"
+      ],
+      "api_access": true,
+      "offer": {
+        "kind": "recurring",
+        "summary": "1 browser-hour per UTC calendar month; 1 running browser",
+        "conditions": [
+          "Self-service signup requires a verified email. No payment is required to start on Free.",
+          "Runtime is measured across running browsers. When the free allowance is exhausted, running browsers pause and new starts are blocked until the next UTC month or a paid upgrade.",
+          "REST management requires a workspace API key; CDP uses a separate browser connection URL."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://cloudbrowser.tv/pricing",
+          "type": "official",
+          "purpose": "free plan, browser hours, concurrency and payment"
+        },
+        {
+          "url": "https://cloudbrowser.tv/docs/billing",
+          "type": "official",
+          "purpose": "monthly reset, metering and automatic pause"
+        },
+        {
+          "url": "https://cloudbrowser.tv/docs",
+          "type": "official",
+          "purpose": "verified-email signup and quickstart"
+        },
+        {
+          "url": "https://cloudbrowser.tv/docs/api",
+          "type": "official",
+          "purpose": "REST API and authentication"
+        }
+      ],
+      "last_verified": "2026-11-24",
+      "last_reviewed": "2026-11-24",
+      "status": "verified",
+      "mcp": {
+        "support": "none",
+        "setup_url": null,
         "agentworks_connector": null
       }
     },
