@@ -83,7 +83,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 
 ## Catalog
 
-113 providers across 25 categories. Snapshot: 2026-11-23. 108 offers reviewed against official evidence; 5 need further confirmation. Review dates below do not update themselves.
+113 providers across 25 categories. Snapshot: 2026-11-26. 108 offers reviewed against official evidence; 5 need further confirmation. Review dates below do not update themselves.
 
 ### Search & research
 
@@ -138,7 +138,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [Browserless](https://www.browserless.io/pricing) | recurring | 1,000 units per month | Verified 2026-10-26 |
 | [Cloudflare Browser Run](https://developers.cloudflare.com/browser-run/pricing/) | recurring | 10 browser minutes per day on Workers Free; 3 concurrent browser sessions | Verified 2026-10-29 |
 | [Hyperbrowser](https://www.hyperbrowser.ai/pricing) | unconfirmed | 5,000 credits included with a free account; free-plan renewal period unclear | Needs review |
-| [Notte](https://www.notte.cc/pricing) | trial | $10 one-time credits with no expiry | Verified 2026-10-23 |
+| [Notte](https://www.notte.cc/pricing) | trial | $10 one-time credits with no expiry | Verified 2026-11-26 |
 | [Steel](https://steel.dev/pricing) | trial | $30 one-time credits | Verified 2026-10-29 |
 
 ### Model inference
@@ -307,7 +307,7 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [Cloudinary](https://cloudinary.com/pricing) | recurring | 25 shared credits with rolling 30-day usage accounting | Verified 2026-10-23 |
 | [Google Drive API](https://developers.google.com/workspace/drive/api/guides/limits) | recurring | Standard Drive API usage at no additional cost, within Google project quotas | Verified 2026-11-02 |
 | [ImageKit](https://imagekit.io/plans/) | recurring | 20 GB bandwidth, 500 video units and 650 extension units per month; 3 GB storage | Verified 2026-10-23 |
-| [Tigris](https://www.tigrisdata.com/pricing/) | recurring | Monthly: 5 GB of Standard storage, 10,000 Class A and 100,000 Class B requests | Verified 2026-10-23 |
+| [Tigris](https://www.tigrisdata.com/pricing/) | recurring | Monthly: 5 GB of Standard storage, 10,000 Class A and 100,000 Class B requests | Verified 2026-11-26 |
 
 ### Databases & cache
 
@@ -316,8 +316,8 @@ CI validates the schema, generated artifacts, browser behavior and real stdio MC
 | [Airtable](https://support.airtable.com/articles/7735693959-managing-api-call-limits-in-airtable) | recurring | 1,000 API calls per workspace per calendar month on Free | Verified 2026-10-29 |
 | [Cloud Firestore](https://firebase.google.com/docs/firestore/pricing) | recurring | 1 GiB storage; 50,000 reads, 20,000 writes and 20,000 deletes per day; 10 GiB outbound per month | Verified 2026-10-26 |
 | [Cloudflare D1](https://developers.cloudflare.com/d1/platform/pricing/) | recurring | 5M rows read and 100,000 rows written per day; 5 GB total storage | Verified 2026-11-11 |
-| [Neon](https://neon.com/pricing) | recurring | 100 CU-hours per project per month and 1 GB database storage per project; up to 100 projects | Verified 2026-10-26 |
-| [Turso](https://turso.tech/pricing) | recurring | 500M rows read and 10M rows written per month; 5 GB storage and 100 databases | Verified 2026-10-26 |
+| [Neon](https://neon.com/pricing) | recurring | 100 CU-hours per project per month and 1 GB database storage per project; up to 100 projects | Verified 2026-11-26 |
+| [Turso](https://turso.tech/pricing) | recurring | 500M rows read and 10M rows written per month; 5 GB storage and 100 databases | Verified 2026-11-26 |
 | [Upstash Redis](https://upstash.com/pricing/redis) | recurring | 250 MB database storage, 500,000 commands and 10 GB bandwidth per month | Verified 2026-10-26 |
 
 ### Developer tools

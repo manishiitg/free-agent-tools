@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "version": "2026.11.23",
-  "updated_at": "2026-11-23",
+  "version": "2026.11.26",
+  "updated_at": "2026-11-26",
   "repository": "https://github.com/manishiitg/free-agent-tools",
   "freshness_days": 30,
   "categories": [
@@ -2857,7 +2857,8 @@
         "summary": "100 CU-hours per project per month and 1 GB database storage per project; up to 100 projects",
         "conditions": [
           "No payment card required and no plan time limit. Compute scales to zero after 5 idle minutes; maximum Free compute is 2 CU.",
-          "CU-hours are compute-unit hours, not a flat number of hours at every compute size. Network, branch, history and backend limits are separate."
+          "CU-hours are compute-unit hours, not a flat number of hours at every compute size. Across projects, Free has a 20 GB total Postgres storage limit in addition to 1 GB per project.",
+          "Each project has a 5 GB monthly network transfer limit; exceeding it or 100 CU-hours suspends that project’s compute until the next billing period or upgrade. Other backend services have separate allowances."
         ]
       },
       "sources": [
@@ -2872,8 +2873,8 @@
           "purpose": "MCP setup"
         }
       ],
-      "last_verified": "2026-10-26",
-      "last_reviewed": "2026-10-26",
+      "last_verified": "2026-11-26",
+      "last_reviewed": "2026-11-26",
       "status": "verified",
       "mcp": {
         "support": "official",
@@ -2899,7 +2900,8 @@
         "summary": "$10 one-time credits with no expiry",
         "conditions": [
           "No card required. The $10 balance is granted once, does not expire and covers sessions, proxies, LLMs and functions at their own rates.",
-          "Free has five concurrent browser sessions and a 15-minute session limit; paid subscription credits renew monthly and have different expiry rules."
+          "Free has five concurrent browser sessions and a 15-minute session limit; paid subscription credits renew monthly and have different expiry rules.",
+          "The official hosted Browser MCP supports OAuth or an API key and consumes the same account credits for active browser sessions. A separate documentation MCP needs no API key."
         ]
       },
       "sources": [
@@ -2907,14 +2909,19 @@
           "url": "https://www.notte.cc/pricing",
           "type": "official",
           "purpose": "pricing and eligibility"
+        },
+        {
+          "url": "https://docs.notte.cc/mcp-server",
+          "type": "official",
+          "purpose": "official hosted browser and documentation MCP setup"
         }
       ],
-      "last_verified": "2026-10-23",
-      "last_reviewed": "2026-10-23",
+      "last_verified": "2026-11-26",
+      "last_reviewed": "2026-11-26",
       "status": "verified",
       "mcp": {
-        "support": "unknown",
-        "setup_url": null,
+        "support": "official",
+        "setup_url": "https://docs.notte.cc/mcp-server",
         "agentworks_connector": null
       }
     },
@@ -4383,8 +4390,8 @@
           "purpose": "monthly free allowance, card requirement, S3 API operations and storage accounting"
         }
       ],
-      "last_verified": "2026-10-23",
-      "last_reviewed": "2026-10-23",
+      "last_verified": "2026-11-26",
+      "last_reviewed": "2026-11-26",
       "status": "verified",
       "mcp": {
         "support": "unknown",
@@ -4422,8 +4429,8 @@
           "purpose": "pricing and eligibility"
         }
       ],
-      "last_verified": "2026-10-26",
-      "last_reviewed": "2026-10-26",
+      "last_verified": "2026-11-26",
+      "last_reviewed": "2026-11-26",
       "status": "verified",
       "mcp": {
         "support": "unknown",
